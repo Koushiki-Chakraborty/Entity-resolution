@@ -1,0 +1,289 @@
+entity_id,name,canonical,entity_type,context,source,source_url
+ENT_49E496,Blockchain Technology Adoption,blockchain technology adoption,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_33AE2E,agri-produce,agri-produce,Crop,,kg_triples,local:extracted_kg_triples.csv
+ENT_22B8F3,technology adoption in agri-SC,technology adoption in agri-sc,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_812E8B,technology adoption,technology adoption,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_4298FB,innovative technology,innovative technology,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_B3C567,blockchain technology,blockchain technology,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_B0BC23,Hyperledger fabric,hyperledger fabric,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_3174EB,BCT,bct,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_1D1E54,Indian agri-SC,indian agri-sc,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_3D6900,Industry 4.0,industry 4.0,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_FF0DC0,Precision agriculture,precision agriculture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_9B0F84,Smart Agriculture,smart agriculture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_528FBE,comprehensive and secure systems,comprehensive and secure systems,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_B1ACB5,Smart farming,smart farming,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_C7A750,blockchain platform,blockchain platform,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_01F6A2,blockchain applications,blockchain applications,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_6F3D95,Blockchain infrastructure,blockchain infrastructure,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_9292F2,Data analytics,data analytics,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_8F2681,Insurance facilities,insurance facilities,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_D96CBD,Blockchain,blockchain,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_CFDC62,mobile phones,mobile phones,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_DB71BB,blockchain-linked database,blockchain-linked database,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_D393E4,blockchain technologies,blockchain technologies,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_D287DA,Crowdfunding,crowdfunding,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_611E6E,Ethereum smart contracts,ethereum smart contracts,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_2B50B3,Blockchain-powered IPFS,blockchain-powered ipfs,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_8CB406,blockchain-powered systems,blockchain-powered systems,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_3F0854,blockchain-powered ledgers,blockchain-powered ledgers,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_F2CADE,blockchain-powered waste collection system,blockchain-powered waste collection system,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_99C2E8,blockchain-based waste collection system,blockchain-based waste collection system,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_1FD4DD,renewable energy approaches,renewable energy approaches,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_783FE6,block chain technology,block chain technology,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_424683,phenomenology,phenomenology,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_BB9E23,grounded theory,grounded theory,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_E2512F,multicriteria decision-making techniques,multicriteria decision-making techniques,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_424E51,MCDM and ISM,mcdm and ism,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_42FEA1,ISM,ism,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_415B96,ISM-MICMAC methodology,ism-micmac methodology,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_D25BD8,ISM-DEMATEL,ism-dematel,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_F9E3D5,DEMATEL,dematel,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_2389BF,smart irrigation,smart irrigation,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_62F9F8,Weather monitoring,weather monitoring,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_ABF686,asset monitoring,asset monitoring,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_63A3FE,crop and soil monitoring,crop and soil monitoring,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_8546C8,livestock monitoring,livestock monitoring,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_8FF40C,Fair financial audits,fair financial audits,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_B5099D,logistic maintenance,logistic maintenance,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_E21AD2,food chain transparency,food chain transparency,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_A2AD32,MICMAC analysis,micmac analysis,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_967A37,logistics maintenance,logistics maintenance,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_A3506F,Smart irrigation sensors,smart irrigation sensors,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_A97E13,IoT based sensor units,iot based sensor units,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_0027A7,precision irrigation,precision irrigation,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_648917,irrigation,irrigation,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_5A72CA,BCT-based monitoring systems,bct-based monitoring systems,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_515D78,BCT-based system,bct-based system,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_FE3831,vehicular ad-hoc networks vehicles,vehicular ad-hoc networks vehicles,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_0F219D,blockchain assisted smart irrigation,blockchain assisted smart irrigation,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_80CC79,BCT assisted real-time information,bct assisted real-time information,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_0DEF0A,BCT-assisted livestock monitoring,bct-assisted livestock monitoring,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_51A078,"Smart contracts, provenance tracking or traceability, and finance innovation","smart contracts, provenance tracking or traceability, and finance innovation",Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_B8BC0F,block chain,block chain,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_8E5799,ISM-DEMATEL technique,ism-dematel technique,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_C17594,BCT migration,bct migration,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_9F2726,ISM-DEMATEL methodology,ism-dematel methodology,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_75AE30,Nano-food packaging,nano-food packaging,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_C7D653,"Smart sensing, communication, and control","smart sensing, communication, and control",Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_CCE62A,Block chain ready manufacturing supply chain,block chain ready manufacturing supply chain,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_86B15A,cloud adoption,cloud adoption,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_3AED67,Industry 4.0 IoT enablers,industry 4.0 iot enablers,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_E76DAB,Industry 4.0 adoption,industry 4.0 adoption,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_F099F1,Blockchain for 5G-enabled IoT,blockchain for 5g-enabled iot,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_9EDAD9,eFarm,efarm,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_EFC386,Multiplatform application,multiplatform application,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_C42F81,late blight,late blight,Disease,A destructive disease of potato and tomato plants caused by the oomycete pathogen Phytophthora infestans. Leads to rapid tissue death and crop failure.,kg_triples,local:extracted_kg_triples.csv
+ENT_BEECD5,Early blight,early blight,Disease,A fungal disease of tomato and potato caused by Alternaria solani. Characterized by dark concentric spots on leaves.,kg_triples,local:extracted_kg_triples.csv
+ENT_026B89,Agriculture Supply Chain,agriculture supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_9EE628,identifying the factors and ranking them based on their extent of influence,identifying the factors and ranking them based on their extent of influence,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_4D8F99,BCT adoption in the agriculture supply chain,bct adoption in the agriculture supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_901388,Agricultural supply chain,agricultural supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0789F1,agriculture,agriculture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_64C948,sowing of seeds,sowing of seeds,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_16712C,harvesting of crop,harvesting of crop,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E416D8,supply chain management,supply chain management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D9F546,supply chain management of agri-produce,supply chain management of agri-produce,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_29D403,food traceability in agri-SCs,food traceability in agri-scs,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_24B4DB,tracking foods,tracking foods,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_82B6B3,"tracking its meat, milk, and fruit production","tracking its meat, milk, and fruit production",Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_2BA8DD,mitigate problems faced by stakeholders due to poor processes and primitive technologies,mitigate problems faced by stakeholders due to poor processes and primitive technologies,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_881F26,"manage demand and supply of available resource, product shelf-life, and reduce inventory costs","manage demand and supply of available resource, product shelf-life, and reduce inventory costs",Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_3960A1,mitigating related risks,mitigating related risks,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_804B31,provide better and synchronized communication among supply chain stakeholders,provide better and synchronized communication among supply chain stakeholders,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F4EDE0,use BCT to track crops,use bct to track crops,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_D33293,"smart irrigation, asset monitoring, and smart farming","smart irrigation, asset monitoring, and smart farming",Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_484D16,BCT adoption,bct adoption,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_49DADD,agri-SC,agri-sc,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D75945,Internet of Things (IoT),internet of things (iot,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_2B1B0C,real application of blockchain technology,real application of blockchain technology,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_42ED81,Enterprise Resource planning,enterprise resource planning,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_A3334A,Manufacturing Execution systems,manufacturing execution systems,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_FBCA0D,storage of digital records,storage of digital records,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_044D93,property transfer,property transfer,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_1F3417,online tracking and verification,online tracking and verification,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_1CECC7,food supply chain,food supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_9718DF,remote sensing,remote sensing,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_2F8D25,geographical information system,geographical information system,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_30EDFC,satellite technology,satellite technology,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_00B0EF,cloud computing,cloud computing,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_C031A3,AI,ai,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_4AB719,mobile technology,mobile technology,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_88B488,unmanned aerial vehicles,unmanned aerial vehicles,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_E68747,robots,robots,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_0D8BC0,ICT resources,ict resources,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_64192A,IoT,iot,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_FD9D1C,manage data and information,manage data and information,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F26779,enhanced data security,enhanced data security,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_FFA1CD,automated execution of actions,automated execution of actions,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_FA5328,executing commodity transactions,executing commodity transactions,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_EADC2C,transaction settlements,transaction settlements,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_467AE2,real-time matching of data,real-time matching of data,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_6EF30F,enhancing food security,enhancing food security,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_AA54FA,distribution of foods,distribution of foods,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E07E8D,record data throughout all the steps in the food production value chain,record data throughout all the steps in the food production value chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_28AB12,analysis of the data,analysis of the data,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_BF3C9E,hedge against potential risks,hedge against potential risks,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_289552,direct transaction,direct transaction,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_7726A5,Data Exchange,data exchange,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_85E4C3,Farm Inventory Management,farm inventory management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_4828BF,proactive monitoring of crops and harvest,proactive monitoring of crops and harvest,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_37D160,high prevision sensors,high prevision sensors,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_2562A6,maintain optimal conditions of farm inventory,maintain optimal conditions of farm inventory,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_441C4A,supply chain,supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D166D9,food quality and safety,food quality and safety,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_169795,traceability,traceability,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0AF7D1,verification of agricultural inputs,verification of agricultural inputs,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_715724,verification of finished products,verification of finished products,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_3BDEF9,detecting fraud,detecting fraud,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D17F06,interaction between the producer and the consumer,interaction between the producer and the consumer,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_783A0A,eliminating unfair pricing practices,eliminating unfair pricing practices,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_A5B239,setting prices for both fresh produce and finished goods,setting prices for both fresh produce and finished goods,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D733AA,providing farmers with real time and accurate information about prevailing market conditions,providing farmers with real time and accurate information about prevailing market conditions,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D7250E,provide farmers with real time and accurate information about prevailing market conditions,provide farmers with real time and accurate information about prevailing market conditions,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_21FBB8,enhance food production,enhance food production,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_64BCF2,food security,food security,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_C506E8,implementation of smart contracts,implementation of smart contracts,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_309BD2,payment system,payment system,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_77AF4D,"corn, soybeans, wheat, and livestock","corn, soybeans, wheat, and livestock",Crop,,kg_triples,local:extracted_kg_triples.csv
+ENT_576E1D,remittance of agricultural subsidies,remittance of agricultural subsidies,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_FC2529,Agriculture-Based Projects,agriculture-based projects,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E2EA85,blockchain-powered peer-to-peer lending systems,blockchain-powered peer-to-peer lending systems,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_CD163F,peer-to-peer lending systems,peer-to-peer lending systems,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_002616,End-to-End Crop Traceability,end-to-end crop traceability,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_7A4C20,storage and sharing of data and information,storage and sharing of data and information,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_5D90BD,greater control of the crop,greater control of the crop,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_CE6360,end-to-end traceability,end-to-end traceability,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_1BC20C,"verifiability of the type, quality, and origin of such products","verifiability of the type, quality, and origin of such products",Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_1A1DE6,land documentation,land documentation,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_88057A,land management and governance,land management and governance,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B11EB7,digitize land information,digitize land information,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_1DA13E,enhance feed safety and quality,enhance feed safety and quality,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B428FA,real-time tracing of animal feed and ingredients,real-time tracing of animal feed and ingredients,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_6D1767,promoting blockchain technology adoption,promoting blockchain technology adoption,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E83A65,multidisciplinary distribution channels and trade,multidisciplinary distribution channels and trade,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_C64C7F,sustainability,sustainability,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0ACF6C,understand system actuators and drives,understand system actuators and drives,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_950A9B,enhance the entire supply chain of agriculture,enhance the entire supply chain of agriculture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_C0AF49,developing food chain transparency and quality of life,developing food chain transparency and quality of life,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B2D7F2,research,research,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_194A51,rank the factors,rank the factors,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_EF0D0B,case study research,case study research,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_225B8D,narrative,narrative,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_2F8AD6,interactive learning method,interactive learning method,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_C634DC,blockchain adoption,blockchain adoption,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_82946C,complex problems,complex problems,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_C13DE6,systems elements,systems elements,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_C2F648,e-waste management practices,e-waste management practices,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_EF1FFC,blockchain enabled traceability,blockchain enabled traceability,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E10F64,investigate their hierarchy,investigate their hierarchy,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B5F03A,categorize factors,categorize factors,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_916256,ISM analysis,ism analysis,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_CA3B71,relevant factors,relevant factors,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_34F98A,cause group factor,cause group factor,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_524506,effect group,effect group,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F1D4D4,dependent factors,dependent factors,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_02398E,BLOCKCHAIN TECHNOLOGY ADOPTION: MULTINATIONAL ANALYSIS OF THE AGRICULTURE SUPPLY CHAIN,blockchain technology adoption: multinational analysis of the agriculture supply chain,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_B2A5D9,ISM ANALYSIS FORFACTORS INFLUENCING BCT ADOPTION,ism analysis forfactors influencing bct adoption,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_148152,Downloaded,downloaded,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0D0804,ISM Digraph,ism digraph,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_CCBEF6,FACTOR INFLUENCING BCT ADOPTION,factor influencing bct adoption,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_95EB7E,DEMATEL analysis,dematel analysis,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_7ACCAD,Authorized licensed use,authorized licensed use,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_13BA33,faster and reliable commodity transactions and insurance facilities,faster and reliable commodity transactions and insurance facilities,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_181938,better farm inventory management,better farm inventory management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_9DC272,permissionless equipment processing,permissionless equipment processing,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B900F8,transfer of value based on the assets,transfer of value based on the assets,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B29CB3,agri-SC resilience strategies,agri-sc resilience strategies,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_DC91E3,real-time monitoring and control of soil moisture,real-time monitoring and control of soil moisture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_DC1959,e-agriculture,e-agriculture,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_4DD65E,"understanding seed provenance, fertilizers used, and crop location","understanding seed provenance, fertilizers used, and crop location",Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_63DCBD,tracing usage of pesticides and fertilizers on farming crops,tracing usage of pesticides and fertilizers on farming crops,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_CC9EAE,agricultural robots,agricultural robots,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_6AEF0C,capture detail specifications for irrigation,capture detail specifications for irrigation,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0B9969,sensors and networking units,sensors and networking units,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_868A8B,manage the scarcity of essential resources,manage the scarcity of essential resources,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_BAFD82,get superior yields,get superior yields,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_82D3C5,secured network for buying and selling products,secured network for buying and selling products,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F8858F,logistics management,logistics management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_7C3440,analyzing real-time water contamination’s risk,analyzing real-time water contaminations risk,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_BC4058,fertilization and irrigation,fertilization and irrigation,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_80FE45,"analyze hydraulic system data, soil data, agro-climatic data","analyze hydraulic system data, soil data, agro-climatic data",Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_01C236,irrigation scheduling for food production,irrigation scheduling for food production,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D1DE52,real time data exchange,real time data exchange,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B9DF56,safeguard the crop in adverse and harsh weather conditions,safeguard the crop in adverse and harsh weather conditions,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_916FB8,adoption of technology,adoption of technology,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_19D576,farm management,farm management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_49A46C,crop safety,crop safety,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_2469A8,audit system,audit system,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_7D1DE7,agri-SC context,agri-sc context,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F84288,adoption of blockchain technology,adoption of blockchain technology,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_BCFBEC,studies conducted on blockchain adoption,studies conducted on blockchain adoption,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_D55D7F,empirical evidence,empirical evidence,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_715E1D,management of the agri-SC,management of the agri-sc,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_4C7D46,reduces environmental impacts,reduces environmental impacts,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_41AAF2,implementation of data-driven innovations,implementation of data-driven innovations,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_CF8999,improve the management of food-systems related services,improve the management of food-systems related services,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_7FA49F,propose a driver and dependent factor framework,propose a driver and dependent factor framework,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_C2DE9F,blockchain implementation,blockchain implementation,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0CA00B,evaluate opinion before migrating to BCT,evaluate opinion before migrating to bct,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_99D39E,agricultural supply chain system,agricultural supply chain system,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_364D61,selecting a sustainable supply chain for agri-produce in India,selecting a sustainable supply chain for agri-produce in india,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_7B9584,agri-food value chain management,agri-food value chain management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D3D1D2,perishable food supply chain,perishable food supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_CAD57C,Impact on perishable food supply chain management,impact on perishable food supply chain management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_DB87B4,Optimal pricing strategy,optimal pricing strategy,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_CC7A4E,distributed ledger,distributed ledger,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_B8D6E5,Optimal pricing strategy for the perishable food supply chain,optimal pricing strategy for the perishable food supply chain,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_F83CA5,Block chain ready manufacturing supply chain using distributed ledger,block chain ready manufacturing supply chain using distributed ledger,Technology,,kg_triples,local:extracted_kg_triples.csv
+ENT_221239,agriculture blockchain trade,agriculture blockchain trade,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_EB8339,annual crop planting in the US corn belt,annual crop planting in the us corn belt,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F02CE8,Safe farming as a service of blockchain-based supply chain management,safe farming as a service of blockchain-based supply chain management,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_A31CB0,Blockchain for agriculture and food,blockchain for agriculture and food,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_A1BB33,Blockchain for Agriculture,blockchain for agriculture,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_E5DE9C,A framework of blockchain smart contract in fair trade agriculture,a framework of blockchain smart contract in fair trade agriculture,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_1CFBB4,Employment of blockchain technology in agriculture and food sector,employment of blockchain technology in agriculture and food sector,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_1F23C4,Application of blockchain technology in crowdfunding,application of blockchain technology in crowdfunding,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_37BE82,EthicHUb review: Crowdlending platform for farmers and agricultural communities,ethichub review: crowdlending platform for farmers and agricultural communities,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_E0DEF6,documenting land users’ rights,documenting land users rights,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_CD8930,animal production and health sector,animal production and health sector,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_004899,incentivizing efficient use of rural wastes,incentivizing efficient use of rural wastes,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B32A59,modern logistics and supply chain management,modern logistics and supply chain management,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_A3FF78,developing resilient food supply chains,developing resilient food supply chains,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_612E08,sustainable supply chain,sustainable supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_004646,business supply chains,business supply chains,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F23270,digitalization of supply chain,digitalization of supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F45E37,health-care industry,health-care industry,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_BDC48D,Repurposing an existing manufacturing plant,repurposing an existing manufacturing plant,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_528D09,Blockchain technology adoption barriers in the Indian agricultural supply chain,blockchain technology adoption barriers in the indian agricultural supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_F3DC9B,Blockchain adoption in the maritime supply chain,blockchain adoption in the maritime supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0EA90C,Blockchain technology adoption in freight transportation,blockchain technology adoption in freight transportation,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_B7ADF2,Challenges for blockchain adoption within the Indian public sector,challenges for blockchain adoption within the indian public sector,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_9BBA22,Modelling the blockchain adoption barriers in the AEC industry,modelling the blockchain adoption barriers in the aec industry,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_5844B8,Quantifying SWOT analysis for cloud adoption,quantifying swot analysis for cloud adoption,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_ADE658,Barriers affecting the implementation of e-waste management practices in India,barriers affecting the implementation of e-waste management practices in india,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_6B8810,A hybrid multi-criteria decision-making method for cloud adoption,a hybrid multi-criteria decision-making method for cloud adoption,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_0BCB19,integrated PCA-ISM-DEMATEL approach,integrated pca-ism-dematel approach,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_253252,sustainability in multi-tier manufacturing supply chain,sustainability in multi-tier manufacturing supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_34D625,industrial automation,industrial automation,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E0DC80,observing agricultural land systems,observing agricultural land systems,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_953CC2,precision irrigation scheduling in strawberries,precision irrigation scheduling in strawberries,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_CF20AF,food traceability analysis,food traceability analysis,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E54A55,food supply information security,food supply information security,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_D7EC6D,ICT e-agriculture,ict e-agriculture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_5C13CE,Reengineering the audit with blockchain and smart contracts,reengineering the audit with blockchain and smart contracts,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_FDF4E4,Blockchain-based public auditing and secure deduplication with fair arbitration,blockchain-based public auditing and secure deduplication with fair arbitration,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_29155D,Future challenges on the use of blockchain for food traceability analysis,future challenges on the use of blockchain for food traceability analysis,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_314378,A new era of food transparency powered by blockchain,a new era of food transparency powered by blockchain,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_A141B7,Blockchain for industry 4.0: A comprehensive review,blockchain for industry 4.0: a comprehensive review,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_F91AFA,Accelerating bitcoin’s transaction processing,accelerating bitcoins transaction processing,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_60094B,Digital and data-driven agriculture,digital and data-driven agriculture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_79AEF4,Powering and empowering the poor in developing countries,powering and empowering the poor in developing countries,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_41144F,improve post COVID-19 supply chains,improve post covid-19 supply chains,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_E1ABE1,A secure ﬁsh farm platform,a secure fish farm platform,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0C86F8,Meeting changing customer requirements in food and agriculture,meeting changing customer requirements in food and agriculture,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_011A55,"Electronic agriculture, blockchain and digital agricultural democratization","electronic agriculture, blockchain and digital agricultural democratization",Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_6232A2,sustainable agriculture supply chain,sustainable agriculture supply chain,Agri_Process,,kg_triples,local:extracted_kg_triples.csv
+ENT_0A6647,Antecedents for blockchain technology-enabled sustainable agriculture supply chain,antecedents for blockchain technology-enabled sustainable agriculture supply chain,Agri_Method,,kg_triples,local:extracted_kg_triples.csv
+ENT_EFEB68,Phytophthora infestans,phytophthora infestans,Organism,,kg_triples,local:extracted_kg_triples.csv
+ENT_81D17D,Alternaria solani,alternaria solani,Organism,,kg_triples,local:extracted_kg_triples.csv

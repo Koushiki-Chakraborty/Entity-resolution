@@ -1,0 +1,573 @@
+entity_id,name,canonical,entity_type,context,source,source_url
+ENT_85A438,Abutilon mosaic virus,abutilon mosaic virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_e56144a3
+ENT_24AAF2,Abyssobrotula galatheae,abyssobrotula galatheae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41952
+ENT_DF3009,Acrotylus,acrotylus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32308
+ENT_3B9E36,African cassava mosaic virus,african cassava mosaic virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_33962
+ENT_AA9590,cassava mosaic virus,cassava mosaic virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_33962
+ENT_48B13F,African horse sickness virus,african horse sickness virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8644
+ENT_EAC390,African swine fever virus,african swine fever virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8649
+ENT_E33DC3,Agmus scabriceps,agmus scabriceps,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41121
+ENT_2EAD43,Agrotis,agrotis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_221
+ENT_DB5268,Scotia,scotia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_221
+ENT_3A0785,Agrotis fucosa,agrotis fucosa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30243
+ENT_888F01,Agrotis ipsilon,agrotis ipsilon,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30244
+ENT_B407EB,Agrotis segetum,agrotis segetum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30245
+ENT_526A8F,Akabane disease,akabane disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_e5bd81ae
+ENT_4A6704,Akabane virus,akabane virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16382
+ENT_DA7554,Akarotaxis nudiceps,akarotaxis nudiceps,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44117
+ENT_0C4D3F,Aleurothrixus,aleurothrixus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27113
+ENT_944834,Aleurothrixus floccosus,aleurothrixus floccosus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27114
+ENT_363D8F,Aleutian disease,aleutian disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16383
+ENT_90A891,plasmacytosis of Mink,plasmacytosis of mink,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16383
+ENT_281804,Alfamovirus,alfamovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_72c44dde
+ENT_C15518,alfalfa mosaic virus group,alfalfa mosaic virus group,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_72c44dde
+ENT_0A355A,Allium scabriflorum,allium scabriflorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f144323b
+ENT_A240E0,Allium scabriscapum,allium scabriscapum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_624ff03f
+ENT_7E1702,Allium scorodoprasum subsp. rotundum,allium scorodoprasum subsp. rotundum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_65efe551
+ENT_5CA1EC,Allomicrodesmus dorotheae,allomicrodesmus dorotheae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44670
+ENT_5FA15F,Alluroteuthis antarcticus,alluroteuthis antarcticus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48855
+ENT_852285,Alphacoronavirus,alphacoronavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_21adac85
+ENT_6AA018,Alphacryptovirus,alphacryptovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f153ccae
+ENT_6E994E,Alphavirus,alphavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_305
+ENT_27394B,Alternaria carotiincultae,alternaria carotiincultae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_cb09738e
+ENT_8D9E8C,American plum line pattern virus,american plum line pattern virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_83f1b89f
+ENT_3E8B42,Anchoa lamprotaenia,anchoa lamprotaenia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39175
+ENT_49AED3,Ancistroteuthis lichtensteini,ancistroteuthis lichtensteini,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48749
+ENT_B20EEF,Anthocerotophyta,anthocerotophyta,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_330301
+ENT_DDBC95,hornworts,hornworts,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_330301
+ENT_A74D04,Aparavirus,aparavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3a8d32b2
+ENT_5BBEBE,Aphthovirus,aphthovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3034
+ENT_B85B15,FMD virus,fmd virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3034
+ENT_465187,foot and mouth disease virus,foot and mouth disease virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3034
+ENT_199152,Argyrotaenia,argyrotaenia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_610
+ENT_D06F5F,Argyrotaenia velutinana,argyrotaenia velutinana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30357
+ENT_7C6A59,Aristolochia rotunda,aristolochia rotunda,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4e8bc3e6
+ENT_13F207,Armoracia rusticana,armoracia rusticana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_621
+ENT_62F764,Armoracia lapathifolia,armoracia lapathifolia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_621
+ENT_845877,Cochlearia armoracia,cochlearia armoracia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_621
+ENT_DF4E9E,Arothron firmamentum,arothron firmamentum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45876
+ENT_DF54DC,Arothron hispidus,arothron hispidus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45877
+ENT_0C9557,Arothron mappa,arothron mappa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45878
+ENT_E10D0B,Arothron meleagris,arothron meleagris,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45879
+ENT_ABE3FD,Arothron nigropunctatus,arothron nigropunctatus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45880
+ENT_65C26C,Artemisia abrotanum,artemisia abrotanum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_da5bfa89
+ENT_A68339,Arterivirus,arterivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35371
+ENT_4E5B2B,Ascochyta blight on peas,ascochyta blight on peas,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_00cfeede
+ENT_276450,Ascochyta leaf blight,ascochyta leaf blight,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_cc941c96
+ENT_25061A,lentil antrachnose,lentil antrachnose,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_cc941c96
+ENT_61797B,lentil blight,lentil blight,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_cc941c96
+ENT_6F8E32,Asprotilapia leptura,asprotilapia leptura,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43497
+ENT_4F88B8,Astrotia stokesii,astrotia stokesii,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49093
+ENT_F88BAE,Atya scabra,atya scabra,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_46489
+ENT_AAF7BA,Aujeszky virus,aujeszky virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9000
+ENT_3080A3,pseudorabies virus,pseudorabies virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9000
+ENT_1308A3,Aujeszky's disease,aujeszky's disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_710
+ENT_AD63C5,pseudorabies,pseudorabies,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_710
+ENT_01927B,Aureusvirus,aureusvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_82d0027c
+ENT_5B1E86,Avenavirus,avenavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9c338b28
+ENT_C2B5E5,Aviadenovirus,aviadenovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9013
+ENT_8476BB,avian adenovirus,avian adenovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9013
+ENT_A5F722,Avipoxvirus,avipoxvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_743
+ENT_D6411E,Babesia microti,babesia microti,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31202
+ENT_EE9735,Bacillus stearothermophilus,bacillus stearothermophilus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_26388
+ENT_C7A297,Baculovirus,baculovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35612
+ENT_E9627B,Barbus macrotaenia,barbus macrotaenia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_40086
+ENT_5D33B3,Begomovirus,begomovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_61d49fca
+ENT_9A6DFB,Benthosema pterotum,benthosema pterotum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39737
+ENT_16A7D8,Betabaculovirus,betabaculovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_12c67059
+ENT_D46ACF,Betacoronavirus,betacoronavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7ec13bd4
+ENT_A7BFE9,Betacryptovirus,betacryptovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_e584b6f9
+ENT_0ECF0B,Birnavirus,birnavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32394
+ENT_F29A52,Blastocladiales,blastocladiales,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31644
+ENT_B8411D,Blastocladiomycota,blastocladiomycota,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_331235
+ENT_499B9D,Blastocystis,blastocystis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31776
+ENT_52CBE5,Blastomyces,blastomyces,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_952
+ENT_5E8D31,Blastomycetes,blastomycetes,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9310
+ENT_BD4817,Blastophaga,blastophaga,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_0b00417e
+ENT_C91F13,Blastophaga psenes,blastophaga psenes,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f9991611
+ENT_E06056,fig wasp,fig wasp,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f9991611
+ENT_924F50,Blastoschizomyces,blastoschizomyces,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31547
+ENT_FCCF4C,Borna disease,borna disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16693
+ENT_47A3FD,Borna disease virus,borna disease virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_18805
+ENT_634CEA,Brachionus rotundiformis,brachionus rotundiformis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49322
+ENT_EFEB4F,Bregmacerotidae,bregmacerotidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41467
+ENT_E92AE6,Bromovirus,bromovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32851
+ENT_CC5AE6,brome mosaic bromovirus,brome mosaic bromovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32851
+ENT_9A2F55,cowpea chlorotic mottle bromovirus,cowpea chlorotic mottle bromovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32851
+ENT_93B46D,Brotula barbata,brotula barbata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41948
+ENT_C79EAE,Brotula clarki,brotula clarki,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41947
+ENT_F63E69,Brotulina erythrea,brotulina erythrea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41999
+ENT_07A107,Brotulotaenia brevicauda,brotulotaenia brevicauda,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41949
+ENT_0AB470,Bymovirus,bymovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_dfbb07de
+ENT_8D2723,Capripoxvirus,capripoxvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1284
+ENT_157D47,Cardisoma rotundum,cardisoma rotundum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_47084
+ENT_123930,Carlavirus,carlavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32852
+ENT_FF17F0,Carmovirus,carmovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35616
+ENT_2D9F5C,Carpobrotus,carpobrotus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_ee72aeff
+ENT_1BE1DC,Carpobrotus acinaciformis,carpobrotus acinaciformis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5cbcb37b
+ENT_0FEFB8,Carpobrotus chilensis,carpobrotus chilensis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f50c4450
+ENT_DD2527,Carpobrotus edulis,carpobrotus edulis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32b5e4db
+ENT_914F66,Mesembryanthemum edulis,mesembryanthemum edulis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32b5e4db
+ENT_4EEC54,Carpobrotus glaucescens,carpobrotus glaucescens,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_de3b8184
+ENT_E8379C,Carpobrotus quadrifidus,carpobrotus quadrifidus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_918b433c
+ENT_5F1388,Carre's disease,carre's disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27087
+ENT_F9C099,Caulimovirus,caulimovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32853
+ENT_4B1C5D,Cellana rota,cellana rota,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_47627
+ENT_6D3642,Cerotoma,cerotoma,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_15951
+ENT_947A31,Cerotoma trifurcata,cerotoma trifurcata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30026
+ENT_D6371E,Chagas disease,chagas disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_21814
+ENT_E46136,American trypanosomiasis,american trypanosomiasis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_21814
+ENT_B1B143,Channel catfish virus disease,channel catfish virus disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f69a20d4
+ENT_898749,Chikungunya virus,chikungunya virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35376
+ENT_A16D22,Chiroteuthidae,chiroteuthidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48810
+ENT_FC2912,Chiroteuthis picteti,chiroteuthis picteti,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48811
+ENT_A2C2A5,Chiroteuthis veranyi,chiroteuthis veranyi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48812
+ENT_0FF15A,Chlorotocus crassicornis,chlorotocus crassicornis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_46419
+ENT_BB0D0A,Chrionema chlorotaenia,chrionema chlorotaenia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44344
+ENT_571E51,Clarotes bidorsalis,clarotes bidorsalis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_40783
+ENT_9C6D63,Clitoria yellow vein virus,clitoria yellow vein virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_017d4a8d
+ENT_5EC2F1,CYVV (Clitoria yellow vein virus),cyvv (clitoria yellow vein virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_017d4a8d
+ENT_F8790B,Closterotomus,closterotomus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3cb94540
+ENT_6DD49F,Closterotomus norwegicus,closterotomus norwegicus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_b184bd67
+ENT_F477C4,Closterovirus,closterovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32854
+ENT_130A03,Clypeaster rotundus,clypeaster rotundus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49386
+ENT_12AFB8,Coleus rotundifolius,coleus rotundifolius,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1750
+ENT_E1D89E,Coleus parviflorus,coleus parviflorus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1750
+ENT_EF5490,Coleus tuberosus,coleus tuberosus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1750
+ENT_D429F1,Comovirus,comovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32855
+ENT_4D4CC8,Crimean-Congo hemorrhagic fever orthonairovirus,crimean-congo hemorrhagic fever orthonairovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f4435348
+ENT_A71010,CCHFV,cchfv,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f4435348
+ENT_4E6531,Congo virus,congo virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f4435348
+ENT_86C464,Crimean haemorrhagic fever virus,crimean haemorrhagic fever virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f4435348
+ENT_64445C,Crimean hemorrhagic fever virus,crimean hemorrhagic fever virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f4435348
+ENT_822A9F,Crimean-Congo haemorrhagic fever virus,crimean-congo haemorrhagic fever virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f4435348
+ENT_8887F0,Crimean-Congo hemorrhagic fever virus,crimean-congo hemorrhagic fever virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f4435348
+ENT_6D345E,Crinivirus,crinivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_331491
+ENT_1EEE04,Cripavirus,cripavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_0516b079
+ENT_43517A,Crotalaria,crotalaria,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1977
+ENT_CAF183,Crotalaria anagyroides,crotalaria anagyroides,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_33674
+ENT_01E322,Crotalaria juncea,crotalaria juncea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1978
+ENT_16705D,sunhemp,sunhemp,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1978
+ENT_1EDFD9,Croton,croton,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1979
+ENT_01C862,Croton tiglium,croton tiglium,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1980
+ENT_BB9CAD,Crustacea,crustacea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1984
+ENT_52FE89,Crustacea miscellanea,crustacea miscellanea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_47251
+ENT_1FD6E8,Cryspovirus,cryspovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9eaf4113
+ENT_6B5DE4,Ctenoides scabra,ctenoides scabra,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48447
+ENT_80770F,Cucumovirus,cucumovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32856
+ENT_18B14F,Cydia pomonella granulovirus,cydia pomonella granulovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_86970aa5
+ENT_B958CB,Cyperus rotundus,cyperus rotundus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16235
+ENT_D47D03,Cyperus serotinus,cyperus serotinus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_d2bf010b
+ENT_023BEE,Cyperus serotinus var. serotinus,cyperus serotinus var. serotinus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_580af78d
+ENT_FA4FC9,Cytomegalovirus,cytomegalovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_10259
+ENT_74B63C,Cytorhabdovirus,cytorhabdovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f0093c63
+ENT_850659,DNA viruses,dna viruses,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_28336442
+ENT_F21E25,Daucus carota,daucus carota,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2132
+ENT_DB31BC,Daucus carota subsp. sativus,daucus carota subsp. sativus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_0ef7a707
+ENT_17E9F2,Deltavirus,deltavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_ad8d9f49
+ENT_F7BF68,Densovirus,densovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_10331
+ENT_05845D,Densonucleosis virus,densonucleosis virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_10331
+ENT_4A0D27,Derzsy's disease,derzsy's disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27066
+ENT_21FF8F,Diabrotica,diabrotica,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2235
+ENT_BE9BB3,Diabrotica balteata,diabrotica balteata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30027
+ENT_8F0D20,Diabrotica barberi,diabrotica barberi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30028
+ENT_81B139,Diabrotica longicornis,diabrotica longicornis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30029
+ENT_79C7E0,Diabrotica speciosa,diabrotica speciosa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30030
+ENT_E41363,Diabrotica undecimpunctata,diabrotica undecimpunctata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30031
+ENT_FEFA0E,Diabrotica virgifera,diabrotica virgifera,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30032
+ENT_DE15B5,Dianthovirus,dianthovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32857
+ENT_5C4DAB,Dioscorea rotundata,dioscorea rotundata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2298
+ENT_394B8F,Ebola virus disease,ebola virus disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_de7349c0
+ENT_5E014B,Ebolavirus,ebolavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4d8a8e7b
+ENT_820D87,Ectromelia virus,ectromelia virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_10535
+ENT_23CDDC,Emaravirus,emaravirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4e98d66f
+ENT_EB6255,Enamovirus,enamovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7b747a58
+ENT_B2EB70,Enterovirus,enterovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2584
+ENT_5FC6FB,Erotelis smaragdus,erotelis smaragdus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44405
+ENT_01B28F,Eucalyptus microtheca,eucalyptus microtheca,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_26490
+ENT_226A07,Eumicrotremus derjugini,eumicrotremus derjugini,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45475
+ENT_B95381,Eumicrotremus taranetzi,eumicrotremus taranetzi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45476
+ENT_963B77,Euprotomicroides zantedeschia,euprotomicroides zantedeschia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38349
+ENT_62FC15,Euprotomicrus bispinatus,euprotomicrus bispinatus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38394
+ENT_2D5F5C,Eurotiales,eurotiales,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31658
+ENT_23D36D,Aspergillales,aspergillales,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31658
+ENT_7AA400,Plectascales,plectascales,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31658
+ENT_45DCB5,Eurotium,eurotium,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31785
+ENT_17018A,Fabavirus,fabavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_307f99f5
+ENT_179AEF,Fijivirus,fijivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f28564cf
+ENT_7DC418,Flavivirus,flavivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2963
+ENT_8FF336,Flexopecten proteus,flexopecten proteus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48002
+ENT_C66692,Furovirus,furovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32858
+ENT_26CB3B,Fusarium root and stalk rot,fusarium root and stalk rot,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_ec597711
+ENT_F0D197,Fusarium root rot of beans,fusarium root rot of beans,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7fa8236b
+ENT_CA88E3,Fusarium sporotrichioides,fusarium sporotrichioides,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37580
+ENT_A62A14,Fusarium sporotrichiella,fusarium sporotrichiella,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37580
+ENT_180720,Fusarium wilt,fusarium wilt,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_a776deb2
+ENT_1A31D9,Fusarium wilt of chickpea,fusarium wilt of chickpea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_ffe9ce06
+ENT_DC3AC7,Fusarium wilt of cotton,fusarium wilt of cotton,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7c8ec2fe
+ENT_926C03,Fusarium wilt of cucumber,fusarium wilt of cucumber,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_915c5423
+ENT_096293,Fusarium wilt of date palm,fusarium wilt of date palm,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_a8979634
+ENT_C2B4EB,Fusarium wilt of melon,fusarium wilt of melon,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_539e67d2
+ENT_7D860E,Fusarium wilt of muskmelons,fusarium wilt of muskmelons,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_539e67d2
+ENT_9F7DDA,Fusarium wilt of oil palm,fusarium wilt of oil palm,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_c302e2cf
+ENT_B7CC1E,Fusarium wilt of tomato,fusarium wilt of tomato,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_55da5c64
+ENT_34621F,Gastrothylacidae,gastrothylacidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31989
+ENT_1DAE4B,Gastrothylax,gastrothylax,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3202
+ENT_9D125C,Geranium rotundifolium,geranium rotundifolium,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_eecac13f
+ENT_8DA018,Getah virus,getah virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35373
+ENT_AAF2CD,Grapsus tenuicrustatus,grapsus tenuicrustatus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_47200
+ENT_B570EE,Gumboro disease,gumboro disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_736
+ENT_F05CF6,avian infectious bursitis,avian infectious bursitis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_736
+ENT_2B0C58,infectious bursal disease,infectious bursal disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_736
+ENT_A93036,Gymnocrotaphus curvidens,gymnocrotaphus curvidens,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43235
+ENT_7A3A19,Haemoproteus,haemoproteus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3466
+ENT_669F2C,Hantavirus,hantavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35746
+ENT_1A86AA,Hantaan virus,hantaan virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35746
+ENT_9235A5,Puumala virus,puumala virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35746
+ENT_11C3B7,Hemitaeniochromis urotaenia,hemitaeniochromis urotaenia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43637
+ENT_48F080,Hendra henipavirus,hendra henipavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_85560bd4
+ENT_733434,Hendra virus,hendra virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_85560bd4
+ENT_423DC1,Hendra virus disease,hendra virus disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1f065f25
+ENT_09D272,Hendra virus infection,hendra virus infection,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1f065f25
+ENT_38D257,Heracleum latent virus,heracleum latent virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3bc35af9
+ENT_50CBF0,Herotilapia multispinosa,herotilapia multispinosa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43640
+ENT_1E7627,Heterodera carotae,heterodera carotae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31043
+ENT_E1B50F,Heteroteuthis dispar,heteroteuthis dispar,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48646
+ENT_57C20C,Heterotis,heterotis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24760
+ENT_8F40A1,Heterotis niloticus,heterotis niloticus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39560
+ENT_7BE493,Holothuria scabra,holothuria scabra,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49406
+ENT_009ED2,Holotrichia (Protozoa),holotrichia (protozoa,Disease,"Under current classification systems, Holotrichia is are considered as a historically recognized but currently not used order. Concept retained for legacy purposes. For the genus of beetle in the family Scarabaeidae, see ""Holotrichia (Coleoptera)"" <c_3644>.",agrovoc,http://aims.fao.org/aos/agrovoc/c_15747
+ENT_96EA63,holotrichs,holotrichs,Disease,"Under current classification systems, Holotrichia is are considered as a historically recognized but currently not used order. Concept retained for legacy purposes. For the genus of beetle in the family Scarabaeidae, see ""Holotrichia (Coleoptera)"" <c_3644>.",agrovoc,http://aims.fao.org/aos/agrovoc/c_15747
+ENT_092874,Hoplobrotula gnathopus,hoplobrotula gnathopus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41950
+ENT_1A2868,Hordeivirus,hordeivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32860
+ENT_A422ED,Hydrotaea,hydrotaea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_11671
+ENT_52847F,Hydrotaea irritans,hydrotaea irritans,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30564
+ENT_4022C2,Hypena scabra,hypena scabra,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37409
+ENT_039C29,Plathypena scabra,plathypena scabra,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37409
+ENT_779678,Iflavirus,iflavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3bf334af
+ENT_7D05FD,Ilarvirus,ilarvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32861
+ENT_616275,Iridovirus,iridovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35627
+ENT_B3E3DB,Isavirus,isavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_b156e7d1
+ENT_9D6849,Isle of Wight disease,isle of wight disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_11846
+ENT_3A9FC7,Israeli acute paralysis virus,israeli acute paralysis virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_59af2cc9
+ENT_9DAB0B,Japanese encephalitis virus,japanese encephalitis virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16437
+ENT_5E1179,Jenkinsia lamprotaenia,jenkinsia lamprotaenia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39084
+ENT_36E895,Kashmir bee virus,kashmir bee virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_e4140d75
+ENT_14AD25,Langstroth hives,langstroth hives,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_42a7c315
+ENT_D53A0F,Lathyrus rotundifolius,lathyrus rotundifolius,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_64620c42
+ENT_9DBBF3,Lathyrus rotundifolius subsp. miniatus,lathyrus rotundifolius subsp. miniatus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_79639023
+ENT_517ACB,Lelystad virus,lelystad virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35370
+ENT_2CDDBC,PRRS virus,prrs virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35370
+ENT_EBB7CF,Lentivirus,lentivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4263
+ENT_621B90,Lentivirinae,lentivirinae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4263
+ENT_8D1E32,Leporipoxvirus,leporipoxvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4274
+ENT_A8E98C,Myxoma virus,myxoma virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4274
+ENT_99FABB,Myxomatosis virus,myxomatosis virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4274
+ENT_D16C2A,rabbit fibroma virus,rabbit fibroma virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4274
+ENT_FF8A1E,Littoraria scabra,littoraria scabra,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_47294
+ENT_9830EF,Luciobrotula bartschi,luciobrotula bartschi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41970
+ENT_2465CE,Luteovirus,luteovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32862
+ENT_E897E0,Lysiosquilla scabricauda,lysiosquilla scabricauda,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_46223
+ENT_E9BB97,Lyssavirus,lyssavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4489
+ENT_E365DA,rabies-like viruses,rabies-like viruses,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4489
+ENT_3FA747,Machlomovirus,machlomovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8c74dbf9
+ENT_E65794,Macrobrachium scabriculum,macrobrachium scabriculum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_46593
+ENT_C36F71,Macrotermes,macrotermes,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4505
+ENT_6FEB95,Macrotyloma,macrotyloma,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4506
+ENT_F6BDCF,Macrotyloma axillare,macrotyloma axillare,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4507
+ENT_20C48D,Dolichos axillaris,dolichos axillaris,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4507
+ENT_7F485A,Macrotyloma uniflorum,macrotyloma uniflorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4508
+ENT_90344D,Dolichos biflorus,dolichos biflorus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4508
+ENT_A6B85D,Dolichos uniflorus,dolichos uniflorus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4508
+ENT_CC59EC,Marafivirus,marafivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_413fad7e
+ENT_FDC4F2,Marburg virus disease,marburg virus disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f1f99227
+ENT_529F2D,Marburg haemorrhagic fever,marburg haemorrhagic fever,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_f1f99227
+ENT_726E1A,Marburgvirus,marburgvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_c2b16ba3
+ENT_BF8F4E,Marek's disease,marek's disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4599
+ENT_C40B5D,Marek's disease virus,marek's disease virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_12394
+ENT_F0F32E,Mastadenovirus,mastadenovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_12422
+ENT_9292EB,Medicago rotata,medicago rotata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_80dc46ce
+ENT_60C972,Megachile rotundata,megachile rotundata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_29822
+ENT_AC62BB,Megachile pacifica,megachile pacifica,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_29822
+ENT_30D9EC,Microcerotermes,microcerotermes,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4801
+ENT_E8D63A,Microdontochromis rotundiventralis,microdontochromis rotundiventralis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43661
+ENT_EF68F5,Microtermes,microtermes,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4814
+ENT_589CA5,Microthrissa royauxi,microthrissa royauxi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39132
+ENT_3499E7,Microtus,microtus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16325
+ENT_C307CE,Middle East respiratory syndrome coronavirus,middle east respiratory syndrome coronavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8e19eb98
+ENT_335CA0,MERS‐CoV,merscov,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8e19eb98
+ENT_F989DE,Mimosa scabrella,mimosa scabrella,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4845
+ENT_E27573,Mimosa bracatinga,mimosa bracatinga,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4845
+ENT_42B645,Moko disease,moko disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_36374
+ENT_4C4BBF,Morbillivirus,morbillivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_4937
+ENT_FF9982,Morchella rotunda,morchella rotunda,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_b71439e1
+ENT_0ABD61,Moroteuthis ingens,moroteuthis ingens,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48743
+ENT_ECBD33,Moroteuthis knipovitchi,moroteuthis knipovitchi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48744
+ENT_75C30E,Moroteuthis lonnbergi,moroteuthis lonnbergi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48745
+ENT_C135F9,Moroteuthis robsoni,moroteuthis robsoni,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48746
+ENT_663B2E,Moroteuthis robustus,moroteuthis robustus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48747
+ENT_48A724,Mycterothrips,mycterothrips,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_e338d835
+ENT_2A276B,Mycterothrips albidicornis,mycterothrips albidicornis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_bf147edb
+ENT_A97D6B,Mycterothrips setiventris,mycterothrips setiventris,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_918b5c6c
+ENT_F2B998,Mycterothrips tschirkunae,mycterothrips tschirkunae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24bad6e6
+ENT_EE9DB5,Myrothecium,myrothecium,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_26580
+ENT_8E8054,Nairobi sheep disease,nairobi sheep disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16445
+ENT_CED8D9,Nairovirus,nairovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35642
+ENT_07A7FF,Narcissus serotinus,narcissus serotinus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_df9345e7
+ENT_C25A8C,Necrovirus,necrovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32863
+ENT_011C9F,Nepovirus,nepovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32864
+ENT_40805D,nepovirus group,nepovirus group,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32864
+ENT_A1617B,Neurotoma,neurotoma,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_d8e5d14c
+ENT_820410,Neurotoma inconspicua,neurotoma inconspicua,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5b82c6b5
+ENT_B74AE2,plum web spinning sawfly,plum web spinning sawfly,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5b82c6b5
+ENT_338760,Newcastle disease,newcastle disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5165
+ENT_5389FF,fowl pest,fowl pest,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5165
+ENT_A6929A,Newcastle disease virus,newcastle disease virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5166
+ENT_0E3E40,fowl pest virus,fowl pest virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5166
+ENT_AFAB63,Nicotiana rustica,nicotiana rustica,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5176
+ENT_68E66C,Nicotine tobacco,nicotine tobacco,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5176
+ENT_91089A,Nipah virus,nipah virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_a5e259a2
+ENT_218D8B,Henipavirus nipahense,henipavirus nipahense,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_a5e259a2
+ENT_61AB2D,Nipah henipavirus,nipah henipavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_a5e259a2
+ENT_9CDBD2,Nipah virus disease,nipah virus disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9fe55e8d
+ENT_ECD995,Nipah virus infection,nipah virus infection,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9fe55e8d
+ENT_16844D,Norovirus,norovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_214849bb
+ENT_CACBDC,Norwalk-like viruses,norwalk-like viruses,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_214849bb
+ENT_C9E9A7,small round structured viruses,small round structured viruses,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_214849bb
+ENT_7DC43B,Norwalk virus,norwalk virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35644
+ENT_889C3F,Nucleorhabdovirus,nucleorhabdovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_e8ba1725
+ENT_63EFB9,Plant Rhabdovirus Group B,plant rhabdovirus group b,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_e8ba1725
+ENT_16683F,Ocypode rotundata,ocypode rotundata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_47070
+ENT_B17745,Orbivirus,orbivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5377
+ENT_BCEB50,Orconectes rusticus,orconectes rusticus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_46836
+ENT_63A72B,Orthobunyavirus,orthobunyavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_331430
+ENT_C03937,Bunyavirus,bunyavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_331430
+ENT_CCCBC4,Orthopoxvirus,orthopoxvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5431
+ENT_EF9B8B,Panama disease,panama disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_36133
+ENT_521D7A,Fusarium wilt of banana,fusarium wilt of banana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_36133
+ENT_77347F,Panama disease of banana,panama disease of banana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_36133
+ENT_F020B0,Parabrotula plagiophthalma,parabrotula plagiophthalma,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_42024
+ENT_F7850A,Parabrotulidae,parabrotulidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_42023
+ENT_67DC42,Paracentrotus,paracentrotus,Disease,Isscaap group b-75,agrovoc,http://aims.fao.org/aos/agrovoc/c_16271
+ENT_B1319F,Paracentrotus lividus,paracentrotus lividus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49376
+ENT_B77169,Parapoxvirus,parapoxvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5570
+ENT_4EE07E,Parika scaber,parika scaber,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45947
+ENT_8C63BE,Parotocinclus britskii,parotocinclus britskii,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41065
+ENT_71ABB8,Partitivirus,partitivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9dd87521
+ENT_6AAEA7,Patella rustica,patella rustica,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_47620
+ENT_A314BD,Pectobacterium carotovorum,pectobacterium carotovorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24748
+ENT_A0532F,Erwinia aroideae,erwinia aroideae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24748
+ENT_FD0492,Erwinia carotovora,erwinia carotovora,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24748
+ENT_70565A,Pectobacterium carotovorum subsp. atrosepticum,pectobacterium carotovorum subsp. atrosepticum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_b8694bb6
+ENT_FDB7C4,Erwinia atroseptica,erwinia atroseptica,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_b8694bb6
+ENT_3B00C1,Pectobacterium carotovorum subsp. carotovorum,pectobacterium carotovorum subsp. carotovorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1d213b49
+ENT_9A2C48,Pentacerotidae,pentacerotidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43477
+ENT_74D4FF,Perotis (Coleoptera),perotis (coleoptera,Disease,"For the plant genus, see Perotis (Perotis (Spermatophyta) <c_52e55006>.",agrovoc,http://aims.fao.org/aos/agrovoc/c_7e4250fc
+ENT_0F3C02,Perotis,perotis,Disease,"For the plant genus, see Perotis (Perotis (Spermatophyta) <c_52e55006>.",agrovoc,http://aims.fao.org/aos/agrovoc/c_7e4250fc
+ENT_115B89,Perotis (Spermatophyta),perotis (spermatophyta,Disease,"For the jewel beetle genus, see Perotis (Coleoptera) <c_7e4250fc>.",agrovoc,http://aims.fao.org/aos/agrovoc/c_52e55006
+ENT_4A1125,Perotis chlorana,perotis chlorana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6e2d65a6
+ENT_2BBA6E,Perotis lugubris,perotis lugubris,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6bf7ea4e
+ENT_4F1A86,Perotis margotanus,perotis margotanus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1c382e61
+ENT_154CDF,Perotis planidorsis,perotis planidorsis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_d24fbe81
+ENT_EB1DF6,Perotis susannae,perotis susannae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_af9140a2
+ENT_C68878,Perotis unicolor,perotis unicolor,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5f9b98fe
+ENT_D64F0D,Pestivirus,pestivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5740
+ENT_F400EF,Mucosal disease virus,mucosal disease virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5740
+ENT_20DF13,Petrotilapia genalutea,petrotilapia genalutea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43730
+ENT_61666B,Petrotyx hopkinsi,petrotyx hopkinsi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41975
+ENT_952191,Phlebovirus,phlebovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35643
+ENT_CF2BA0,Phyllactinia pyri-serotinae,phyllactinia pyri-serotinae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_90a4bb24
+ENT_993FFC,Phytoreovirus,phytoreovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35624
+ENT_B878EA,Pleioblastus,pleioblastus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6013
+ENT_A82994,Pleurotus,pleurotus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6017
+ENT_4C69B6,Pleurotus cornucopiae,pleurotus cornucopiae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_5ed73ac3
+ENT_727FAB,Pleurotus eryngii,pleurotus eryngii,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_3152b5fe
+ENT_3ED442,Pleurotus florida,pleurotus florida,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37099
+ENT_063E9C,white oyster mushroom,white oyster mushroom,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37099
+ENT_C681F7,Pleurotus ostreatus,pleurotus ostreatus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34562
+ENT_7B0F9B,oyster mushroom,oyster mushroom,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34562
+ENT_6F3061,pearl oyster mushroom,pearl oyster mushroom,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34562
+ENT_D66F21,tree oyster mushroom,tree oyster mushroom,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34562
+ENT_B024C9,Pleurotus sajor-caju,pleurotus sajor-caju,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34563
+ENT_367D08,Pneumovirus,pneumovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6034
+ENT_CAEADD,Pnyxia scabiei,pnyxia scabiei,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24b863af
+ENT_C35A46,Polerovirus,polerovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6cda8bd1
+ENT_CB9B5E,Poliovirus,poliovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_36328
+ENT_6F56D9,Polydnavirus,polydnavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35630
+ENT_A394E4,Polygonum rottboellioides,polygonum rottboellioides,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2c6825b0
+ENT_79B827,Pomadasys perotaei,pomadasys perotaei,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43039
+ENT_D1A5F0,Pomovirus,pomovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_bff48b56
+ENT_7B6BA9,Poroclinus rothrocki,poroclinus rothrocki,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44235
+ENT_577286,Porotergus compsus,porotergus compsus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_40019
+ENT_8FFB09,Potexvirus,potexvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32865
+ENT_1C6D48,Potyvirus,potyvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32866
+ENT_7A3A9F,potyvirus group,potyvirus group,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32866
+ENT_27B458,Protea,protea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34745
+ENT_952EF6,Proteaceae,proteaceae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6240
+ENT_A325E5,Proteales,proteales,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6241
+ENT_570E4A,Proteles,proteles,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_a04d8e57
+ENT_D47300,Proteles cristata,proteles cristata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2ccfc7c5
+ENT_398E31,Protemblemaria bicirris,protemblemaria bicirris,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45153
+ENT_A0C263,Proteracanthus sarissophorus,proteracanthus sarissophorus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44697
+ENT_6BF587,Proterorhinus marmoratus,proterorhinus marmoratus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44606
+ENT_716D92,Proteus,proteus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6263
+ENT_C16500,Proteus mirabilis,proteus mirabilis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37441
+ENT_D185CB,Proteus vulgaris,proteus vulgaris,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37440
+ENT_B5F3FA,Protista,protista,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_330951
+ENT_81EABA,protists,protists,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_330951
+ENT_EF2473,Protogrammus sousai,protogrammus sousai,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_45120
+ENT_F3E290,Protomelas annectens,protomelas annectens,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43692
+ENT_AFF128,Protomyces,protomyces,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31843
+ENT_D71864,Protomycopsis,protomycopsis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31844
+ENT_C7FF4A,Protomyctophum andriashevi,protomyctophum andriashevi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39759
+ENT_B89AFA,Protomyctophum bolini,protomyctophum bolini,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39760
+ENT_7E69C4,Protomyctophum choriodon,protomyctophum choriodon,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39761
+ENT_56F096,Protomyctophum tenisoni,protomyctophum tenisoni,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39762
+ENT_8002F3,Protomyzon aphelocheilus,protomyzon aphelocheilus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_40560
+ENT_35A17A,Protonibea diacanthus,protonibea diacanthus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43205
+ENT_3B78F9,Protopteridae,protopteridae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38958
+ENT_DFF871,Protopterus aethiopicus,protopterus aethiopicus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38960
+ENT_F57EC2,Protopterus annectens,protopterus annectens,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38961
+ENT_5FAE3A,Protosalanx hyalocranius,protosalanx hyalocranius,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39357
+ENT_5005E5,Protosciaena trewavasae,protosciaena trewavasae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43109
+ENT_A02E84,Protostrongylidae,protostrongylidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31112
+ENT_BA964E,Protostrongylus,protostrongylus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6265
+ENT_1AA02E,Protothaca,protothaca,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31161
+ENT_521A8B,Protothaca asperrima,protothaca asperrima,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48195
+ENT_2F1757,Protothaca columbiensis,protothaca columbiensis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48196
+ENT_86CF33,Protothaca grata,protothaca grata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48197
+ENT_EBBA83,Protothaca pectorina,protothaca pectorina,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48198
+ENT_14F7A0,Protothaca staminea,protothaca staminea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6266
+ENT_AD392B,Paphia staminea,paphia staminea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6266
+ENT_62CD8E,Protothaca tenerrima,protothaca tenerrima,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48199
+ENT_07EEBE,Protothaca thaca,protothaca thaca,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6267
+ENT_08C544,Prototheca,prototheca,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16021
+ENT_6BBDC6,Prototroctes maraena,prototroctes maraena,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39361
+ENT_9A14F4,Protozoa,protozoa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6268
+ENT_4EB5D5,Protozoans,protozoans,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6268
+ENT_0BD4F3,Protrachypene precipua,protrachypene precipua,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_46301
+ENT_2A16FC,Protura,protura,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6271
+ENT_4FEEBF,Prunus serotina,prunus serotina,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6290
+ENT_341CB6,black cherry,black cherry,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6290
+ENT_FA17DD,rum cherry,rum cherry,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6290
+ENT_3E4163,Psammechinus microtuberculatus,psammechinus microtuberculatus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49374
+ENT_C91038,Pseudocentrotus,pseudocentrotus,Disease,Isscaap group b-75,agrovoc,http://aims.fao.org/aos/agrovoc/c_6300
+ENT_77A00E,Psychroteuthidae,psychroteuthidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48852
+ENT_439579,Psychroteuthis glacialis,psychroteuthis glacialis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48853
+ENT_B3D7AD,Pterothrissus belloci,pterothrissus belloci,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_39610
+ENT_C46E7E,Pterotolithus lateoides,pterotolithus lateoides,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43206
+ENT_7C217D,Pterotolithus maculatus,pterotolithus maculatus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43207
+ENT_D29BBA,Pyroteuthis margaritifera,pyroteuthis margaritifera,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48822
+ENT_D57812,Quercus rotundifolia,quercus rotundifolia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32234
+ENT_92B853,RNA tumour viruses,rna tumour viruses,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_13937
+ENT_095454,RNA viruses,rna viruses,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_c4d41c26
+ENT_116D69,Ranavirus,ranavirus,Disease,"Depending upon the virus and the age and health of the host, infections result in a variety of clinical signs such as internal organ hemorrhage, skin sloughing and external petechia.",agrovoc,http://aims.fao.org/aos/agrovoc/c_f92c1d1c
+ENT_9F49C7,Reovirus,reovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_13809
+ENT_A95A05,Rhinovirus,rhinovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6559
+ENT_108312,Rhizomania virus,rhizomania virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37633
+ENT_DC80FF,beet necrotic yellow vein furovirus,beet necrotic yellow vein furovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_37633
+ENT_4C02FD,Rhyacionia frustrana,rhyacionia frustrana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30379
+ENT_8915D4,Rift Valley fever virus,rift valley fever virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16463
+ENT_B09F3F,Ross River virus,ross river virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35374
+ENT_2514AC,Rotavirus,rotavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6664
+ENT_CD6F97,Rotifera,rotifera,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6666
+ENT_68BA90,rotifers,rotifers,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6666
+ENT_5810C0,Rottboellia,rottboellia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6668
+ENT_EB4574,Rottboellia cochinchinensis,rottboellia cochinchinensis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35176
+ENT_0AE472,Rottboellia exaltata,rottboellia exaltata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35176
+ENT_7D36AB,Rotylenchulus,rotylenchulus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6669
+ENT_272A99,Rotylenchulus reniformis,rotylenchulus reniformis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31058
+ENT_4E0036,Rotylenchus,rotylenchus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31059
+ENT_EA9C7E,Rous sarcoma virus,rous sarcoma virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6673
+ENT_F6ACCE,Rubella virus,rubella virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_9cfeec42
+ENT_CA5BAC,Rubia rotundifolia,rubia rotundifolia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24567cd8
+ENT_9A4897,Rubivirus,rubivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1322659103994
+ENT_CA01AF,Sarcoptes scabiei,sarcoptes scabiei,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30924
+ENT_EC2B28,Sarcoptes canis,sarcoptes canis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30924
+ENT_03430D,Sarcoptes suis,sarcoptes suis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_30924
+ENT_82C6C7,Saribus rotundifolius,saribus rotundifolius,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_684068de
+ENT_1DD7F2,round-leaf fountain palm,round-leaf fountain palm,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_684068de
+ENT_9D185C,Sarotherodon,sarotherodon,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_26668
+ENT_475ABC,Sarotherodon galilaeus,sarotherodon galilaeus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43567
+ENT_20ACA1,Sarotherodon melanotheron,sarotherodon melanotheron,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_43568
+ENT_A795C9,Scabiosa,scabiosa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27362
+ENT_AC9492,Scabiosa caucasica,scabiosa caucasica,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27363
+ENT_E1F7E9,Schmallenberg disease,schmallenberg disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_52cd47a9
+ENT_9D8B37,Sclerotinia,sclerotinia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6864
+ENT_80A4FF,Monilia fructigena,monilia fructigena,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6864
+ENT_E114D9,Sclerotinia borealis,sclerotinia borealis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27366
+ENT_56A444,Sclerotinia homoeocarpa,sclerotinia homoeocarpa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27367
+ENT_79B6FB,Sclerotinia minor,sclerotinia minor,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27368
+ENT_DF7BC6,Sclerotinia sclerotiorum,sclerotinia sclerotiorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27369
+ENT_92F293,Sclerotinia libertiana,sclerotinia libertiana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27369
+ENT_9AD28D,Whetzelinia sclerotiorum,whetzelinia sclerotiorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27369
+ENT_453E9F,Sclerotinia trifoliorum,sclerotinia trifoliorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27372
+ENT_D12BA2,Sclerotiniaceae,sclerotiniaceae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_313e76f1
+ENT_F4999E,Sclerotium (Deuteromycotina),sclerotium (deuteromycotina,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6865
+ENT_D63654,Sclerotium,sclerotium,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_6865
+ENT_443F39,Sclerotium cepivorum,sclerotium cepivorum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_26672
+ENT_4426A5,Sclerotium oryzae sativae,sclerotium oryzae sativae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_26673
+ENT_68E73F,Scolopax rusticola,scolopax rusticola,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_98b9ad4e
+ENT_978F40,Selachimorpha (Pleurotremata),selachimorpha (pleurotremata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_46129
+ENT_1EB1F6,Semliki Forest virus,semliki forest virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35375
+ENT_67B822,Sequivirus,sequivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8f0d2083
+ENT_C84843,Sialodacryoadenitis virus,sialodacryoadenitis virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35639
+ENT_E88CE9,Sindbis virus,sindbis virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35372
+ENT_750788,Smyrnium rotundifolium,smyrnium rotundifolium,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_0d2fc2cf
+ENT_DC298B,Sobemovirus,sobemovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32867
+ENT_39DA7A,Sphaerotheca,sphaerotheca,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7292
+ENT_CD6F4B,Sphaerotheca fuliginea,sphaerotheca fuliginea,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34578
+ENT_A77F7B,Sphaerotheca pannosa,sphaerotheca pannosa,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_34579
+ENT_E255F4,Spirotrichia,spirotrichia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7312
+ENT_179451,Sporothrix,sporothrix,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_31612
+ENT_0B0A72,Sporotrichum,sporotrichum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_27613
+ENT_B10F0C,Spottobrotula amaculata,spottobrotula amaculata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41982
+ENT_37A79C,Sprivivirus,sprivivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_835a523f
+ENT_A6AD38,Spumavirus,spumavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_23152
+ENT_CB80BE,Spumavirinae,spumavirinae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_23152
+ENT_D4EC3C,bovine syncytial virus,bovine syncytial virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_23152
+ENT_A4BCD8,feline syncytial virus,feline syncytial virus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_23152
+ENT_DBAF2B,syncytial viruses,syncytial viruses,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_23152
+ENT_B0505B,Stauroteuthis syrtensis,stauroteuthis syrtensis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48696
+ENT_16C492,Streptomyces scabies,streptomyces scabies,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35455
+ENT_5FFD8C,common scab,common scab,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_35455
+ENT_BBB22A,Strongylocentrotidae,strongylocentrotidae,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49363
+ENT_E57499,Strongylocentrotus,strongylocentrotus,Disease,Isscaap group b-75,agrovoc,http://aims.fao.org/aos/agrovoc/c_7459
+ENT_23A213,Strongylocentrotus franciscanus,strongylocentrotus franciscanus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49366
+ENT_F0DB7A,Strongylocentrotus intermedius,strongylocentrotus intermedius,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_49365
+ENT_5F5368,Stygnobrotula latebricola,stygnobrotula latebricola,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_42016
+ENT_13D25C,Suipoxvirus,suipoxvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_16610
+ENT_93AFB8,Tenuivirus,tenuivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32868
+ENT_9F5DBE,Tepovirus,tepovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_da7808f7
+ENT_272F7E,Teschen disease,teschen disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24301
+ENT_E0B6EC,Tithonia rotundifolia,tithonia rotundifolia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32259
+ENT_4B0819,Tobamovirus,tobamovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32869
+ENT_026FA6,Tobravirus,tobravirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32870
+ENT_F6F78E,Tombusvirus,tombusvirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32871
+ENT_8C8715,Trachyrincus scabrus,trachyrincus scabrus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_41622
+ENT_6F2DA7,Triatovirus,triatovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_68e206c7
+ENT_748A7E,Tritimovirus,tritimovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_1bd35056
+ENT_BA21BA,Trust Territory of Pacific Islands,trust territory of pacific islands,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7986
+ENT_FAB1B0,Pacific Islands (Trust Territory),pacific islands (trust territory,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_7986
+ENT_4F45CB,Tungrovirus,tungrovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_04c4635e
+ENT_D43E9E,Tymovirus,tymovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_32872
+ENT_CCC1A2,Tyzzer disease,tyzzer disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_15929
+ENT_A0038C,Tzaneen disease,tzaneen disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_23813
+ENT_D1DDF5,Umbravirus,umbravirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_42be09fe
+ENT_9E3F82,Uranoscopus scaber,uranoscopus scaber,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_44383
+ENT_AB8249,Urolophus flavomosaicus,urolophus flavomosaicus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38826
+ENT_43405A,Uroteuthis bartschi,uroteuthis bartschi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_48709
+ENT_829F8A,Urotrygon aspidura,urotrygon aspidura,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38839
+ENT_9A5540,Urotrygon chilensis,urotrygon chilensis,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38840
+ENT_6E21A3,Urotrygon microphthalmum,urotrygon microphthalmum,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38841
+ENT_AD31B9,Urotrygon munda,urotrygon munda,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38842
+ENT_96FE98,Urotrygon nana,urotrygon nana,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38843
+ENT_7099F8,Urotrygon reticulata,urotrygon reticulata,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38844
+ENT_902509,Urotrygon rogersi,urotrygon rogersi,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38845
+ENT_D92B52,Urotrygon simulatrix,urotrygon simulatrix,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_38846
+ENT_FB49C5,Verticillium wilt,verticillium wilt,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_c40a9299
+ENT_B07D58,Vesiculovirus,vesiculovirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8200
+ENT_8C1C89,Vitis rotundifolia,vitis rotundifolia,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_8282
+ENT_14561A,Vitivirus,vitivirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_2eb44446
+ENT_BE2A5C,Waikavirus,waikavirus,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_285ef22d
+ENT_8D8726,Wesselsbron disease,wesselsbron disease,Disease,,agrovoc,http://aims.fao.org/aos/agrovoc/c_24303

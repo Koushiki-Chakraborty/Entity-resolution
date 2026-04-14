@@ -1,0 +1,36 @@
+# Environment variables
+.env
+
+# Virtual environments
+agrienv/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Wikipedia API cache (large JSON — regenerated on demand)
+data/processed/wikipedia_fetch_cache.json
+
+# Scratch / temp files
+*.txt.bak
+_*.py
+
+# Intermediate versioned dataset files (crop_diseases_clean.csv is canonical)
+data/processed/crop_diseases_v*_clean.csv
