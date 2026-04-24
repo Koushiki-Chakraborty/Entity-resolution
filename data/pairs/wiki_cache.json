@@ -1,0 +1,402 @@
+{
+  "abr": {
+    "context": "Fungal disease caused by Botryosphaeria obtusa. Creates circular brown lesions on fruit and frog-eye leaf spot. Common i",
+    "status": "skipped_abbrev"
+  },
+  "abutilon mosaic virus": {
+    "context": "Abutilon mosaic virus is a virus of the genus Begomovirus. It infects Abutilon species, notably the flowering maple, Abutilon striatum. The mottled or variegated effect on the leaves of Abutilon striatum is sought after.",
+    "status": "exact"
+  },
+  "african cassava mosaic virus": {
+    "context": "African cassava mosaic virus is a plant pathogenic virus of the family Geminiviridae that may cause either a mosaic appearance to plant leaves, or chlorosis. In Manihot esculenta , the most produced food crop in Africa, the virus causes severe mosaic.",
+    "status": "exact"
+  },
+  "alfalfa mosaic virus group": {
+    "context": "Alfalfa mosaic virus , also known as Lucerne mosaic virus or Potato calico virus, is a worldwide distributed phytopathogen that can lead to necrosis and yellow mosaics on a large variety of plant species, including commercially important crops.",
+    "status": "exact"
+  },
+  "alphavirus": {
+    "context": "Alphavirus is a genus of RNA viruses, the sole genus in the Togaviridae family. Alphaviruses belong to group IV of the Baltimore classification of viruses, with a positive-sense, single-stranded RNA genome.",
+    "status": "exact"
+  },
+  "alternaria blight": {
+    "context": "Fungal disease of tomato caused by Alternaria solani. Produces dark concentric ring lesions giving a target-board appear",
+    "status": "not_found"
+  },
+  "alternaria blight of potato": {
+    "context": "Fungal disease of potato caused by Alternaria solani. Produces dark brown target-board lesions on lower leaves first, pr",
+    "status": "not_found"
+  },
+  "alternaria carotiincultae": {
+    "context": "Alternaria is a genus of fungi that are found worldwide. Alternaria species are known as major plant pathogens. They are also common allergens in humans, growing indoors and causing hay fever or hypersensitivity reactions that sometimes lead to asthma.",
+    "status": "search"
+  },
+  "american plum line pattern virus": {
+    "context": "Plant disease resistance protects plants from pathogens in two ways: by pre-formed structures and chemicals, and by infection-induced responses of the immune system. Relative to a susceptible plant, disease resistance is the reduction of pathogen growth on or in the plant, while the term disease tolerance describes plants that exhibit little disease damage despite substantial pathogen levels.",
+    "status": "search"
+  },
+  "apple black rot": {
+    "context": "Grape black rot is a fungal disease caused by an ascomycetous fungus, Guignardia bidwellii, that attacks grape vines during hot and humid weather. The disease \"originated in eastern North America, but now occurs in portions of Europe, South America, and Asia.",
+    "status": "search"
+  },
+  "apple black-rot": {
+    "context": "Grape black rot is a fungal disease caused by an ascomycetous fungus, Guignardia bidwellii, that attacks grape vines during hot and humid weather. The disease \"originated in eastern North America, but now occurs in portions of Europe, South America, and Asia.",
+    "status": "search"
+  },
+  "apple rot": {
+    "context": "Bitter rot of apple is a fungal disease of apple fruit that is caused by several species in the Colletotrichum acutatum and Colletotrichum gloeosporioides species complexes. It is identified by sunken circular lesions with conical intrusions into the apple flesh that appear V-shaped when the apple is cut in half through the center of the lesion.",
+    "status": "search"
+  },
+  "apple rust": {
+    "context": "Gymnosporangium juniperi-virginianae is a plant pathogen that causes cedar-apple rust. In virtually any location where apples or crabapples and eastern red cedar coexist, cedar apple rust can be a destructive or disfiguring disease on both the apples and cedars.",
+    "status": "exact"
+  },
+  "apple scab": {
+    "context": "Apple scab is a common disease of plants in the rose family that is caused by the ascomycete fungus Venturia inaequalis. While this disease affects several plant genera, including Sorbus, Cotoneaster, and Pyrus, it is most commonly associated with the infection of Malus trees, including species of flowering crabapple, as well as cultivated apple.",
+    "status": "exact"
+  },
+  "apple scab disease": {
+    "context": "Apple scab is a common disease of plants in the rose family that is caused by the ascomycete fungus Venturia inaequalis. While this disease affects several plant genera, including Sorbus, Cotoneaster, and Pyrus, it is most commonly associated with the infection of Malus trees, including species of flowering crabapple, as well as cultivated apple.",
+    "status": "search"
+  },
+  "apple-scab": {
+    "context": "Apple scab is a common disease of plants in the rose family that is caused by the ascomycete fungus Venturia inaequalis. While this disease affects several plant genera, including Sorbus, Cotoneaster, and Pyrus, it is most commonly associated with the infection of Malus trees, including species of flowering crabapple, as well as cultivated apple.",
+    "status": "exact"
+  },
+  "ascochyta blight on peas": {
+    "context": "The chickpea or chick pea is an annual legume of the family Fabaceae, subfamily Faboideae, cultivated for its edible seeds. Its different types are variously known as gram, Bengal gram, chana , garbanzo, garbanzo bean, or Egyptian pea.",
+    "status": "search"
+  },
+  "ascochyta leaf blight": {
+    "context": "Blight is a specific symptom affecting plants in response to infection by a pathogenic organism.",
+    "status": "not_found"
+  },
+  "asian soybean rust": {
+    "context": "Soybean rust is a disease that affects soybeans and other legumes. It is caused by two types of fungi, Phakopsora pachyrhizi, commonly known as Asian soybean rust, and Phakopsora meibomiae, commonly known as New World soybean rust.",
+    "status": "exact"
+  },
+  "asr": {
+    "context": "Fungal disease of soybean caused by Phakopsora pachyrhizi. Spreads rapidly in warm humid conditions causing defoliation",
+    "status": "skipped_abbrev"
+  },
+  "aureusvirus": {
+    "context": "Maize white line mosaic virus (MWLMV) is a pathogenic plant virus.",
+    "status": "not_found"
+  },
+  "avenavirus": {
+    "context": "Tombusviridae is a family of single-stranded positive sense RNA plant viruses. The family contains 19 genera in 3 subfam",
+    "status": "not_found"
+  },
+  "bacterial leaf blight of rice": {
+    "context": "Bacterial disease of rice caused by Xanthomonas oryzae pv. oryzae. One of the most serious rice diseases. Causes wilting",
+    "status": "not_found"
+  },
+  "bacterial spot": {
+    "context": "Bacterial leaf scorch , or bacterial leaf spot, is a disease state affecting many crops, caused mainly by the xylem-plugging bacterium Xylella fastidiosa. It can be mistaken for ordinary leaf scorch caused by cultural practices such as over-fertilization.",
+    "status": "exact"
+  },
+  "bacterial spot of peach": {
+    "context": "Bacterial leaf scorch , or bacterial leaf spot, is a disease state affecting many crops, caused mainly by the xylem-plugging bacterium Xylella fastidiosa. It can be mistaken for ordinary leaf scorch caused by cultural practices such as over-fertilization.",
+    "status": "search"
+  },
+  "bacterial spot of pepper": {
+    "context": "Plant diseases are diseases in plants caused by pathogens and environmental conditions. Organisms that cause infectious disease include fungi, oomycetes, bacteria, viruses, viroids, virus-like organisms, phytoplasmas, protozoa, nematodes and parasitic plants.",
+    "status": "search"
+  },
+  "bacterial spot of tomato": {
+    "context": "Plant diseases are diseases in plants caused by pathogens and environmental conditions. Organisms that cause infectious disease include fungi, oomycetes, bacteria, viruses, viroids, virus-like organisms, phytoplasmas, protozoa, nematodes and parasitic plants.",
+    "status": "search"
+  },
+  "banana black sigatoka": {
+    "context": "Black sigatoka is a leaf-spot disease of banana plants caused by the ascomycete fungus Mycosphaerella fijiensis , also known as black leaf streak. It was discovered in 1963 and named for its similarities with yellow Sigatoka, which is caused by Mycosphaerella musicola , which was itself named after the Sigatoka Valley in Fiji.",
+    "status": "search"
+  },
+  "banana fusarium wilt": {
+    "context": "Fusarium oxysporum f. cubense is a fungal plant pathogen that causes Panama disease of banana, also known as Fusarium wilt. The fungi and the related disease are responsible for widespread pressure on banana growing regions, destroying the economic viability of several commercially important banana varieties.",
+    "status": "exact"
+  },
+  "banana panama disease": {
+    "context": "Panama disease is a plant disease that infects banana plants. It is a wilting disease caused by the fungus Fusarium oxysporum f. The pathogen is resistant to fungicides, and its control is limited to phytosanitary measures.",
+    "status": "search"
+  },
+  "banana wilt": {
+    "context": "Panama disease is a plant disease that infects banana plants. It is a wilting disease caused by the fungus Fusarium oxysporum f. The pathogen is resistant to fungicides, and its control is limited to phytosanitary measures.",
+    "status": "search"
+  },
+  "beet necrotic yellow vein furovirus": {
+    "context": "Beet necrotic yellow vein virus is a plant virus, transmitted by the plasmodiophorid Polymyxa betae. The BNYVV is a member of the genus Benyvirus and is responsible for rhizomania, a disease of sugar beet that causes proliferation of thin rootlets, and leads to a smaller tap root with reduced sugar content.",
+    "status": "search"
+  },
+  "begomovirus": {
+    "context": "Begomovirus is a genus of viruses, in the family Geminiviridae. They are plant viruses that as a group have a very wide host range, infecting dicotyledonous plants. Worldwide they are responsible for a considerable amount of economic damage to many important crops such as tomatoes, beans, squash, cassava and cotton.",
+    "status": "exact"
+  },
+  "black leaf streak disease": {
+    "context": "Black sigatoka is a leaf-spot disease of banana plants caused by the ascomycete fungus Mycosphaerella fijiensis , also known as black leaf streak. It was discovered in 1963 and named for its similarities with yellow Sigatoka, which is caused by Mycosphaerella musicola , which was itself named after the Sigatoka Valley in Fiji.",
+    "status": "exact"
+  },
+  "black measles": {
+    "context": "Rocky Mountain spotted fever is a bacterial disease spread by ticks. It typically begins with a fever and headache, which is followed a few days later with the development of a rash. The rash is generally made up of small spots of bleeding and starts on the wrists and ankles.",
+    "status": "exact"
+  },
+  "black rot of apple": {
+    "context": "Grape black rot is a fungal disease caused by an ascomycetous fungus, Guignardia bidwellii, that attacks grape vines during hot and humid weather. The disease \"originated in eastern North America, but now occurs in portions of Europe, South America, and Asia.",
+    "status": "search"
+  },
+  "black rot of grape": {
+    "context": "Grape black rot is a fungal disease caused by an ascomycetous fungus, Guignardia bidwellii, that attacks grape vines during hot and humid weather. The disease \"originated in eastern North America, but now occurs in portions of Europe, South America, and Asia.",
+    "status": "search"
+  },
+  "black rust": {
+    "context": "Stem rust, also known as cereal rust, black rust, red rust or red dust, is caused by the fungus Puccinia graminis, which causes significant disease in cereal crops. Crop species that are affected by the disease include bread wheat, durum wheat, barley and triticale.",
+    "status": "exact"
+  },
+  "black sigatoka": {
+    "context": "Black sigatoka is a leaf-spot disease of banana plants caused by the ascomycete fungus Mycosphaerella fijiensis , also known as black leaf streak. It was discovered in 1963 and named for its similarities with yellow Sigatoka, which is caused by Mycosphaerella musicola , which was itself named after the Sigatoka Valley in Fiji.",
+    "status": "exact"
+  },
+  "blast disease of rice": {
+    "context": "Plant diseases are diseases in plants caused by pathogens and environmental conditions. Organisms that cause infectious disease include fungi, oomycetes, bacteria, viruses, viroids, virus-like organisms, phytoplasmas, protozoa, nematodes and parasitic plants.",
+    "status": "search"
+  },
+  "blb": {
+    "context": "Bacterial disease of rice caused by Xanthomonas oryzae pv. oryzae. One of the most serious rice diseases. Causes wilting",
+    "status": "skipped_abbrev"
+  },
+  "blsd": {
+    "context": "Fungal disease of banana caused by Mycosphaerella fijiensis. Creates dark streaks on leaves progressing to large black n",
+    "status": "skipped_abbrev"
+  },
+  "botrytis cinerea": {
+    "context": "Botrytis cinerea is a necrotrophic fungus that affects many plant species, including wine grapes. In viticulture, it is commonly known as \"botrytis bunch rot\"; in horticulture, it is usually called \"grey mould\" or \"gray mold\".",
+    "status": "exact"
+  },
+  "bovine syncytial virus": {
+    "context": "A viral disease occurs when an organism's body is invaded by pathogenic viruses, and infectious virus particles (virions",
+    "status": "not_found"
+  },
+  "brome mosaic bromovirus": {
+    "context": "Brome mosaic virus (BMV) is a small, positive-stranded, icosahedral RNA plant virus belonging to the genus Bromovirus, f",
+    "status": "not_found"
+  },
+  "bromovirus": {
+    "context": "This is a list of diseases of foliage plants belonging to the family Commelinaceae.",
+    "status": "not_found"
+  },
+  "brown rust of wheat": {
+    "context": "Wheat leaf rust is a fungal disease that affects wheat, barley, rye stems, leaves and grains. In temperate zones it is destructive on winter wheat because the pathogen overwinters. Infections can lead up to 20% yield loss.",
+    "status": "search"
+  },
+  "brown spot of rice": {
+    "context": "Plant disease resistance protects plants from pathogens in two ways: by pre-formed structures and chemicals, and by infection-induced responses of the immune system. Relative to a susceptible plant, disease resistance is the reduction of pathogen growth on or in the plant, while the term disease tolerance describes plants that exhibit little disease damage despite substantial pathogen levels.",
+    "status": "search"
+  },
+  "bymovirus": {
+    "context": "Wheat spindle streak mosaic virus (WSSMV) is a plant pathogenic virus of the family Potyviridae.",
+    "status": "not_found"
+  },
+  "car": {
+    "context": "Fungal disease caused by Gymnosporangium juniperi-virginianae requiring two hosts: cedar/juniper and apple. Causes yello",
+    "status": "skipped_abbrev"
+  },
+  "carlavirus": {
+    "context": "Carlavirus, formerly known as the \"Carnation latent virus group\", is a genus of viruses in the order Tymovirales, in the family Betaflexiviridae. Plants serve as natural hosts. There are 73 species in this genus.",
+    "status": "exact"
+  },
+  "carmovirus": {
+    "context": "Melon necrotic spot virus (MNSV) is a virus that belongs to the genus Gammacarmovirus of the family Tombusviridae. It ha",
+    "status": "not_found"
+  },
+  "carre's disease": {
+    "context": "Through its effect on the world's population and major artists in various fields, tuberculosis has appeared in many forms in human culture. The disease was for centuries associated with poetic and artistic qualities in its sufferers, and was known as \"the romantic disease\".",
+    "status": "search"
+  },
+  "cassava mosaic virus": {
+    "context": "Cassava mosaic virus is a collective name used to refer to one or more of eleven plant pathogenic viruses in the genus Begomovirus. African cassava mosaic virus , East African cassava mosaic virus , and South African cassava mosaic virus are distinct circular single-stranded DNA viruses which are transmitted by whiteflies and primarily infect cassava plants; these have thus far only been reported from Africa.",
+    "status": "exact"
+  },
+  "caulimovirus": {
+    "context": "Caulimovirus is a genus of viruses, in the family Caulimoviridae order Ortervirales. They are para-retroviruses with dsDNA and plants as their host. There are 14 species in this genus. Diseases associated with this genus include: vein-clearing or banding mosaic.",
+    "status": "exact"
+  },
+  "ccr": {
+    "context": "Fungal disease of maize caused by Puccinia sorghi. Produces small, circular to oval pustules on both leaf surfaces. Wide",
+    "status": "skipped_abbrev"
+  },
+  "cedar apple rust": {
+    "context": "Gymnosporangium juniperi-virginianae is a plant pathogen that causes cedar-apple rust. In virtually any location where apples or crabapples and eastern red cedar coexist, cedar apple rust can be a destructive or disfiguring disease on both the apples and cedars.",
+    "status": "exact"
+  },
+  "cedar-apple rust": {
+    "context": "Gymnosporangium juniperi-virginianae is a plant pathogen that causes cedar-apple rust. In virtually any location where apples or crabapples and eastern red cedar coexist, cedar apple rust can be a destructive or disfiguring disease on both the apples and cedars.",
+    "status": "exact"
+  },
+  "cercospora leaf spot of maize": {
+    "context": "Plant diseases are diseases in plants caused by pathogens and environmental conditions. Organisms that cause infectious disease include fungi, oomycetes, bacteria, viruses, viroids, virus-like organisms, phytoplasmas, protozoa, nematodes and parasitic plants.",
+    "status": "search"
+  },
+  "cereal powdery mildew": {
+    "context": "Plant diseases are diseases in plants caused by pathogens and environmental conditions. Organisms that cause infectious disease include fungi, oomycetes, bacteria, viruses, viroids, virus-like organisms, phytoplasmas, protozoa, nematodes and parasitic plants.",
+    "status": "search"
+  },
+  "cereal rust": {
+    "context": "Stem rust, also known as cereal rust, black rust, red rust or red dust, is caused by the fungus Puccinia graminis, which causes significant disease in cereal crops. Crop species that are affected by the disease include bread wheat, durum wheat, barley and triticale.",
+    "status": "exact"
+  },
+  "cherry powdery mildew": {
+    "context": "Physalis peruviana is a species of plant in the nightshade family native to Chile and Peru. Within that region, it is called aguaymanto, uvilla or uchuva, in addition to numerous indigenous and regional names.",
+    "status": "search"
+  },
+  "citrus greening": {
+    "context": "Citrus greening disease is a disease of citrus trees caused by bacteria of the genus Liberibacter. These microbes are transmitted by two species of bug: the Asian citrus psyllid Diaphorina citri and the African citrus psyllid Trioza erytreae.",
+    "status": "exact"
+  },
+  "citrus greening disease": {
+    "context": "Citrus greening disease is a disease of citrus trees caused by bacteria of the genus Liberibacter. These microbes are transmitted by two species of bug: the Asian citrus psyllid Diaphorina citri and the African citrus psyllid Trioza erytreae.",
+    "status": "exact"
+  },
+  "citrus haunglongbing": {
+    "context": "Same as Citrus Greening — Huanglongbing (HLB) is the Chinese name for the bacterial citrus greening disease. Blotchy mot",
+    "status": "not_found"
+  },
+  "citrus hlb": {
+    "context": "Citrus greening disease is a disease of citrus trees caused by bacteria of the genus Liberibacter. These microbes are transmitted by two species of bug: the Asian citrus psyllid Diaphorina citri and the African citrus psyllid Trioza erytreae.",
+    "status": "search"
+  },
+  "cladosporium leaf mold": {
+    "context": "Cladosporium fulvum is an Ascomycete called Passalora fulva, a non-obligate pathogen that causes the disease on tomatoes known as the tomato leaf mold. fulva only attacks tomato plants, especially the foliage, and it is a common disease in greenhouses, but can also occur in the field.",
+    "status": "search"
+  },
+  "clitoria yellow vein virus": {
+    "context": "Potyvirus is a genus of positive-strand RNA viruses in the family Potyviridae. Plants serve as natural hosts. Like begomoviruses, members of this genus may cause significant losses in agricultural, pastoral, horticultural, and ornamental crops.",
+    "status": "search"
+  },
+  "closterovirus": {
+    "context": "Closterovirus, also known as beet yellows viral group, is a genus of viruses, in the family Closteroviridae. Plants serve as natural hosts. There are 24 species in this genus. Diseases associated with this genus include: yellowing and necrosis, particularly affecting the phloem.",
+    "status": "exact"
+  },
+  "clr": {
+    "context": "Fungal disease of coffee caused by Hemileia vastatrix. Orange-yellow powdery pustules on lower leaf surface. Historicall",
+    "status": "skipped_abbrev"
+  },
+  "clubroot": {
+    "context": "Clubroot is a common disease of cabbages, canola, broccoli, cauliflower, Brussels sprouts, radishes, turnips, stocks, wallflowers and other plants of the family Brassicaceae . It is caused by Plasmodiophora brassicae, which was once considered a slime mold but is now a protist in the class Phytomyxea.",
+    "status": "exact"
+  },
+  "coffee leaf rust": {
+    "context": "Hemileia vastatrix is a multicellular basidiomycete fungus of the order Pucciniales that causes coffee leaf rust , a disease affecting the coffee plant. Coffee serves as the obligate host of coffee rust, that is, the rust must have access to and come into physical contact with coffee in order to survive.",
+    "status": "exact"
+  },
+  "coffee rust": {
+    "context": "Hemileia vastatrix is a multicellular basidiomycete fungus of the order Pucciniales that causes coffee leaf rust , a disease affecting the coffee plant. Coffee serves as the obligate host of coffee rust, that is, the rust must have access to and come into physical contact with coffee in order to survive.",
+    "status": "exact"
+  },
+  "common corn rust": {
+    "context": "Fungal disease of maize caused by Puccinia sorghi. Produces small, circular to oval pustules on both leaf surfaces. Wide",
+    "status": "not_found"
+  },
+  "common rust": {
+    "context": "Fungal disease of maize caused by Puccinia sorghi. Produces small, circular to oval pustules on both leaf surfaces. Wide",
+    "status": "not_found"
+  },
+  "common rust of maize": {
+    "context": "Plant diseases are diseases in plants caused by pathogens and environmental conditions. Organisms that cause infectious disease include fungi, oomycetes, bacteria, viruses, viroids, virus-like organisms, phytoplasmas, protozoa, nematodes and parasitic plants.",
+    "status": "search"
+  },
+  "common scab": {
+    "context": "Common scab is a plant disease of root and tuber crops caused by a small number of Streptomyces species, specifically S. turgidiscabies and others. Common scab mainly affects potato, but can also cause disease on radish, parsnip, beet, and carrot.",
+    "status": "exact"
+  },
+  "comovirus": {
+    "context": "Andean potato mottle virus (APMoV) is a plant pathogenic virus of the genus Comovirus.",
+    "status": "not_found"
+  },
+  "corn common rust": {
+    "context": "Fungal disease of maize caused by Puccinia sorghi. Produces small, circular to oval pustules on both leaf surfaces. Wide",
+    "status": "not_found"
+  },
+  "corynespora spot": {
+    "context": "Fungal disease caused by Corynespora cassiicola. Produces circular lesions with concentric rings giving a target appeara",
+    "status": "not_found"
+  },
+  "cowpea chlorotic mottle bromovirus": {
+    "context": "Cowpea chlorotic mottle virus, abbreviated CCMV, is a virus that specifically infects the cowpea plant, or black-eyed pea. The leaves of infected plants develop yellow spots, hence the name \"chlorotic\".",
+    "status": "search"
+  },
+  "cpm": {
+    "context": "Fungal disease of cherry caused by Podosphaera clandestina. Forms white powdery patches on young leaves and shoots. Dist",
+    "status": "skipped_abbrev"
+  },
+  "crinivirus": {
+    "context": "Crinivirus, formerly the lettuce infectious yellows virus group, is a genus of viruses, in the family Closteroviridae. They are linear, single-stranded positive sense RNA viruses. There are 19 species in this genus.",
+    "status": "exact"
+  },
+  "croton tiglium": {
+    "context": "Xylosma congesta, generally known as shiny xylosma, is a species of flowering plant in the family Salicaceae, distribute",
+    "status": "not_found"
+  },
+  "cucumovirus": {
+    "context": "Cucumovirus is a genus of viruses, in the family Bromoviridae. Plants serve as natural hosts. There are four species in",
+    "status": "not_found"
+  },
+  "cucurbit powdery mildew": {
+    "context": "Erysiphaceae is a family of ascomycete fungi in the order Helotiales. The members of this family are obligate parasites with a superficial mycelium that forms a characteristic white, powdery coating on their host plants.",
+    "status": "exact"
+  },
+  "cytorhabdovirus": {
+    "context": "Cytorhabdovirus was a genus of viruses in the family Rhabdoviridae, subfamily Betarhabdovirinae. In 2025, the genus was split into the following three genera, all of which still contain the name cytorhabdovirus and which are assigned to the same family and subfamily:Alphacytorhabdovirus Betacytorhabdovirus Gammacytorhabdovirus",
+    "status": "exact"
+  },
+  "damping off": {
+    "context": "Damping off is a horticultural disease or condition, caused by several different pathogens that kill or weaken seeds or seedlings before or after they germinate. It is most prevalent in wet and cool conditions.",
+    "status": "exact"
+  },
+  "damping-off": {
+    "context": "Damping off is a horticultural disease or condition, caused by several different pathogens that kill or weaken seeds or seedlings before or after they germinate. It is most prevalent in wet and cool conditions.",
+    "status": "exact"
+  },
+  "deltavirus": {
+    "context": "Hepatitis D is a type of viral hepatitis caused by the hepatitis delta virus . HDV is one of five known hepatitis viruses: A, B, C, D, and E. HDV is considered to be a satellite because it can propagate only in the presence of the hepatitis B virus .",
+    "status": "exact"
+  },
+  "densovirus": {
+    "context": "Ambidensovirus was a genus of viruses in the subfamily Densovirinae. In 2019, the genus was split into the following six genera, all of which still contain the name ambidensovirus and which are assigned to the same subfamily:Aquambidensovirus Blattambidensovirus Hemiambidensovirus Pefuambidensovirus Protoambidensovirus Scindoambidensovirus",
+    "status": "exact"
+  },
+  "diabrotica": {
+    "context": "Diabrotica undecimpunctata, the spotted cucumber beetle or southern corn rootworm, is a species of cucumber beetle that",
+    "status": "not_found"
+  },
+  "diabrotica balteata": {
+    "context": "Diabrotica balteata is a species of cucumber beetle in the family Chrysomelidae known commonly as the banded cucumber beetle. It occurs in the Americas, where its distribution extends from the United States to Colombia and Venezuela in South America.",
+    "status": "exact"
+  },
+  "diabrotica barberi": {
+    "context": "Diabrotica barberi, the northern corn rootworm, is a species of skeletonizing leaf beetle in the family Chrysomelidae. It is found in North America. Adults feed on corn, and, when corn is unavailable, goldenrod pollen.",
+    "status": "exact"
+  },
+  "diabrotica longicornis": {
+    "context": "Machlomovirus is a genus of plant viruses, in the family Tombusviridae. Plants serve as natural hosts. There are two spe",
+    "status": "not_found"
+  },
+  "diabrotica speciosa": {
+    "context": "Diabrotica speciosa, also known as the cucurbit beetle and in Spanish as vaquita de San Antonio is an insect pest native to South America. Its larvae feed on the roots of crops. The cucurbit beetle is also known to transmit several viruses such as comoviruses and different mosaic viruses.",
+    "status": "exact"
+  },
+  "diabrotica undecimpunctata": {
+    "context": "Diabrotica undecimpunctata, the spotted cucumber beetle or southern corn rootworm, is a species of cucumber beetle that is native to North America. The species can be a major agricultural pest insect in North America.",
+    "status": "exact"
+  },
+  "diabrotica virgifera": {
+    "context": "Diabrotica virgifera is a species of beetle in the family Chrysomelidae. It is an agricultural pest species that attacks maize. It includes two subspecies, Diabrotica virgifera virgifera and Diabrotica virgifera zeae.",
+    "status": "exact"
+  },
+  "dianthovirus": {
+    "context": "Dianthovirus is a genus of viruses, in the family Tombusviridae. Dianthoviruses are plant viruses. There are three species in this genus. The virus probably has a worldwide distribution, and can be transmitted via nematodes, by mechanical inoculation, by grafting of plants and by contact between infected hosts with previously uninfected host.",
+    "status": "exact"
+  },
+  "early blight": {
+    "context": "Alternaria solani is a fungal pathogen that produces a disease in tomato and potato plants called early blight. The pathogen produces distinctive \"bullseye\" patterned leaf spots and can also cause stem lesions and fruit rot on tomato and tuber blight on potato.",
+    "status": "exact"
+  }
+}
