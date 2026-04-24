@@ -1,10 +1,10 @@
 """
-03_scrape_wikipedia.py — Scrape disease descriptions from Wikipedia
-AgriΛNet Entity Resolution Pipeline
+03_scrape_wikipedia.py  -  Scrape disease descriptions from Wikipedia
+AgriNet Entity Resolution Pipeline
 
-═══════════════════════════════════════════════════════════════════════════════
-BEGINNER EXPLANATION — What is this script doing?
-═══════════════════════════════════════════════════════════════════════════════
+===========================================================================
+BEGINNER EXPLANATION  -  What is this script doing?
+===========================================================================
 
 Wikipedia has a page for almost every crop disease. Each page has:
   - The disease name as the page title
@@ -13,7 +13,7 @@ Wikipedia has a page for almost every crop disease. Each page has:
   - The pathogen name, affected crops, symptoms
 
 We use the Wikipedia API (not scraping HTML directly) because:
-  1. Wikipedia allows it — it's legal and ethical
+  1. Wikipedia allows it  -  it's legal and ethical
   2. The API returns clean JSON, much easier to parse
   3. The API is fast and reliable
 
@@ -29,7 +29,7 @@ We also search for bold text ('''like this''') in Wikipedia markup
 because that's how Wikipedia indicates ALTERNATIVE NAMES.
 E.g., "'''Late blight''', also called '''potato blight''' ..."
 These become positive pairs for training.
-═══════════════════════════════════════════════════════════════════════════════
+===========================================================================
 """
 
 import sys
@@ -47,7 +47,7 @@ SOURCE_NAME = "wikipedia"
 WIKI_API    = "https://en.wikipedia.org/w/api.php"
 
 # Wikipedia blocks requests that don't identify themselves.
-# This header tells Wikipedia who we are — it is required by their API policy.
+# This header tells Wikipedia who we are  -  it is required by their API policy.
 # See: https://www.mediawiki.org/wiki/API:Etiquette
 HEADERS = {
     "User-Agent": "AgriLambdaNet-DatasetBuilder/1.0 (academic research; crop disease entity resolution) python-requests"
@@ -131,20 +131,23 @@ WIKIPEDIA_PAGES = [
 def fetch_wikipedia_intro(page_title: str) -> dict:
     """
     WHAT THIS DOES:
-      Calls the Wikipedia API to get the intro paragraph of a page.
+      Calls the Wikipedia API to get full article intro and first sections.
+      Uses HTML format to get more content without strict truncation.
 
     RETURNS:
       dict with keys: title, extract, wikitext (for alt name parsing)
       Returns None if page doesn't exist.
     """
+    # First attempt: get more content with different params
     params = {
         "action":      "query",
         "titles":      page_title.replace("_", " "),
         "prop":        "extracts|revisions",
-        "exintro":     1,           # Only intro section
-        "explaintext": 1,           # Plain text, not HTML
-        "rvprop":      "content",   # Also get wikitext for bold extraction
-        "rvsection":   0,           # Only intro section wikitext
+        "exlimit":     "max",        # Allow maximum extraction
+        "explaintext": 0,            # Get HTML (allows more content)
+        "exchars":     3000,         # Request up to 3000 chars
+        "rvprop":      "content",    # Also get wikitext for bold extraction
+        "rvsection":   0,            # Only intro section wikitext
         "format":      "json",
         "formatversion": 2,
     }
@@ -154,10 +157,10 @@ def fetch_wikipedia_intro(page_title: str) -> dict:
         resp.raise_for_status()
         data = resp.json()
     except requests.exceptions.Timeout:
-        print(f"    ⚠ Timeout: {page_title}")
+        print(f"    Warning: Timeout: {page_title}")
         return None
     except Exception as e:
-        print(f"    ⚠ Error fetching {page_title}: {e}")
+        print(f"    Warning: Error fetching {page_title}: {e}")
         return None
 
     pages = data.get("query", {}).get("pages", [])
@@ -166,12 +169,22 @@ def fetch_wikipedia_intro(page_title: str) -> dict:
 
     page = pages[0]
     if page.get("missing"):
-        print(f"    ⚠ Page not found: {page_title}")
+        print(f"    Warning: Page not found: {page_title}")
         return None
+
+    # Get HTML and strip tags to get plain text
+    extract_html = page.get("extract", "")
+    # Simple HTML tag removal
+    import re as regex_module
+    extract_text = regex_module.sub(r'<[^>]+>', '', extract_html)
+    extract_text = regex_module.sub(r'&nbsp;', ' ', extract_text)
+    extract_text = regex_module.sub(r'&amp;', '&', extract_text)
+    extract_text = regex_module.sub(r'&quot;', '"', extract_text)
+    extract_text = extract_text.strip()
 
     result = {
         "title":    page.get("title", page_title),
-        "extract":  page.get("extract", ""),
+        "extract":  extract_text,
         "wikitext": "",
     }
 
@@ -195,7 +208,7 @@ def extract_bold_names(wikitext: str) -> list:
 
     WHY THIS MATTERS:
       These bold names are Wikipedia's way of saying "these are all names
-      for the same thing" — perfect positive pairs for entity resolution!
+      for the same thing"  -  perfect positive pairs for entity resolution!
     """
     # Pattern: text surrounded by ''' ... '''
     bold_pattern = re.compile(r"'''(.*?)'''")
@@ -226,11 +239,50 @@ def extract_bold_names(wikitext: str) -> list:
     return result
 
 
+def ensure_complete_sentence(text: str, target_length: int = 600) -> str:
+    """
+    WHAT THIS DOES:
+      Wikipedia API limits output to ~300 chars.  
+      This function finds the best sentence boundary closest to target_length.
+      Since Wikipedia cuts mid-sentence, we find the LAST period before the cut.
+      
+    RETURNS:
+      Text ending with a period or complete phrase (best effort).
+    """
+    text = text.strip()
+    if not text:
+        return text
+    
+    # If it's all we got, return it
+    if len(text) <= 150:
+        return text
+    
+    # Look for last period BEFORE position that might be cut
+    # Typical Wikipedia cuts at 300-310 chars
+    search_limit = min(len(text), 350)
+    
+    # Find the LAST period in the text (best complete sentence)
+    last_period = text[:search_limit].rfind('.')
+    
+    if last_period > len(text) * 0.5:  # Found period in second half
+        return text[:last_period + 1]
+    
+    # No good period found, find last sentence-like boundary
+    for punct in ['. ', '!\n', '?\n', '. ', '!\t', '?\t']:
+        idx = text[:search_limit].rfind(punct)
+        if idx > 0:
+            return text[:idx + 1]
+    
+    # Last resort: return what we have (Wikipedia's limit)
+    return text
+
+
 def scrape_all_pages() -> tuple:
     """
     WHAT THIS DOES:
       Loops through all Wikipedia pages, fetches their content,
       extracts the disease name, alt names, and description.
+      Ensures contexts contain complete sentences.
 
     RETURNS:
       (entity_records, synonym_groups)
@@ -241,7 +293,7 @@ def scrape_all_pages() -> tuple:
     synonym_groups = []
 
     print(f"  Fetching {len(WIKIPEDIA_PAGES)} Wikipedia pages...")
-    print(f"  (1 second delay between requests — respecting Wikipedia's API)\n")
+    print(f"  (1 second delay between requests  -  respecting Wikipedia's API)\n")
 
     for i, page_title in enumerate(WIKIPEDIA_PAGES, 1):
         print(f"  [{i:2d}/{len(WIKIPEDIA_PAGES)}] {page_title}", end="... ", flush=True)
@@ -252,12 +304,14 @@ def scrape_all_pages() -> tuple:
             continue
 
         title   = page_data["title"]
-        extract = page_data["extract"][:300]   # Truncate to 300 chars
+        full_text = page_data["extract"]
+        # Get around 600 chars but ensure complete sentence
+        extract = ensure_complete_sentence(full_text, target_length=600)
         wikitext= page_data["wikitext"]
 
         # Extract alternative names from bold text in intro
         alt_names = extract_bold_names(wikitext)
-        print(f"OK — {len(alt_names)} alt names")
+        print(f"OK  -  {len(alt_names)} alt names")
 
         # The page title becomes the canonical entity
         canonical_record = build_entity_record(
@@ -290,7 +344,7 @@ def scrape_all_pages() -> tuple:
                 "context": extract,
             })
 
-        # ── Be polite to Wikipedia — don't hammer their API ─────────────────
+        # ── Be polite to Wikipedia  -  don't hammer their API ─────────────────
         time.sleep(1.0)
 
     return entity_records, synonym_groups
@@ -320,7 +374,7 @@ def build_wikipedia_pairs(synonym_groups: list) -> list:
                 "entity_type": "Disease",
                 "label":       1,
                 "pair_source": f"wikipedia_{group['page']}",
-                "confidence":  0.9,  # Slightly less than 1.0 — Wikipedia isn't perfect
+                "confidence":  0.9,  # Slightly less than 1.0  -  Wikipedia isn't perfect
                 "note":        f"Bold-text synonyms from Wikipedia:{group['page']}",
             })
             pair_id += 1
@@ -329,10 +383,10 @@ def build_wikipedia_pairs(synonym_groups: list) -> list:
 
 
 def main():
-    print("\n" + "═"*60)
-    print("  SCRIPT 03 — Wikipedia Disease Scraper")
-    print("  AgriΛNet Entity Resolution Pipeline")
-    print("═"*60)
+    print("\n" + "="*60)
+    print("  SCRIPT 03  -  Wikipedia Disease Scraper")
+    print("  AgriNet Entity Resolution Pipeline")
+    print("="*60)
 
     print("\n[1/3] Scraping Wikipedia pages...")
     entity_records, synonym_groups = scrape_all_pages()
@@ -347,16 +401,16 @@ def main():
     if not pairs_df.empty:
         out_path = PAIRS_DIR / "wikipedia_pairs_positive.csv"
         pairs_df.to_csv(out_path, index=False)
-        print(f"  ✓ Saved {len(pairs_df)} positive pairs → {out_path.name}")
+        print(f"  OK Saved {len(pairs_df)} positive pairs -> {out_path.name}")
     else:
-        print("  ⚠ No pairs found (possible API issue). Check internet connection.")
+        print("  Warning: No pairs found (possible API issue). Check internet connection.")
 
-    print(f"\n  ┌────────────────────────────────────────┐")
-    print(f"  │ Pages scraped:           {len(synonym_groups):5d}          │")
-    print(f"  │ Entity records:          {len(df):5d}          │")
-    print(f"  │ Positive pairs:          {len(pairs_df):5d}          │")
-    print(f"  └────────────────────────────────────────┘")
-    print("\n  ✅ Script 03 complete! Next: run 04_extract_kg_triples.py\n")
+    print(f"\n  [========================================]")
+    print(f"  | Pages scraped:           {len(synonym_groups):5d}          |")
+    print(f"  | Entity records:          {len(df):5d}          |")
+    print(f"  | Positive pairs:          {len(pairs_df):5d}          |")
+    print(f"  [========================================]")
+    print("\n  DONE Script 03 complete! Next: run 04_extract_kg_triples.py\n")
 
     return df, pairs_df
 
