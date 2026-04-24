@@ -192,7 +192,7 @@ def save_raw(records: list, filename: str) -> pd.DataFrame:
     df = pd.DataFrame(records)
     path = RAW_DIR / filename
     df.to_csv(path, index=False)
-    print(f"  OK Saved {len(df):4d} records -> {path.name}")
+    print(f"  ✓ Saved {len(df):4d} records → {path.name}")
     return df
 
 
