@@ -17,13 +17,18 @@ Fixes applied (in order):
   Fix 11 — LLM-conflict negative rows (match=0, llm=True, lambda>0.65)
 """
 
+import sys
+import io
 import pandas as pd
 import numpy as np
+
+# Force UTF-8 output so emoji (✅ ❌ 🟢 🔴) print correctly on Windows terminals
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 np.random.seed(42)
 
 # ── LOAD ──────────────────────────────────────────────────────────────────
-df = pd.read_csv("training_ready_with_wikipedia.csv")
+df = pd.read_csv("training_ready.csv")
 print(f"Loaded: {len(df)} rows")
 print(f"Columns found: {df.columns.tolist()}")
 
@@ -79,6 +84,8 @@ for i in range(len(lv)):
     else:
         lv[i] = lv[i] + np.random.normal(0, 0.03)
 df['lambda_val'] = np.clip(lv, 0.0, 1.0).round(4)
+# Hard floor: abs(N(0,0.05)) can still round to 0.0000 at 4 dp → clamp to 0.001
+df['lambda_val'] = df['lambda_val'].replace(0.0, 0.001)
 print(f"\n[Fix 4] Boundary-aware noise applied. lambda==0.0: {(df['lambda_val']==0.0).sum()}  lambda==1.0: {(df['lambda_val']==1.0).sum()}  mean: {df['lambda_val'].mean():.3f}")
 
 
@@ -207,24 +214,6 @@ DISTINCT_CONTEXTS = {
         "Ross River virus (RRV) is a small encapsulated single-strand RNA Alphavirus "
         "endemic to Australia and the Pacific Islands, causing epidemic polyarthritis "
         "in humans transmitted by mosquitoes, with no plant disease associations."
-    ),
-
-    # Row: fusarium wilt of tomato vs fusarium wilt of chickpea
-    # Both were labeled match=0 (different host-specific diseases) but shared
-    # the same generic Fusarium wilt Wikipedia paragraph. Replaced with
-    # host-specific factual descriptions to give the encoder a distinct signal.
-    'fusarium wilt of tomato': (
-        "Fusarium wilt of tomato is a soil-borne vascular disease caused by Fusarium "
-        "oxysporum f. sp. lycopersici, infecting tomato plants (Solanum lycopersicum) "
-        "through the roots, colonising xylem vessels, and causing yellowing, wilting, "
-        "and plant death; managed through resistant cultivars and soil solarisation."
-    ),
-    'fusarium wilt of chickpea': (
-        "Fusarium wilt of chickpea is a devastating soil-borne disease caused by "
-        "Fusarium oxysporum f. sp. ciceris, specifically attacking chickpea (Cicer "
-        "arietinum) vascular tissue and responsible for significant yield losses in "
-        "South Asia and the Mediterranean; race-specific resistance genes are the "
-        "primary management strategy."
     ),
 }
 
