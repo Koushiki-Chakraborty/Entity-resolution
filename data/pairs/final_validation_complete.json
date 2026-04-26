@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-04-26T11:33:46.076179",
+  "dataset_stats": {
+    "total_rows": 1881,
+    "total_contexts": 3762,
+    "complete_contexts": 2596,
+    "relevant_contexts": 3025,
+    "perfect_match_names_contexts": 2271,
+    "incomplete_remaining": 1166
+  },
+  "entity_resolution_readiness": {
+    "can_distinguish_by_name": 34,
+    "can_distinguish_by_context": 23,
+    "can_distinguish_by_both": 1582,
+    "unclear_pairs": 241
+  },
+  "issues_remaining": [
+    {
+      "row": 1,
+      "name": "sds",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 2,
+      "name": "kashmir bee virus",
+      "length": 62,
+      "issue": "too_short_62"
+    },
+    {
+      "row": 4,
+      "name": "pt",
+      "length": 119,
+      "issue": "too_short_119"
+    },
+    {
+      "row": 6,
+      "name": "alternaria blight of potato",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 7,
+      "name": "nlb",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 8,
+      "name": "ccr",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 13,
+      "name": "sclerotinia",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 14,
+      "name": "tomato blight",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 15,
+      "name": "pseudocentrotus",
+      "length": 61,
+      "issue": "too_short_61"
+    },
+    {
+      "row": 16,
+      "name": "lb",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 17,
+      "name": "isavirus",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 18,
+      "name": "cucumovirus",
+      "length": 119,
+      "issue": "too_short_119"
+    },
+    {
+      "row": 19,
+      "name": "sclerotinia",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 20,
+      "name": "orthobunyavirus",
+      "length": 119,
+      "issue": "too_short_119"
+    },
+    {
+      "row": 20,
+      "name": "grape leaf blight",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 22,
+      "name": "sbr",
+      "length": 119,
+      "issue": "too_short_119"
+    },
+    {
+      "row": 23,
+      "name": "xoo blight",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 24,
+      "name": "clr",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 27,
+      "name": "brown spot of rice",
+      "length": 168,
+      "issue": "no_terminal_punct"
+    },
+    {
+      "row": 27,
+      "name": "rbs",
+      "length": 120,
+      "issue": "no_terminal_punct"
+    }
+  ]
+}

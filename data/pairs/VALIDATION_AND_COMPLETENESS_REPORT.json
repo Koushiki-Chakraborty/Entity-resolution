@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-04-26T12:06:29.024988",
+  "dataset": "training_ready_production.csv",
+  "total_rows": 1881,
+  "scraping_completeness": {
+    "plantvillage_data": "Available in data/raw/plantvillage_raw.csv",
+    "agrovoc_data": "Available in data/raw/agrovoc_raw.csv",
+    "wikipedia_data": "Available in data/raw/wikipedia_raw.csv",
+    "kg_triples_data": "Available in data/raw/kg_triples_raw.csv"
+  },
+  "context_relevance": {
+    "high_relevance_pairs": 1652,
+    "medium_relevance_pairs": 156,
+    "low_relevance_pairs": 73,
+    "high_relevance_pct": 87.82562466772993,
+    "medium_relevance_pct": 8.293460925039872,
+    "low_relevance_pct": 3.880914407230197
+  },
+  "context_completeness": {
+    "context_a_120plus": 1740,
+    "context_b_120plus": 1740,
+    "both_complete": 1620,
+    "pct_complete": 86.1244019138756
+  }
+}

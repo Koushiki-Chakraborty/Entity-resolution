@@ -1,0 +1,757 @@
+{
+  "originally_incomplete": 1729,
+  "issue_breakdown": {
+    "no_terminal_punct": 1381,
+    "too_short_62": 17,
+    "too_short_119": 237,
+    "too_short_61": 13,
+    "too_short_66": 7,
+    "too_short_48": 5,
+    "too_short_100": 7,
+    "too_short_83": 6,
+    "too_short_60": 5,
+    "too_short_102": 5,
+    "too_short_81": 3,
+    "too_short_71": 5,
+    "too_short_96": 13,
+    "too_short_118": 8,
+    "too_short_45": 4,
+    "too_short_87": 8,
+    "too_short_59": 5
+  },
+  "details": [
+    {
+      "row": 1,
+      "name": "sds",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 2,
+      "name": "kashmir bee virus",
+      "column": "context_a",
+      "original_length": 62,
+      "final_length": 62,
+      "original_issue": "too_short_62",
+      "final_complete": false,
+      "relevance": 0.3333333333333333,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "bee"
+      ]
+    },
+    {
+      "row": 4,
+      "name": "pt",
+      "column": "context_b",
+      "original_length": 119,
+      "final_length": 119,
+      "original_issue": "too_short_119",
+      "final_complete": false,
+      "relevance": 0.5,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 6,
+      "name": "alternaria blight of potato",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.6666666666666666,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "alternaria",
+        "potato"
+      ]
+    },
+    {
+      "row": 7,
+      "name": "nlb",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 8,
+      "name": "ccr",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 8,
+      "name": "common rust of maize",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 128,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "common",
+        "rust",
+        "maize"
+      ]
+    },
+    {
+      "row": 10,
+      "name": "potyvirus group",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 213,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 0.5,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "potyvirus"
+      ]
+    },
+    {
+      "row": 12,
+      "name": "mosaic virus of tomato",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 121,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "mosaic",
+        "virus",
+        "tomato"
+      ]
+    },
+    {
+      "row": 12,
+      "name": "tomv",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 121,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "tomv"
+      ]
+    },
+    {
+      "row": 13,
+      "name": "sclerotinia",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "sclerotinia"
+      ]
+    },
+    {
+      "row": 14,
+      "name": "tomato blight",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.5,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "tomato"
+      ]
+    },
+    {
+      "row": 15,
+      "name": "pseudocentrotus",
+      "column": "context_b",
+      "original_length": 61,
+      "final_length": 61,
+      "original_issue": "too_short_61",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 16,
+      "name": "lb",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.5,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 17,
+      "name": "isavirus",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "wiki_not_relevant",
+      "matched_keywords": []
+    },
+    {
+      "row": 18,
+      "name": "cucumovirus",
+      "column": "context_a",
+      "original_length": 119,
+      "final_length": 119,
+      "original_issue": "too_short_119",
+      "final_complete": false,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "cucumovirus"
+      ]
+    },
+    {
+      "row": 19,
+      "name": "sclerotinia",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "sclerotinia"
+      ]
+    },
+    {
+      "row": 20,
+      "name": "orthobunyavirus",
+      "column": "context_a",
+      "original_length": 119,
+      "final_length": 119,
+      "original_issue": "too_short_119",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 20,
+      "name": "grape leaf blight",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.3333333333333333,
+      "is_relevant": false,
+      "status": "wiki_not_relevant",
+      "matched_keywords": [
+        "grape"
+      ]
+    },
+    {
+      "row": 22,
+      "name": "sbr",
+      "column": "context_a",
+      "original_length": 119,
+      "final_length": 119,
+      "original_issue": "too_short_119",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 22,
+      "name": "tomato mosaic",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 121,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "tomato",
+        "mosaic"
+      ]
+    },
+    {
+      "row": 23,
+      "name": "phytoreovirus",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 185,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "phytoreovirus"
+      ]
+    },
+    {
+      "row": 23,
+      "name": "xoo blight",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 24,
+      "name": "clr",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 27,
+      "name": "brown spot of rice",
+      "column": "context_a",
+      "original_length": 168,
+      "final_length": 168,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "brown",
+        "spot",
+        "rice"
+      ]
+    },
+    {
+      "row": 27,
+      "name": "rbs",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 30,
+      "name": "hlb",
+      "column": "context_a",
+      "original_length": 297,
+      "final_length": 383,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "hlb"
+      ]
+    },
+    {
+      "row": 30,
+      "name": "huanglongbing",
+      "column": "context_b",
+      "original_length": 297,
+      "final_length": 297,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "wiki_not_relevant",
+      "matched_keywords": []
+    },
+    {
+      "row": 31,
+      "name": "esca",
+      "column": "context_b",
+      "original_length": 119,
+      "final_length": 276,
+      "original_issue": "too_short_119",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "esca"
+      ]
+    },
+    {
+      "row": 33,
+      "name": "puumala virus",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 155,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "puumala",
+        "virus"
+      ]
+    },
+    {
+      "row": 33,
+      "name": "paracentrotus",
+      "column": "context_b",
+      "original_length": 61,
+      "final_length": 61,
+      "original_issue": "too_short_61",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 35,
+      "name": "prototheca",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 195,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "prototheca"
+      ]
+    },
+    {
+      "row": 35,
+      "name": "proteles",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 121,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "proteles"
+      ]
+    },
+    {
+      "row": 36,
+      "name": "wheat yellow rust",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 143,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "wheat",
+        "yellow",
+        "rust"
+      ]
+    },
+    {
+      "row": 37,
+      "name": "aureusvirus",
+      "column": "context_a",
+      "original_length": 66,
+      "final_length": 66,
+      "original_issue": "too_short_66",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 39,
+      "name": "yr",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.5,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 39,
+      "name": "wheat stripe rust",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 143,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "wheat",
+        "stripe",
+        "rust"
+      ]
+    },
+    {
+      "row": 40,
+      "name": "rottboellia cochinchinensis",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 235,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "rottboellia",
+        "cochinchinensis"
+      ]
+    },
+    {
+      "row": 40,
+      "name": "pectobacterium carotovorum",
+      "column": "context_b",
+      "original_length": 119,
+      "final_length": 119,
+      "original_issue": "too_short_119",
+      "final_complete": false,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "pectobacterium",
+        "carotovorum"
+      ]
+    },
+    {
+      "row": 41,
+      "name": "proteus",
+      "column": "context_b",
+      "original_length": 48,
+      "final_length": 169,
+      "original_issue": "too_short_48",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "proteus"
+      ]
+    },
+    {
+      "row": 42,
+      "name": "heracleum latent virus",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "wiki_not_relevant",
+      "matched_keywords": []
+    },
+    {
+      "row": 42,
+      "name": "sphaerotheca pannosa",
+      "column": "context_b",
+      "original_length": 100,
+      "final_length": 100,
+      "original_issue": "too_short_100",
+      "final_complete": false,
+      "relevance": 0.5,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": [
+        "pannosa"
+      ]
+    },
+    {
+      "row": 43,
+      "name": "mucosal disease virus",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.3333333333333333,
+      "is_relevant": false,
+      "status": "wiki_not_relevant",
+      "matched_keywords": [
+        "disease"
+      ]
+    },
+    {
+      "row": 44,
+      "name": "sporotrichum",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 120,
+      "original_issue": "no_terminal_punct",
+      "final_complete": false,
+      "relevance": 0.0,
+      "is_relevant": false,
+      "status": "wiki_not_relevant",
+      "matched_keywords": []
+    },
+    {
+      "row": 45,
+      "name": "sarcoptes scabiei",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 129,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "sarcoptes",
+        "scabiei"
+      ]
+    },
+    {
+      "row": 46,
+      "name": "protomelas annectens",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 134,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "protomelas",
+        "annectens"
+      ]
+    },
+    {
+      "row": 47,
+      "name": "prunus serotina",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 161,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "prunus",
+        "serotina"
+      ]
+    },
+    {
+      "row": 49,
+      "name": "lr",
+      "column": "context_b",
+      "original_length": 119,
+      "final_length": 119,
+      "original_issue": "too_short_119",
+      "final_complete": false,
+      "relevance": 0.5,
+      "is_relevant": true,
+      "status": "no_wiki_available",
+      "matched_keywords": []
+    },
+    {
+      "row": 52,
+      "name": "puccinia rust",
+      "column": "context_a",
+      "original_length": 120,
+      "final_length": 164,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "puccinia",
+        "rust"
+      ]
+    },
+    {
+      "row": 52,
+      "name": "common rust of maize",
+      "column": "context_b",
+      "original_length": 120,
+      "final_length": 128,
+      "original_issue": "no_terminal_punct",
+      "final_complete": true,
+      "relevance": 1.0,
+      "is_relevant": true,
+      "status": "completed_from_wikipedia",
+      "matched_keywords": [
+        "common",
+        "rust",
+        "maize"
+      ]
+    }
+  ]
+}
