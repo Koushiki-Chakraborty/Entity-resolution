@@ -1,0 +1,161 @@
+=================================================================
+ PAIR TYPE CLASSIFICATION REPORT
+=================================================================
+
+Total pairs: 1881
+Name similarity threshold: 0.25
+
+── Coverage by pair type ─────────────────────────────────
+  Type    Count       %   vs Target  Description
+  ------------------------------------------------------------
+  A         284 ( 15.1%)    -116 (need 116 more   )  Safe match        (match=1, names similar)
+  B         343 ( 18.2%)     +43 (OK              )  Synonym pair      (match=1, names different) ← needs more
+  C          20 (  1.1%)    -280 (need 280 more   )  Polysemy          (match=0, names similar)   ← CRITICAL GAP
+  D        1234 ( 65.6%)    +634 (OK              )  Clear non-match   (match=0, names different)
+
+── Name similarity score distribution ────────────────────
+  [0.00–0.10):  1549  █████████████████████████████████████████████████████████████
+  [0.10–0.25):    28  █
+  [0.25–0.50):   129  █████
+  [0.50–0.75):    76  ███
+  [0.75–1.01):    99  ███
+
+── Type A: Safe match — sample pairs ──────────────────
+  name_a : potato blight
+  name_b : phytophthora blight of potato
+  match=1  name_sim=0.500
+  ctx_a  : Phytophthora infestans is an oomycete or water mold, a fungus-like microorganism
+  ctx_b  : Phytophthora infestans is an oomycete or water mold, a fungus-like microorganism
+
+  name_a : cladosporium leaf mold
+  name_b : leaf mold of tomato
+  match=1  name_sim=0.500
+  ctx_a  : Cladosporium fulvum is an Ascomycete called Passalora fulva, a non-obligate path
+  ctx_b  : Cladosporium fulvum is an Ascomycete called Passalora fulva, a non-obligate path
+
+  name_a : cedar apple rust
+  name_b : gymnosporangium rust
+  match=1  name_sim=0.250
+  ctx_a  : Gymnosporangium juniperi-virginianae is a plant pathogen that causes cedar-apple
+  ctx_b  : Gymnosporangium juniperi-virginianae is a plant pathogen that causes cedar-apple
+
+  name_a : early blight of tomato
+  name_b : potato early blight
+  match=1  name_sim=0.333
+  ctx_a  : Alternaria solani is a fungal pathogen that produces a disease in tomato and pot
+  ctx_b  : Phytophthora infestans is an oomycete or water mold, a fungus-like microorganism
+
+  name_a : maize streak virus
+  name_b : maize streak disease
+  match=1  name_sim=0.667
+  ctx_a  : Maize streak virus (MSV) is a virus primarily known for causing maize streak dis
+  ctx_b  : Maize streak virus (MSV) is a virus primarily known for causing maize streak dis
+
+
+── Type B: Synonym pair — sample pairs ──────────────────
+  name_a : sudden death syndrome
+  name_b : sds
+  match=1  name_sim=0.000
+  ctx_a  : Sudden death syndrome (SDS), a disease in soybean plants, quickly spread across 
+  ctx_b  : Fungal disease caused by Fusarium virguliforme. Infects roots early in season bu
+
+  name_a : northern leaf blight
+  name_b : nlb
+  match=1  name_sim=0.000
+  ctx_a  : Northern corn leaf blight (NCLB) or Turcicum leaf blight (TLB) is a foliar disea
+  ctx_b  : Fungal disease of corn caused by Exserohilum turcicum. Creates long cigar-shaped
+
+  name_a : ccr
+  name_b : common rust of maize
+  match=1  name_sim=0.000
+  ctx_a  : Fungal disease of maize caused by Puccinia sorghi. Produces small, circular to o
+  ctx_b  : Puccinia sorghi, or common rust of maize, is a species of rust fungus that infec
+
+  name_a : mosaic virus of tomato
+  name_b : tomv
+  match=1  name_sim=0.000
+  ctx_a  : Tomato mosaic virus (ToMV) is a plant pathogenic virus. It is found worldwide an
+  ctx_b  : Tomato mosaic virus (ToMV) is a plant pathogenic virus. It is found worldwide an
+
+  name_a : tomato blight
+  name_b : potato blight
+  match=1  name_sim=0.000
+  ctx_a  : Devastating oomycete disease of tomato and potato caused by Phytophthora infesta
+  ctx_b  : Phytophthora infestans is an oomycete or water mold, a fungus-like microorganism
+
+
+── Type C: Polysemy — sample pairs ──────────────────
+  name_a : sclerotinia sclerotiorum
+  name_b : sclerotinia
+  match=0  name_sim=1.000
+  ctx_a  : Sclerotinia sclerotiorum is a plant pathogenic fungus and can cause a disease ca
+  ctx_b  : Sclerotinia sclerotiorum is a plant pathogenic fungus and can cause a disease ca
+
+  name_a : late blight of tomato
+  name_b : leaf spot of tomato
+  match=0  name_sim=0.250
+  ctx_a  : Phytophthora infestans is an oomycete or water mold, a fungus-like microorganism
+  ctx_b  : Bacterial leaf spot on peppers and tomatoes is caused by a gram-negative and rod
+
+  name_a : bacterial spot of peach
+  name_b : bacterial spot of pepper
+  match=0  name_sim=0.500
+  ctx_a  : Bacterial leaf scorch (BLS), or bacterial leaf spot, is a disease state affectin
+  ctx_b  : Bacterial leaf spot on peppers and tomatoes is caused by a gram-negative and rod
+
+  name_a : early blight of potato
+  name_b : potato late blight
+  match=0  name_sim=0.333
+  ctx_a  : Fungal disease of potato caused by Alternaria solani. Produces dark brown target
+  ctx_b  : Phytophthora infestans is an oomycete or water mold, a fungus-like microorganism
+
+  name_a : mosaic virus of tomato
+  name_b : getah virus
+  match=0  name_sim=0.250
+  ctx_a  : Tomato mosaic virus (ToMV) is a plant pathogenic virus. It is found worldwide an
+  ctx_b  : Getah virus is a mosquito-borne arbovirus in the Alphavirus genus. The virus was
+
+
+── Type D: Clear non-match — sample pairs ──────────────────
+  name_a : banana fusarium wilt
+  name_b : target spot
+  match=0  name_sim=0.000
+  ctx_a  : cubense is a fungal plant pathogen that causes Panama disease of banana, also kn
+  ctx_b  : Spot reduction refers to the claim that fat in a certain area of the body can be
+
+  name_a : kashmir bee virus
+  name_b : iflavirus
+  match=0  name_sim=0.000
+  ctx_a  : Diseases of the honey bee or abnormal hive conditions include:
+  ctx_b  : Iflaviridae is a family of positive sense RNA viruses insect-infecting viruses. 
+
+  name_a : black rot of grape
+  name_b : pt
+  match=0  name_sim=0.000
+  ctx_a  : Grape black rot is a fungal disease caused by an ascomycetous fungus, Guignardia
+  ctx_b  : Fungal disease of wheat caused by Puccinia triticina. Creates orange-brown circu
+
+  name_a : diabrotica
+  name_b : cedar-apple rust
+  match=0  name_sim=0.000
+  ctx_a  : Diabrotica is a large, widespread genus of beetles in the family Chrysomelidae. 
+  ctx_b  : Gymnosporangium juniperi-virginianae is a plant pathogen that causes cedar-apple
+
+  name_a : alternaria blight of potato
+  name_b : herotilapia multispinosa
+  match=0  name_sim=0.000
+  ctx_a  : Fungal disease of potato caused by Alternaria solani. Produces dark brown target
+  ctx_b  : Herotilapia multispinosa also known as the rainbow cichlid is a Central American
+
+── Type C pairs with GOOD contexts (genuine polysemy): 15
+   These are the most valuable training examples for the conflict detector.
+  'sclerotinia sclerotiorum'               vs 'sclerotinia'
+  'late blight of tomato'                  vs 'leaf spot of tomato'
+  'bacterial spot of peach'                vs 'bacterial spot of pepper'
+  'early blight of potato'                 vs 'potato late blight'
+  'mosaic virus of tomato'                 vs 'getah virus'
+
+── ACTION ITEMS ─────────────────────────────────────────
+  URGENT: Only 20 Type C (polysemy) pairs. Need ~280 more from EPPO ambiguous common names.
+  During training, oversample Type C pairs 3x using WeightedRandomSampler.
+  Exclude 'both_poor' pairs from lambda supervision (keep for match loss).

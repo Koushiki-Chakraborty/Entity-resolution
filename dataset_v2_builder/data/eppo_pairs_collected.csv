@@ -1,0 +1,17 @@
+name_a,context_a,name_b,context_b,match,source_a,source_b,pair_type,context_quality_a,context_quality_b
+Panama disease,Caused by Fusarium oxysporum f.sp. cubense,Fusarium wilt of banana,Caused by Fusarium oxysporum f.sp. cubense,1,EPPO,EPPO,B,good,good
+Stripe rust of wheat,"Caused by Puccinia striiformis, affects wheat",Stem rust of wheat,"Caused by Puccinia graminis, affects wheat",0,EPPO,EPPO,C,good,good
+Stripe rust of wheat,"Caused by Puccinia striiformis, affects wheat",Citrus rust,"Affects citrus crops, caused by Phakopsora species",0,EPPO,EPPO,C,good,good
+Stripe rust of wheat,"Caused by Puccinia striiformis, affects wheat",Corn rust,"Affects corn, caused by Puccinia sorghi",0,EPPO,EPPO,C,good,good
+Stem rust of wheat,"Caused by Puccinia graminis, affects wheat",Citrus rust,"Affects citrus crops, caused by Phakopsora species",0,EPPO,EPPO,C,good,good
+Stem rust of wheat,"Caused by Puccinia graminis, affects wheat",Corn rust,"Affects corn, caused by Puccinia sorghi",0,EPPO,EPPO,C,good,good
+Citrus rust,"Affects citrus crops, caused by Phakopsora species",Corn rust,"Affects corn, caused by Puccinia sorghi",0,EPPO,EPPO,C,good,good
+Early blight of tomato,Caused by Alternaria solani,Late blight of potato,Caused by Phytophthora infestans,0,EPPO,EPPO,C,good,good
+Early blight of tomato,Caused by Alternaria solani,Chestnut blight,Caused by Cryphonectria parasitica,0,EPPO,EPPO,C,good,good
+Early blight of tomato,Caused by Alternaria solani,Fire blight,"Caused by Erwinia amylovora, affects pome fruits",0,EPPO,EPPO,C,good,good
+Late blight of potato,Caused by Phytophthora infestans,Chestnut blight,Caused by Cryphonectria parasitica,0,EPPO,EPPO,C,good,good
+Late blight of potato,Caused by Phytophthora infestans,Fire blight,"Caused by Erwinia amylovora, affects pome fruits",0,EPPO,EPPO,C,good,good
+Chestnut blight,Caused by Cryphonectria parasitica,Fire blight,"Caused by Erwinia amylovora, affects pome fruits",0,EPPO,EPPO,C,good,good
+Fusarium wilt,"Affects banana, caused by Fusarium oxysporum",Verticillium wilt,"Affects tomato, cotton, caused by Verticillium species",0,EPPO,EPPO,C,good,good
+Fusarium wilt,"Affects banana, caused by Fusarium oxysporum",Dutch elm disease,"Causes wilting, transmitted by beetle",0,EPPO,EPPO,C,good,good
+Verticillium wilt,"Affects tomato, cotton, caused by Verticillium species",Dutch elm disease,"Causes wilting, transmitted by beetle",0,EPPO,EPPO,C,good,good

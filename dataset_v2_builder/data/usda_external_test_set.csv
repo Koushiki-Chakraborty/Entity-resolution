@@ -1,0 +1,201 @@
+name_a,context_a,name_b,context_b,match,source_a,source_b,context_quality_a,context_quality_b,dataset_split
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Purple blotch of onion,Caused by Alternaria porri. Affects: onion,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Purple blotch of onion,Caused by Alternaria porri. Affects: onion,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Purple blotch of onion,Caused by Alternaria porri. Affects: onion,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Purple blotch of onion,Caused by Alternaria porri. Affects: onion,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Purple blotch of onion,Caused by Alternaria porri. Affects: onion,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Common bunt of wheat,Caused by Tilletia caries. Affects: wheat,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Purple blotch of onion,Caused by Alternaria porri. Affects: onion,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,0,USDA,USDA,good,good,external_test
+Downy mildew of melon,Caused by Pseudoperonospora cubensis. Affects: melon,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,Rust of pea,Caused by Uromyces pisi. Affects: pea,0,USDA,USDA,good,good,external_test
+Rust of pea,Caused by Uromyces pisi. Affects: pea,Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+White rust of broccoli,Caused by Albugo candida. Affects: broccoli,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Ascochyta blight of chickpea,Caused by Ascochyta rabiei. Affects: chickpea,0,USDA,USDA,good,good,external_test
+Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,Covered smut of barley,Caused by Ustilago hordei. Affects: barley,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,White rust of broccoli,Caused by Albugo candida. Affects: broccoli,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Septoria leaf spot of tomato,Caused by Septoria lycopersici. Affects: tomato,0,USDA,USDA,good,good,external_test
+Covered smut of barley,Caused by Ustilago hordei. Affects: barley,Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,0,USDA,USDA,good,good,external_test
+Loose smut of wheat,Caused by Ustilago tritici. Affects: wheat,Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,0,USDA,USDA,good,good,external_test
+Anthracnose of bean,Caused by Colletotrichum lindemuthianum. Affects: bean,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Karnal bunt of wheat,Caused by Tilletia indica. Affects: wheat,0,USDA,USDA,good,good,external_test
+Flea beetle damage on potato,Insect damage. Affects: potato,Blackleg of cabbage,Caused by Phoma lingam. Affects: cabbage,0,USDA,USDA,good,good,external_test
+Flag smut of wheat,Caused by Urocystis tritici. Affects: wheat,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Botrytis blight of garlic,Caused by Botrytis cinerea. Affects: garlic,Stem canker of tomato,Caused by Alternaria alternata. Affects: tomato,0,USDA,USDA,good,good,external_test
+Powdery mildew of cucumber,Caused by Sphaerotheca fuliginea. Affects: cucumber,Flea beetle damage on potato,Insect damage. Affects: potato,0,USDA,USDA,good,good,external_test

@@ -1,0 +1,51 @@
+annotation_id,name_a,name_b,pair_type,original_match,original_lambda,expert_match,expert_lambda,expert_reasoning
+E001,cedar apple rust,gymnosporangium rust,A,1,0.5965,True,0.5,"Both records describe the same pathogen and disease, but the names differ slightly, requiring some context to confirm they refer to the same disease."
+E002,early blight of tomato,potato early blight,A,1,0.646,False,0.5,"The names suggest different diseases, but context is needed to confirm as they involve different pathogens."
+E003,maize streak virus,maize streak disease,A,1,0.6736,True,1.0,"The name alone is enough to determine they refer to the same disease, as maize streak disease is caused by the maize streak virus."
+E004,cassava mosaic virus,african cassava mosaic virus,A,1,0.6652,False,0.5,"Cassava mosaic virus is a group of viruses, while African cassava mosaic virus is a specific virus within that group."
+E005,puccinia rust,common rust of maize,A,1,0.6391,False,0.8,The names indicate different species of Puccinia affecting different host plants.
+E006,fusarium wilt,banana wilt,A,1,0.5923,True,0.5,"Both records describe diseases caused by Fusarium oxysporum, indicating they are the same disease, but the names alone are not sufficient to determine this without context."
+E007,bacterial spot of peach,peach bacterial spot,A,1,0.6802,False,0.8,"The names suggest different diseases despite similar descriptions, indicating the name is important."
+E008,gymnosporangium rust,cedar-apple rust,A,1,0.6646,True,1.0,"The names refer to the same pathogen, Gymnosporangium juniperi-virginianae, causing cedar-apple rust."
+E009,rice blast,pyricularia blast,A,1,0.5683,True,0.5,"Both records describe the same disease caused by the same pathogen, despite different names."
+E010,cereal powdery mildew,wheat powdery mildew,A,1,0.6622,True,0.5,"Both records describe powdery mildew caused by Blumeria graminis affecting wheat, but the names alone are not sufficient to confirm they are the same without additional context."
+E011,sudden death syndrome,soybean sds,B,1,0.05,True,0.8,"Both records describe sudden death syndrome in soybeans, with the name being a strong indicator of the same disease."
+E012,tbs,tomato bacterial spot,B,1,0.4246,True,0.8,"Both records describe a bacterial disease of tomatoes caused by Xanthomonas species, with similar symptoms."
+E013,erwinia atroseptica,pectobacterium carotovorum subsp. atrosepticum,B,1,0.6892,False,0.8,The names indicate different subspecies and diseases despite historical taxonomic changes.
+E014,citrus greening disease,yellow dragon disease,B,1,0.7639,True,0.5,"Citrus greening disease and yellow dragon disease refer to the same disease caused by Candidatus Liberibacter asiaticus, but the names alone are not sufficient without context."
+E015,common corn rust,ccr,B,1,0.3844,True,0.5,"The descriptions are identical, indicating the same disease, but the name alone is not sufficient without context."
+E016,brown rust of wheat,pt,B,1,0.3988,True,0.8,"Both records describe the same fungal disease caused by Puccinia triticina, affecting wheat and characterized by orange-brown pustules."
+E017,huánglóngbìng,haunglongbing,B,1,0.7216,True,0.8,The names are phonetically similar and both refer to the same bacterial disease affecting citrus trees.
+E018,blsd,banana black sigatoka,B,1,0.6412,True,0.8,"Both records describe the same fungal disease of banana caused by Mycosphaerella fijiensis, known as black sigatoka or black leaf streak."
+E019,grape rot,gbr,B,1,0.05,True,0.5,"The descriptions indicate the same causative agent and symptoms, but the names differ, suggesting context is needed to confirm they are the same disease."
+E020,early blight,alternaria blight of potato,B,1,0.8452,True,0.8,"Both records describe the same disease caused by Alternaria solani affecting potatoes, with similar symptoms."
+E021,sclerotinia sclerotiorum,sclerotinia,C,0,0.1852,True,0.8,"The names and descriptions indicate they refer to the same pathogen, with 'sclerotinia' being a shorthand for 'sclerotinia sclerotiorum'."
+E022,late blight of tomato,leaf spot of tomato,C,0,0.0364,False,0.8,The names indicate different diseases caused by distinct pathogens.
+E023,bacterial spot of peach,bacterial spot of pepper,C,0,0.2,False,0.8,"The diseases are caused by different bacteria, as indicated by their names and descriptions."
+E024,early blight of potato,potato late blight,C,0,0.001,False,1.0,The names 'early blight of potato' and 'potato late blight' clearly indicate different diseases.
+E025,mosaic virus of tomato,getah virus,C,0,0.001,False,1.0,The names alone indicate different viruses affecting different hosts and transmitted by different vectors.
+E026,gymnosporangium rust,common corn rust,C,0,0.055,False,1.0,The names alone indicate different pathogens affecting different host plants.
+E027,rice bacterial blight,pepper bacterial spot,C,0,0.2,False,0.8,"The diseases are caused by different pathovars of Xanthomonas affecting different host plants, so the names alone are largely sufficient to distinguish them."
+E028,tomato septoria leaf spot,tomato leaf mold,C,0,0.2,False,1.0,The names alone indicate different diseases caused by different pathogens.
+E029,getah virus,ross river virus,C,0,0.458,False,0.5,"The names suggest different viruses, but context is needed to confirm they are distinct diseases."
+E030,corynespora spot,xanthomonas peach spot,C,0,0.2,False,1.0,The names alone indicate different pathogens: a fungus and a bacterium.
+E031,banana fusarium wilt,target spot,D,0,0.0546,False,0.0,"The descriptions indicate that they refer to entirely different topics, with one being a plant disease and the other unrelated to plant pathology."
+E032,black rot of grape,pt,D,0,0.001,False,1.0,The names alone indicate different diseases affecting different plants.
+E033,diabrotica,cedar-apple rust,D,0,0.001,False,1.0,"The names alone indicate different organisms and diseases, with Diabrotica being a beetle genus and cedar-apple rust being a fungal pathogen."
+E034,fusarium wilt of banana,pseudocentrotus,D,0,0.001,False,1.0,"The names alone indicate they are entirely different, with one being a plant disease and the other a marine organism."
+E035,grape leaf spot,lb,D,0,0.001,False,1.0,The names and descriptions indicate different diseases affecting different plants.
+E036,sclerotinia,infectious bursal disease,D,0,0.001,False,1.0,The names alone indicate different pathogens affecting different hosts: a fungus in plants and a virus in poultry.
+E037,sbr,tomato mosaic,D,0,0.0074,False,1.0,"The names alone indicate different pathogens and host plants, making them distinct diseases."
+E038,tomato bacterial spot,clr,D,0,0.001,False,1.0,The names alone indicate different diseases affecting different plants.
+E039,banana fusarium wilt,uroteuthis bartschi,D,0,0.0121,False,1.0,"The names alone indicate entirely different organisms, one being a plant pathogen and the other a squid species."
+E040,wheat yellow rust,strawberry leaf scorch,D,0,0.023,False,1.0,The names alone indicate different host plants and pathogens.
+E041,mosaic virus of tomato,tomv,B,1,0.7219,True,1.0,"The names 'mosaic virus of tomato' and 'tomv' both refer to Tomato mosaic virus (ToMV), indicating they are the same disease."
+E042,late blight,phytophthora blight of potato,B,1,0.6988,True,0.8,"Both records describe the same disease caused by Phytophthora infestans, affecting potatoes and tomatoes."
+E043,late blight disease,phytophthora blight of potato,B,1,0.7309,True,0.5,"Both records describe the same disease caused by Phytophthora infestans, but the names differ slightly."
+E044,stem rust,puccinia graminis,B,1,0.7927,True,0.5,"The records describe the same disease, but the name alone is not sufficient without context."
+E045,hemileia rust,roya del cafeto,B,1,0.7297,True,0.8,"Both records describe the same disease caused by Hemileia vastatrix affecting coffee plants, with similar symptoms."
+E046,banana black sigatoka,black leaf streak disease,B,1,0.7462,True,1.0,The names 'banana black sigatoka' and 'black leaf streak disease' refer to the same disease caused by Mycosphaerella fijiensis.
+E047,phytophthora blight,potato late blight,B,1,0.6367,True,0.8,"Both records describe the same disease caused by Phytophthora infestans, with names that are commonly used interchangeably."
+E048,infectious bursal disease,gumboro disease,B,1,0.697,True,1.0,"The names 'infectious bursal disease' and 'gumboro disease' refer to the same disease, as indicated by the descriptions being identical."
+E049,brown spot of rice,helminthosporium leaf spot,B,1,0.6109,True,0.8,"Both records describe diseases caused by the same pathogen, Cochliobolus miyabeanus, affecting rice."
+E050,yellow shoot disease,haunglongbing,B,1,0.8176,True,1.0,"Both records refer to the same disease, Citrus Greening, known as Huanglongbing (HLB), and the name alone is sufficient to identify this."

@@ -1,0 +1,76 @@
+============================================================
+ CONTEXT QUALITY REPORT
+============================================================
+
+Total pairs: 1881
+
+── context_a quality ──────────────────────────
+  good    :  1415 (75.2% ) ██████████████████████████████████████████████████████████████████████
+  medium  :   206 (11.0% ) ██████████
+  poor    :   260 (13.8% ) █████████████
+
+── context_b quality ──────────────────────────
+  good    :  1405 (74.7% ) ██████████████████████████████████████████████████████████████████████
+  medium  :   198 (10.5% ) █████████
+  poor    :   278 (14.8% ) █████████████
+
+── Both contexts poor (most dangerous): 62 pairs
+   These pairs corrupt your lambda supervision signal most.
+   Consider excluding them from lambda training (keep for match training).
+
+── Sample POOR context_a reasons ──────────────
+  Name : kashmir bee virus
+  Text : Diseases of the honey bee or abnormal hive conditions include:
+  Why  : poor phrase: 'abnormal hive conditions include'
+
+  Name : furovirus
+  Text : Furovirus is a genus of viruses, in the family Virgaviridae. Graminae, winter wheat, wheat
+  Why  : poor phrase: 'is a genus of'
+
+  Name : begomovirus
+  Text : Begomovirus is a genus of viruses, in the family Geminiviridae. They are plant viruses tha
+  Why  : poor phrase: 'is a genus of'
+
+  Name : cucumovirus
+  Text : Cucumovirus is a genus of viruses, in the family Bromoviridae. Plants serve as natural hos
+  Why  : poor phrase: 'is a genus of'
+
+  Name : phytoreovirus
+  Text : Phytoreovirus is a genus of viruses, in the order Reovirales, in the family Sedoreoviridae
+  Why  : poor phrase: 'is a genus of'
+
+  Name : prototheca
+  Text : Prototheca is a genus of algae in the family Chlorellaceae. While this genus is a member o
+  Why  : poor phrase: 'is a genus of'
+
+  Name : macrotermes
+  Text : Macrotermes is a genus of termites belonging to the subfamily Macrotermitinae and widely d
+  Why  : poor phrase: 'is a genus of'
+
+  Name : heracleum latent virus
+  Text : The parsnip is a root vegetable closely related to carrot and parsley, all belonging to th
+  Why  : poor phrase: 'is a root vegetable'
+
+  Name : mucosal disease virus
+  Text : Sjögren's disease (SjD), previously known as Sjögren syndrome or Sjögren's syndrome, is a 
+  Why  : no disease-specific information detected
+
+  Name : lentivirus
+  Text : Lentivirus is a genus of retroviruses that cause chronic and deadly diseases characterized
+  Why  : poor phrase: 'is a genus of'
+
+── Sample GOOD context_a ───────────────────────
+  Name : banana fusarium wilt
+  Text : cubense is a fungal plant pathogen that causes Panama disease of banana, also known as Fus
+
+  Name : sudden death syndrome
+  Text : Sudden death syndrome (SDS), a disease in soybean plants, quickly spread across the southe
+
+  Name : potato blight
+  Text : Phytophthora infestans is an oomycete or water mold, a fungus-like microorganism (oomycete
+
+  Name : black rot of grape
+  Text : Grape black rot is a fungal disease caused by an ascomycetous fungus, Guignardia bidwellii
+
+  Name : diabrotica
+  Text : Diabrotica is a large, widespread genus of beetles in the family Chrysomelidae. Members of
