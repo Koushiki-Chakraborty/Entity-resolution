@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-04-27T14:27:57.661876",
+  "file": "dataset_v2.csv",
+  "sections": {
+    "loading": {
+      "status": "success",
+      "rows": 1896,
+      "columns": 17
+    },
+    "schema": {
+      "status": "ok",
+      "missing_cols": [],
+      "extra_cols": [],
+      "total_expected": 17,
+      "total_found": 17
+    },
+    "missing_values": {
+      "null_issues": [
+        [
+          "canonical_id_a",
+          
