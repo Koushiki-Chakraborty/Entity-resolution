@@ -15,7 +15,7 @@ This pipeline produces two production-ready datasets:
 | Dataset               | Pairs | Purpose                                                      | Sources                   |
 | --------------------- | ----- | ------------------------------------------------------------ | ------------------------- |
 | **Training Dataset**  | 1,896 | Model training with balanced pair types, LLM labels, lambdas | Multiple agricultural DBs |
-| **External Test Set** | TBD   | Honest model evaluation (isolated, never seen in training)   | USDA PLANTS Database      |
+| **External Test Set** | 141   | Honest model evaluation (isolated, never seen in training)   | USDA PLANTS Database      |
 
 ### Pair Type Distribution (Training Data)
 
@@ -140,63 +140,109 @@ Output:
 ├── DATASET_V2_READY.md                 # Dataset documentation
 ├── requirements.txt                    # Python dependencies
 │
-├── data/
-│   ├── input/
-│   │   └── extracted_kg_triples.csv    # Raw knowledge graph
-│   ├── raw/
+├── 📂 data/
+│   ├── 📂 external/                    # External data sources
+│   │   ├── agrovoc/
+│   │   ├── plantvillage/
+│   │   └── wikipedia/
+│   ├── 📂 input/
+│   │   └── extracted_kg_triples.csv    # Raw knowledge graph (input)
+│   ├── 📂 raw/
 │   │   ├── kg_triples_raw.csv
 │   │   ├── agrovoc_raw.csv
 │   │   ├── plantvillage_raw.csv
 │   │   └── wikipedia_raw.csv
-│   ├── processed/
-│   │   ├── crop_diseases_clean.csv
+│   ├── 📂 processed/
+│   │   ├── crop_diseases_clean.csv     # Cleaned entities
 │   │   ├── all_entities.csv
 │   │   └── wikipedia_fetch_cache.json
-│   └── pairs/ (🎯 MAIN OUTPUT)
-│       ├── training_ready_production.csv      ✨ TRAINING DATASET
-│       ├── external_test_set_isolated.csv     ✨ TEST DATASET
+│   └── 📂 pairs/ (🎯 PRIMARY OUTPUT)
+│       ├── final_dataset.csv                   # 79,292 pairs
+│       ├── training_ready_production.csv       # 1,881 pairs
+│       ├── training_ready.csv
+│       ├── training_ready_final.csv
 │       ├── agrovoc_pairs_positive.csv
 │       ├── plantvillage_pairs_positive.csv
 │       ├── wikipedia_pairs_positive.csv
 │       ├── kg_pairs_positive.csv
+│       ├── positive_pairs.csv
 │       ├── negative_pairs.csv
 │       ├── llm_labeled_pairs.csv
-│       └── [quality reports & validation logs]
+│       ├── batch_files/
+│       ├── *.py (utility scripts)
+│       └── *.json (validation reports)
 │
-├── dataset_v2_builder/                 # V2 advanced pipeline
+├── 📂 dataset_v2_builder/ (🎯 FINAL DATASET SOURCE)
+│   ├── README.md                       # V2 documentation
 │   ├── WORKFLOW.md                     # Detailed V2 workflow
-│   ├── scripts/
+│   ├── 📂 scripts/
 │   │   ├── run_all.py                  # Master runner
-│   │   ├── step1_context_quality.py    # Quality scoring
-│   │   ├── step2_pair_type_classifier.py
-│   │   ├── step3_eppo_collector.py
-│   │   ├── step4_usda_external_test.py
-│   │   └── step5_merge_all.py
-│   └── data/
-│       ├── base_dataset.csv            # 1,881 curated pairs
-│       ├── dataset_final.csv           # 1,896 training pairs (FINAL) ✨
-│       ├── dataset_v2.csv              # Previous version
-│       ├── external_test_set_isolated.csv
+│   │   ├── step1_context_quality.py    # Quality scoring engine
+│   │   ├── step2_pair_type_classifier.py  # A/B/C/D classification
+│   │   ├── step3_eppo_collector.py     # EPPO synonym collection
+│   │   ├── step3_eppo_collector_real.py # Real EPPO API
+│   │   ├── step4_usda_external_test.py # External test generation
+│   │   └── step5_merge_all.py          # Final dataset merge
+│   └── 📂 data/ (FINAL DATASETS HERE)
+│       ├── base_dataset.csv             # 1,881 base pairs
+│       ├── dataset_final.csv            # ✨ 1,896 TRAINING PAIRS (FINAL)
+│       ├── external_test_set_isolated.csv # ✨ 141 TEST PAIRS (FINAL)
+│       ├── dataset_v2.csv               # Previous version
+│       ├── dataset_classified.csv
+│       ├── dataset_v2_fixed.csv
+│       ├── dataset_v2_labeled.csv
+│       ├── dataset_with_quality.csv
+│       ├── eppo_pairs_collected.csv
+│       ├── expert_annotation_50.csv
+│       ├── expert_lambda_50.csv
+│       ├── usda_external_test_set.csv
 │       ├── quality_report.txt
 │       ├── pair_type_report.txt
-│       └── [validation reports]
+│       ├── agreement_report.txt
+│       ├── *.json (validation/quality reports)
+│       └── *.py (utility scripts)
 │
-├── src/                                # Core source code
+├── 📂 src/                             # Core source code
 │   ├── 01_scrape_plantvillage.py      # PlantVillage scraper
-│   ├── 02_scrape_agrovoc.py           # Agrovoc scraper
-│   ├── 03_scrape_wikipedia.py         # Wikipedia scraper
-│   ├── 04_extract_kg_triples.py       # KG extraction
-│   ├── 05_build_pairs.py              # Pair generation
+│   ├── 02_scrape_agrovoc.py           # Agrovoc vocabulary scraper
+│   ├── 03_scrape_wikipedia.py         # Wikipedia context scraper
+│   ├── 04_extract_kg_triples.py       # Knowledge graph extraction
+│   ├── 05_build_pairs.py              # Pair generation from KG
 │   ├── 06_generate_pairs.py           # Advanced pair generation
-│   └── utils.py                        # Shared utilities
+│   ├── utils.py                        # Shared utilities
+│   ├── 📂 data/                        # Data processing modules
+│   ├── 📂 encoder/                     # Embedding/encoding modules
+│   ├── 📂 evaluation/                  # Evaluation metrics
+│   ├── 📂 explainability/              # Model explainability
+│   ├── 📂 models/                      # Model architectures
+│   ├── 📂 production/                  # Production interfaces
+│   └── 📂 training/                    # Training utilities
 │
-├── run_pipeline.py                     # Main pipeline runner
-├── final_context_completion.py         # Context enrichment
-├── merge_wiki_context.py               # Wikipedia merge
-├── complete_context_fetcher.py         # Context fetcher
-├── show_improvements.py                # Results visualization
-└── validate_enriched_dataset.py        # Validation script
-
+├── 📂 models/
+│   └── best_agrilambda.pt              # Pre-trained model weights
+│
+├── 📂 notebooks/
+│   ├── dataset_analysis.ipynb          # Dataset exploration
+│   ├── experiments.ipynb               # Experimental notebooks
+│   └── test.ipynb                      # Testing notebooks
+│
+├── 📂 results/
+│   ├── results_table.csv               # Results comparison table
+│   └── 📂 plots/                       # Visualization outputs
+│
+├── 📂 scripts/
+│   ├── run_evaluation.sh               # Evaluation script
+│   └── run_training.sh                 # Training script
+│
+├── Root Pipeline Scripts
+│   ├── run_pipeline.py                 # Main pipeline orchestrator
+│   ├── final_context_completion.py     # Context enrichment
+│   ├── complete_context_fetcher.py     # Context fetcher utility
+│   ├── merge_wiki_context.py           # Wikipedia context merger
+│   ├── show_improvements.py            # Results visualization
+│   └── validate_enriched_dataset.py    # Dataset validation
+│
+└── 📂 agrienv/                         # Virtual environment (ignored in git)
 ```
 
 ---
@@ -442,8 +488,8 @@ If you use this dataset, please cite:
 ```bibtex
 @dataset{agrilambdanet_dataset,
   title={AgriLambdaNet Entity Resolution Dataset},
-  author={[Your Name]},
-  year={2024},
+  author={[Koushiki Chakraborty]},
+  year={2026},
   url={https://github.com/Koushiki-Chakraborty/AgriLambdaNet}
 }
 ```
