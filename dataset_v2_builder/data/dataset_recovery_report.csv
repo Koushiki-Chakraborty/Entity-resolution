@@ -1,0 +1,7 @@
+Metric,Value
+Original rows,1896
+Context mismatches removed,100
+Non-agricultural removed,293
+Final production rows,1503
+Total entity slots,3006
+Classification rate (%),96.4
