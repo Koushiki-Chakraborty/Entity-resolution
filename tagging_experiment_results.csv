@@ -1,5 +1,0 @@
-condition,match_mean,match_min,match_max,nonmatch_mean,nonmatch_max,separation
-1_name_only [base],0.4213,-0.0734,0.9823,0.204,0.5952,0.2173
-2_name_context [base],0.9203,0.434,0.9975,0.2665,0.8136,0.6539
-3_ditto_tagged [base],0.927,0.4768,0.9981,0.4012,0.8567,0.5258
-3_ditto_tagged [fine-tuned],0.7923,0.1791,0.9954,0.0781,0.4909,0.7142
