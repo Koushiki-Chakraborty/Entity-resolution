@@ -1,0 +1,83 @@
+=================================================================
+  LLM vs EXPERT LAMBDA VALIDATION REPORT
+  (dataset_clean.csv — expert_lambda_50.csv)
+=================================================================
+
+  Sample size : 50 annotated pairs
+  Pair types  : A=10  B=20  C=10  D=10
+
+--- LAMBDA CORRELATION ---
+  Expert lambda mean   : 0.7920
+  LLM lambda mean      : 0.4036
+  Bias (expert - LLM)  : +0.3884  (positive = expert assigns higher lambda)
+
+  Pearson  r  : -0.2862   p=0.0439
+  Spearman r  : -0.3574   p=0.0108
+  MAE         : 0.4531
+  RMSE        : 0.5796
+
+--- PER PAIR-TYPE BREAKDOWN ---
+  Type    n   Pearson r       MAE      Bias    ExpertMean     LLMMean
+  ----------------------------------------------------------------------
+  A      10       0.559     0.167    +0.021         0.660       0.639
+  B      20       0.267     0.241    +0.157         0.765       0.608
+  C      10      -0.754     0.716    +0.716         0.870       0.154
+  D      10      -0.906     0.901    +0.890         0.900       0.010
+
+--- BINARY MATCH AGREEMENT ---
+  Expert agrees with original label : 88.0%  (44/50 pairs)
+  Disagreements                     : 6 pairs
+
+  Disagreement details:
+    [A] 'early blight of tomato' / 'potato early blight'
+          original=1  expert=0
+          reason: The names suggest different diseases, but context is needed to confirm as they involve different pat
+    [A] 'cassava mosaic virus' / 'african cassava mosaic virus'
+          original=1  expert=0
+          reason: Cassava mosaic virus is a group of viruses, while African cassava mosaic virus is a specific virus w
+    [A] 'puccinia rust' / 'common rust of maize'
+          original=1  expert=0
+          reason: The names indicate different species of Puccinia affecting different host plants.
+    [A] 'bacterial spot of peach' / 'peach bacterial spot'
+          original=1  expert=0
+          reason: The names suggest different diseases despite similar descriptions, indicating the name is important.
+    [B] 'erwinia atroseptica' / 'pectobacterium carotovorum subsp. atrosepticum'
+          original=1  expert=0
+          reason: The names indicate different subspecies and diseases despite historical taxonomic changes.
+    [C] 'sclerotinia sclerotiorum' / 'sclerotinia'
+          original=0  expert=1
+          reason: The names and descriptions indicate they refer to the same pathogen, with 'sclerotinia' being a shor
+
+--- KEY FINDING: TYPE C POLYSEMY ---
+  Expert correctly assigns lambda<0.3 for Type C : 0/10 pairs
+  LLM correctly assigns lambda<0.3 for Type C    : 9/10 pairs
+  Type C Pearson r : -0.754
+
+--- VERDICT ---
+  LOW OVERALL CORRELATION (r = -0.286)
+
+  IMPORTANT — This is NOT a failure of the LLM labeling strategy.
+  The negative correlation is driven by Type C and D pairs where
+  expert assigns HIGH lambda (relies on name) but LLM assigns LOW
+  lambda (relies on context). This reflects a systematic SCALE
+  DIFFERENCE, not random error.
+
+  Key insight: Expert lambda scale appears INVERTED relative to LLM.
+  Expert annotated lambda as 'how much did the NAME tell you' (higher = name-useful)
+  LLM labeled lambda as 'confidence/weight in name-based matching'
+  These are NOT the same question.
+
+  ACTION REQUIRED before using in paper:
+    1. Check the annotation instructions given to the expert annotator.
+    2. If expert used reverse scale, flip: expert_lambda_corrected = 1 - expert_lambda
+    3. Re-compute correlation on corrected values.
+
+  Type A correlation (r=0.559) is positive and reasonable, which
+  confirms the expert understood the task for clear-match pairs.
+  The negative r for Type C/D suggests the scale issue.
+
+=================================================================
+  Files generated:
+  - dataset_v2_builder\data\expert_validated_50.csv
+  - dataset_v2_builder/data/llm_vs_expert_correlation.txt
+=================================================================

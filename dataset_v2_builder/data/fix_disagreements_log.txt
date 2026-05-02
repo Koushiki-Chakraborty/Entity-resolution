@@ -1,0 +1,43 @@
+  [OK]  'maize streak virus'  /  'maize streak virus (msv)'
+        match: 0 -> 1   pair_type: C -> A
+        Reason: Same virus; (msv) is the abbreviation. LLM correct.
+  [OK]  'maize streak virus (msv)'  /  'maize streak disease'
+        match: 0 -> 1   pair_type: C -> B
+        Reason: Maize streak disease caused by MSV; synonymous entities. LLM correct.
+  [OK]  'isariopsis leaf spot'  /  'grape leaf spot'
+        match: 0 -> 1   pair_type: C -> B
+        Reason: Isariopsis leaf spot = grape leaf spot. LLM correct.
+  [OK]  'septoria leaf spot'  /  'tomato septoria leaf spot'
+        match: 0 -> 1   pair_type: C -> B
+        Reason: Tomato septoria leaf spot is a septoria leaf spot. LLM correct.
+  [OK]  'tomato septoria leaf spot'  /  'leaf spot of tomato'
+        match: 0 -> 1   pair_type: C -> A
+        Reason: Same disease, different surface forms. LLM correct.
+  [OK]  'grape powdery mildew'  /  'powdery mildew'
+        match: 0 -> 1   pair_type: C -> B
+        Reason: Grape powdery mildew is a powdery mildew. LLM correct.
+  [OK]  'fusarium wilt of cucumber'  /  'panama disease'
+        match: 0 -> 1   pair_type: D -> B
+        Reason: Both are fusarium wilts; related disease entities. LLM correct.
+  [OK]  'potyvirus'  /  'wsmv'
+        match: 0 -> 1   pair_type: D -> B
+        Reason: WSMV is a potyvirus; genus-member relationship. LLM correct.
+  [OK]  'kashmir bee virus'  /  'iflavirus'
+        match: 0 -> 1   pair_type: D -> B
+        Reason: Kashmir bee virus is an iflavirus. LLM correct.
+  [OK]  'septoria leaf spot'  /  'leaf spot of tomato'
+        match: 0 -> 1   pair_type: C -> B
+        Reason: In tomato context, septoria leaf spot = leaf spot of tomato. LLM correct.
+  [OK]  'puumala virus'  /  'hantaan virus'
+        match: 1 -> 0   pair_type: A -> C
+        Reason: Both hantaviruses but DIFFERENT species. Incorrect to mark as match=1.
+  [OK]  'cowpea chlorotic mottle bromovirus'  /  'brome mosaic bromovirus'
+        match: 1 -> 0   pair_type: B -> C
+        Reason: Both bromoviruses but distinct viruses. Incorrect match=1.
+  [LAMBDA]  'maize streak virus' / 'maize streak virus (msv)': 0.150 -> 0.35 (now a match)
+  [LAMBDA]  'maize streak virus (msv)' / 'maize streak disease': 0.150 -> 0.35 (now a match)
+  [LAMBDA]  'isariopsis leaf spot' / 'grape leaf spot': 0.150 -> 0.35 (now a match)
+  [LAMBDA]  'septoria leaf spot' / 'tomato septoria leaf spot': 0.150 -> 0.35 (now a match)
+  [LAMBDA]  'tomato septoria leaf spot' / 'leaf spot of tomato': 0.150 -> 0.35 (now a match)
+  [LAMBDA]  'grape powdery mildew' / 'powdery mildew': 0.150 -> 0.35 (now a match)
+  [LAMBDA]  'septoria leaf spot' / 'leaf spot of tomato': 0.150 -> 0.35 (now a match)

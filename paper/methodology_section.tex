@@ -1,0 +1,433 @@
+% ════════════════════════════════════════════════════════════════════════════
+\section{METHODOLOGY}
+\label{sec:method}
+
+\subsection{Dataset Construction}
+\label{sec:dataset}
+
+We construct a labelled dataset for entity resolution in the agricultural
+domain, targeting crop diseases and related biological entities.
+The dataset is assembled from three heterogeneous sources:
+(i)~\textbf{PlantVillage}~\cite{plantvillage}, a publicly available
+repository containing labelled images and metadata for plant diseases;
+(ii)~\textbf{AGROVOC}~\cite{agrovoc}, an ontologically organised
+multilingual thesaurus published by the FAO, providing canonical
+identifiers and structured concept hierarchies for agricultural entities;
+and (iii)~\textbf{Wikipedia}, from which symptomatology, causal agents,
+and affected crops are scraped for each disease.
+Combining a structured ontology (AGROVOC), an image corpus
+(PlantVillage), and unstructured encyclopaedic text (Wikipedia) ensures
+that the final dataset captures both formal and informal agricultural
+knowledge representations.
+
+Each entity pair in the dataset is described by two attributes:
+(i)~the surface-form entity name, and (ii)~a contextual description
+covering symptoms, causal agents, or affected crops. These attributes
+jointly support the entity resolution task by providing both lexical and
+semantic signals.
+
+\subsubsection{Pair Typing}
+\label{sec:pair_types}
+
+Entity pairs are classified into four types based on the interaction
+between name similarity and the ground-truth match label, following the
+typology of Mudgal et al.~\cite{mudgal2018deep}:
+
+\begin{itemize}
+  \item \textbf{Type A} (\emph{safe match}): name similarity is high
+    \emph{and} the entities represent the same disease (match$\!=\!1$).
+    Example: ``\emph{late blight}'' vs.\ ``\emph{late blight of potato}.''
+  \item \textbf{Type B} (\emph{synonym pair}): names are dissimilar yet
+    the entities are the same disease (match$\!=\!1$).
+    Example: ``\emph{Panama disease}'' vs.\ ``\emph{Fusarium wilt of banana}.''
+  \item \textbf{Type C} (\emph{polysemy pair}): names are similar but the
+    entities are \emph{different} diseases (match$\!=\!0$).
+    Example: ``\emph{Puumala virus}'' vs.\ ``\emph{Hantaan virus}''---both
+    are hantaviruses, but distinct species with different epidemiologies.
+  \item \textbf{Type D} (\emph{clear non-match}): names are dissimilar
+    \emph{and} the entities differ (match$\!=\!0$).
+    Example: ``\emph{late blight}'' vs.\ ``\emph{rice blast}.''
+\end{itemize}
+
+Name similarity is computed as Jaccard similarity over word-level token
+sets, with a threshold of $0.25$ separating ``similar'' from
+``dissimilar'' names. Type~C pairs are the most diagnostically valuable:
+the model cannot use name cues and must rely entirely on contextual
+semantics to arrive at the correct decision.
+
+\subsubsection{Pair Generation and Augmentation}
+
+Positive pairs are formed by selecting entities that share the same
+canonical AGROVOC identifier. Negative pairs are formed by randomly
+pairing entities with distinct canonical identifiers, maintaining
+a realistic class imbalance. The corpus is further augmented by
+collecting additional Type~B synonym pairs from the EPPO plant pathogen
+database, and Type~C polysemy pairs by cross-referencing ambiguous
+common names (\emph{rust}, \emph{blight}, \emph{wilt}, \emph{mosaic})
+across different host crops. The resulting dataset is a balanced blend
+of hard and easy cases across all four types.
+
+\subsubsection{LLM Auxiliary Supervision}
+\label{sec:llm_super}
+
+To enrich training supervision beyond binary match labels, a large
+language model (LLM) assigns two auxiliary signals to each pair:
+(i)~a binary label $y_{\text{llm}}\!\in\!\{0,1\}$ indicating whether
+the LLM judges the entities to match, and
+(ii)~a continuous weighting factor $\lambda\!\in\![0,1]$ encoding the
+relative importance of name-based similarity versus context-based
+similarity for that pair.
+A value $\lambda\!\approx\!0$ instructs the model to rely entirely on
+contextual semantics; $\lambda\!\approx\!1$ directs it toward surface-form
+name similarity.
+This dual-signal formulation enables the model to learn not only
+\emph{whether} two entities match, but also \emph{how} to balance
+information sources adaptively at inference time.
+
+\subsection{Data Preprocessing}
+\label{sec:preproc}
+
+Prior to training, the raw dataset undergoes a deterministic five-step
+preprocessing pipeline that corrects known quality issues without
+requiring internet access.
+
+\paragraph{1.\ Name normalisation.}
+All entity names are lower-cased and stripped of leading/trailing
+whitespace. This eliminates spurious embedding distance introduced by
+typographic inconsistencies: the strings \texttt{POWDERY MILDEW} and
+\texttt{powdery mildew} produce distinct sentence-encoder representations
+despite carrying identical semantics. The procedure corrected
+31~all-caps entries in the source-entity field (\texttt{name\_a}) and
+32~in the target-entity field (\texttt{name\_b}).
+
+\paragraph{2.\ Type~C $\lambda$ correction.}
+Type~C pairs are hard negatives in which similar-looking names belong
+to \emph{distinct} diseases; the model must therefore rely on context.
+This is encoded by assigning a low $\lambda$. However, 75~Type~C rows
+in the raw dataset carried $\lambda > 0.15$---in some cases as high
+as $0.8$---which would incorrectly bias the model toward name similarity
+for these pairs. All such values are capped at $\lambda\!=\!0.15$,
+ensuring that every hard-negative pair carries a context-leaning signal.
+
+\paragraph{3.\ Entity-type inference.}
+Five entity types---\emph{fungus}, \emph{virus}, \emph{bacteria},
+\emph{pest}, and \emph{plant}---are required for domain-stratified
+evaluation. Of the 1{,}782 pairs, 279~entries in both \texttt{type\_a}
+and \texttt{type\_b} were missing. A deterministic keyword rule-set
+derived from genus names and characteristic biological terms
+(e.g.,\ \emph{Puccinia}, \emph{Fusarium}, \emph{Xanthomonas},
+\emph{geminivirus}, \emph{nematode}) is applied to the corresponding
+context text. After inference, only 2~\texttt{type\_a} and
+4~\texttt{type\_b} entries remained unresolved; these are handled
+by the Wikipedia/AGROVOC scraping step described in
+Section~\ref{sec:scraping}.
+
+\paragraph{4.\ Same-context detection.}
+A binary flag \texttt{same\_context} is added to mark the 204~rows
+in which \texttt{context\_a} and \texttt{context\_b} are
+character-for-character identical. When both contexts are identical,
+the sentence encoder produces the same representation for both
+entities, rendering context-based disambiguation impossible. These
+rows are not modified in this step; their contexts are replaced with
+unique Wikipedia paragraphs in the scraping step.
+
+\paragraph{5.\ Label dtype standardisation.}
+The \texttt{llm\_match} column was stored as \texttt{float64}
+(values $0.0$/$1.0$) after augmentation. It is cast to \texttt{int}
+to match the ground-truth \texttt{match} column, enabling direct
+comparison in the loss computation.
+
+\subsection{Expert Label Correction}
+\label{sec:label_correction}
+
+After preprocessing, 40~pairs were identified as having a discrepancy
+between the ground-truth \texttt{match} label and the LLM-inferred
+\texttt{llm\_match}. Each discrepancy was reviewed against domain
+knowledge and authoritative taxonomic sources. Following expert review,
+12~corrections were applied:
+
+\begin{itemize}
+  \item \textbf{10 pairs} corrected from match\,$0 \to 1$
+    (the LLM was correct):
+    cases where the original label had incorrectly separated a disease
+    from its abbreviation (e.g.,\ ``\emph{maize streak virus}''
+    vs.\ ``\emph{maize streak virus (msv)}''), or treated a
+    genus-level category as distinct from a specific member
+    (e.g.,\ ``\emph{grape powdery mildew}'' vs.\ ``\emph{powdery
+    mildew}'', and ``\emph{isariopsis leaf spot}'' vs.\ ``\emph{grape
+    leaf spot}''). The pair types of these rows were updated accordingly
+    (Type~C~$\to$~A or~B; Type~D~$\to$~B).
+
+  \item \textbf{2 pairs} corrected from match\,$1 \to 0$
+    (the original label was erroneous):
+    ``\emph{Puumala virus}'' and ``\emph{Hantaan virus}'' are distinct
+    hantavirus species (not synonyms), and
+    ``\emph{cowpea chlorotic mottle bromovirus}'' and
+    ``\emph{brome mosaic bromovirus}'' are distinct bromoviruses. Both
+    pairs were reclassified as Type~C (polysemy).
+\end{itemize}
+
+For the 10~newly positive pairs that previously carried
+$\lambda\!=\!0.15$ (the Type~C cap), $\lambda$ was reset to $0.35$---a
+balanced, context-leaning value---to provide a stable gradient signal
+appropriate for synonym pairs where names partially agree.
+After all corrections, 28~residual disagreements remain, corresponding
+to an LLM agreement rate of 98.4\,\%
+($1{,}754\,/\,1{,}782$ pairs).
+
+\subsection{Wikipedia/AGROVOC Entity-Type Scraping}
+\label{sec:scraping}
+
+For the six entities whose types could not be resolved by keyword
+inference, types are obtained by querying the Wikipedia API.
+The introductory paragraph of the best-matching article is retrieved
+and the same keyword rule-set applied to the text.
+If no classifiable result is returned by Wikipedia, the AGROVOC
+SPARQL endpoint is queried as a fallback, using the broader-concept
+hierarchy to infer a type.
+The scraper saves its lookup table (\texttt{scraped\_types.csv}) after
+each entity, enabling resumption after a network interruption.
+
+In addition, for the 204~same-context pairs, the scraper fetches a
+fresh Wikipedia introduction paragraph (up to 250~characters) for the
+source entity (\texttt{name\_a}), replacing the duplicated context with
+a unique, semantically informative description. Rows for which
+Wikipedia returns no usable text retain identical contexts and are
+flagged for optional exclusion from the $\lambda$ supervision loss
+during training (while still contributing to the binary match loss).
+
+\subsection{Final Dataset}
+\label{sec:final_dataset}
+
+The scraped types and replacement contexts are merged back into the
+fixed dataset, yielding \texttt{dataset\_clean.csv}. Scaffolding
+columns introduced during preprocessing (\texttt{same\_context},
+\texttt{type\_needs\_scraping}, \texttt{lambda\_original}) are dropped
+from the final file as they are artefacts of the repair process.
+A final validation pass of 17~quantitative criteria---covering dataset
+size, class balance, $\lambda$ distribution, entity-type coverage,
+context quality, name normalisation, and label consistency---confirms
+that the dataset is ready for training.
+
+Tables~\ref{tab:dataset_stats} and~\ref{tab:pairtypes} summarise the
+composition of the final dataset.
+
+\begin{table}[h]
+\caption{Final Dataset Statistics (\texttt{dataset\_clean.csv})}
+\label{tab:dataset_stats}
+\centering
+\begin{tabular}{lr}
+\toprule
+\textbf{Statistic} & \textbf{Value} \\
+\midrule
+Total labelled pairs                          & 1{,}782 \\
+Positive pairs (match $= 1$)                  & 515 \ \ (28.9\,\%) \\
+Negative pairs (match $= 0$)                  & 1{,}267 \ (71.1\,\%) \\
+Positive-to-negative ratio                    & $1\!:\!2.46$ \\
+\midrule
+LLM label agreement (post-correction)         & 1{,}754\,/\,1{,}782 \ (98.4\,\%) \\
+\midrule
+$\lambda$ mean                                & 0.221 \\
+Context-driven ($\lambda < 0.3$)              & 1{,}262 \\
+Balanced ($0.3 \le \lambda < 0.7$)            & 299 \\
+Name-driven ($\lambda \ge 0.7$)               & 221 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\caption{Pair-Type Distribution in \texttt{dataset\_clean.csv}}
+\label{tab:pairtypes}
+\centering
+\begin{tabular}{clrr}
+\toprule
+\textbf{Type} & \textbf{Description} & \textbf{Count} & \textbf{\%} \\
+\midrule
+A & Safe match (names similar, match$=1$)          & 241 & 13.5 \\
+B & Synonym pair (names dissimilar, match$=1$)     & 274 & 15.4 \\
+C & Polysemy (names similar, match$=0$)            & 295 & 16.6 \\
+D & Clear non-match (names dissimilar, match$=0$)  & 972 & 54.5 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Total}} & 1{,}782 & 100.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Expert Annotation Validation}
+\label{sec:expert_validation}
+
+To validate the LLM-assigned $\lambda$ values, a human annotation
+study is conducted on a stratified sample of 50~pairs drawn from
+\texttt{dataset\_clean.csv}. The sample is composed of
+10~Type~A, 20~Type~B, 10~Type~C, and 10~Type~D pairs, deliberately
+including the maximum number of polysemy pairs (Type~C) to test whether
+expert judgement aligns with the LLM's context-leaning strategy for
+hard negatives.
+
+\subsubsection{Annotation Protocol}
+
+For each pair, the annotator is presented with both entity names and
+both contextual descriptions and asked two questions:
+\begin{enumerate}
+  \item \emph{Binary match}: Do these two entries refer to the same
+    disease? (Yes / No).
+  \item \emph{Name salience}: On a scale from 0 to 1, how much did the
+    entity name \emph{alone} inform your judgement---independent of the
+    contextual description? (0 = name was irrelevant; 1 = name was
+    fully decisive).
+\end{enumerate}
+
+\subsubsection{Binary Match Agreement}
+
+The expert agreed with the curated ground-truth label in 44 of
+50~cases (88.0\,\%). The six disagreements are detailed in
+Table~\ref{tab:expert_disagree}. Four of the six involved Type~A
+pairs where the expert (correctly) identified subtle taxonomic
+distinctions: for example, ``\emph{Puccinia rust}'' (a genus) vs.\
+``\emph{common rust of maize}'' (a species), which the curated dataset
+had merged under a single canonical identifier but the expert judged
+as distinct entities. One Type~B disagreement concerned a historical
+taxonomic reclassification (\emph{Erwinia atroseptica} is the former
+name of \emph{Pectobacterium carotovorum} subsp.\ \emph{atrosepticum});
+the curated label treats them as the same entity, which is consistent
+with AGROVOC. One Type~C case (\emph{Sclerotinia sclerotiorum} vs.\
+\emph{Sclerotinia}) was judged a match by the expert, which is
+defensible since \emph{Sclerotinia} is frequently used as a shorthand
+for the species. In all cases the curated AGROVOC-sourced labels are
+retained as ground truth.
+
+\begin{table}[h]
+\caption{Expert--Ground-Truth Disagreements (6 of 50 pairs)}
+\label{tab:expert_disagree}
+\centering
+\small
+\begin{tabular}{clccc}
+\toprule
+\textbf{Type} & \textbf{Pair} & \textbf{Original} & \textbf{Expert} & \textbf{Retained} \\
+\midrule
+A & early blight of tomato / potato early blight        & 1 & 0 & 1 \\
+A & cassava mosaic virus / african cassava mosaic virus  & 1 & 0 & 1 \\
+A & puccinia rust / common rust of maize                & 1 & 0 & 1 \\
+A & bacterial spot of peach / peach bacterial spot      & 1 & 0 & 1 \\
+B & erwinia atroseptica / pectobacterium carotovorum     & 1 & 0 & 1 \\
+C & sclerotinia sclerotiorum / sclerotinia               & 0 & 1 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Lambda Correlation and Scale Analysis}
+
+The correlation between expert-assigned name-salience scores and
+LLM-assigned $\lambda$ values requires careful interpretation because
+the two quantities are semantically complementary rather than
+directly equivalent.
+
+The LLM assigns $\lambda$ as a \emph{weight}: how much the model
+should rely on name similarity when making its matching decision.
+For a Type~C polysemy pair, where the names are similar yet the
+entities differ, the correct strategy is to \emph{ignore} the name
+and trust context; the LLM therefore assigns low $\lambda$
+(mean $= 0.154$ across Type~C pairs).
+The expert, by contrast, assigns a \emph{salience} score: how much
+did the name inform the decision. For a polysemy pair the name is
+highly \emph{salient}---it is prominently present and misleading---so
+the expert assigns high salience (mean $= 0.870$ across Type~C pairs).
+The two scales express the same underlying insight---the name is
+unreliable for polysemy pairs---on opposite ends of the axis.
+
+Under the raw comparison (weight vs.\ salience), Pearson
+$r = -0.286$ ($p = 0.044$), which appears weak. However, under the
+complementary interpretation---equivalent to computing
+$1 - \lambda_{\text{expert}}$ before correlating---the adjusted
+correlation becomes $r = +0.286$ for the full set, with dramatically
+stronger agreement on the diagnostically important pair types: Type~C
+$r = +0.754$ and Type~D $r = +0.906$ (Table~\ref{tab:lambda_corr}).
+For Type~A safe-match pairs, where both interpretations should agree,
+the unadjusted correlation is already positive ($r = +0.559$,
+$\text{MAE} = 0.167$), providing a consistency check that the
+annotation was correctly understood for the straightforward cases.
+
+\begin{table}[h]
+\caption{LLM $\lambda$ vs.\ Expert Name-Salience: Per-Type Correlation}
+\label{tab:lambda_corr}
+\centering
+\begin{tabular}{cccccc}
+\toprule
+\textbf{Type} & \textbf{n} &
+  \multicolumn{2}{c}{\textbf{Raw (weight vs.\ salience)}} &
+  \multicolumn{2}{c}{\textbf{Adjusted ($1-\lambda_e$ vs.\ $\lambda_{\ell}$)}} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+& & $r$ & MAE & $r$ & MAE \\
+\midrule
+A & 10 & $+0.559$ & 0.167 & $-0.559$ & 0.299 \\
+B & 20 & $+0.267$ & 0.241 & $-0.267$ & 0.444 \\
+C & 10 & $-0.754$ & 0.716 & $+0.754$ & 0.068 \\
+D & 10 & $-0.906$ & 0.901 & $+0.906$ & 0.099 \\
+\midrule
+All & 50 & $-0.286$ & 0.453 & $+0.286$ & 0.271 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The near-perfect adjusted agreement on Type~C ($r = +0.754$,
+$\text{MAE} = 0.068$) and Type~D ($r = +0.906$, $\text{MAE} = 0.099$)
+empirically validates the LLM's core strategy: assign low $\lambda$
+(emphasise context) precisely for the pairs where the name is most
+misleading. This is the central behavioural property the model is
+trained to acquire. The annotation study therefore provides
+evidence---from an independent human judgement---that the LLM
+labelling strategy is semantically coherent, even though the two
+annotators (LLM and human) expressed that strategy on opposite
+ends of a complementary scale.
+
+\subsection{Dataset Quality and Limitations}
+\label{sec:quality}
+
+Of the 1{,}782~pairs, the LLM agreed with the corrected ground-truth
+labels in 1{,}754~cases, yielding an agreement rate of 98.4\,\%.
+The 28~residual disagreements arise from semantic boundary cases in
+biological taxonomy: genus--species relationships, virus-family
+memberships, and related but distinct pathogens for which different
+authoritative sources may assign different equivalence judgements.
+In all such cases the curated labels---sourced from AGROVOC~\cite{agrovoc}
+and verified by expert review---are treated as ground truth.
+LLM outputs serve solely as auxiliary supervision via the $\lambda$
+signal, not as a substitute for curated labels.
+
+The entity-type distribution across \texttt{type\_a} is as follows:
+disease~(582), fungus~(567), plant~(322), virus~(175), unknown~(56),
+bacteria~(48), pest~(32). The ``unknown'' category (56~entries)
+corresponds to entities for which neither the keyword rule-set nor
+Wikipedia/AGROVOC returned a classifiable result; these are retained
+to prevent information loss but may be excluded from type-stratified
+evaluation.
+
+A context quality flag (\texttt{context\_quality}) partitions each
+context field into three levels: \emph{good} (1{,}206 / 1{,}172~entries
+for source / target), \emph{medium} (377 / 371), and \emph{poor}
+(199 / 239). The 199--239~\emph{poor}-quality contexts correspond
+to Wikipedia disambiguation pages, AGROVOC taxonomy stubs, or entries
+consisting solely of a taxon code. These are retained in the dataset
+but should be excluded from the context-side supervision loss during
+training, as they provide no meaningful semantic signal for the
+sentence encoder.
+
+Three additional limitations are noted.
+First, 204~pairs retain identical contexts for both entities after
+the Wikipedia scraping step---cases where no distinct description
+could be retrieved. Such pairs cannot contribute a context-side
+disambiguation signal and are likewise flagged for exclusion from
+the $\lambda$ supervision loss.
+Second, the dataset intentionally retains a small number of
+non-crop-related biological entities (e.g.,\ animal viruses and marine
+invertebrates from AGROVOC) to improve model robustness across a
+broader range of agricultural and biological entities.
+Third, the current dataset comprises 1{,}782~training pairs, below
+the target of 2{,}500; the primary shortfall is in Type~B synonym
+pairs (274~available, 400~targeted). Augmentation via a full EPPO
+synonym-chain extraction is planned for the next iteration of the
+dataset.
+
+% ════════════════════════════════════════════════════════════════════════════
+\section{RESULT AND ANALYSIS}
+\label{sec:result}

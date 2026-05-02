@@ -1,0 +1,87 @@
+=================================================================
+ AUGMENTATION REPORT — Type C Expansion
+=================================================================
+
+Original rows  : 1503
+New Type C rows: 255
+Total rows     : 1758
+
+── Pair type counts (before -> after) ──────────────────────
+  Type A:   240  ->    240  (+0)
+  Type B:   267  ->    267  (+0)
+  Type C:    21  ->    276  (+255)
+  Type D:   975  ->    975  (+0)
+
+── New Type C: keyword distribution ───────────────────────
+  mildew      :   40  ████████████████████
+  leaf        :   40  ████████████████████
+  blight      :   40  ████████████████████
+  spot        :   40  ████████████████████
+  rust        :   40  ████████████████████
+  rot         :   24  ████████████
+  scab        :   15  ███████
+  mosaic      :    8  ████
+  streak      :    5  ██
+  wilt        :    3  █
+
+── New Type C: name_sim_score distribution ─────────────────
+  [0.25–0.40):  150  ██████████████████████████████████████████████████
+  [0.40–0.55):   96  ████████████████████████████████
+  [0.55–0.70):    0  
+  [0.70–0.85):    1  
+  [0.85–1.01):    8  ██
+
+── New Type C: lambda_val distribution ─────────────────────
+  [0.00–0.10):  106  ███████████████████████████████████
+  [0.10–0.20):  142  ███████████████████████████████████████████████
+  [0.20–0.30):    7  ██
+  [0.30–0.40):    0  
+
+── Sample new Type C pairs ─────────────────────────────────
+  name_a : Wheat Powdery Mildew
+  name_b : POWDERY MILDEW
+  sim=1.000  lambda=0.202  kw=mildew
+
+  name_a : powdery mildew of squash
+  name_b : POWDERY MILDEW
+  sim=1.000  lambda=0.212  kw=mildew
+
+  name_a : Grape Powdery Mildew
+  name_b : POWDERY MILDEW
+  sim=1.000  lambda=0.208  kw=mildew
+
+  name_a : powdery mildew of cherry
+  name_b : POWDERY MILDEW
+  sim=1.000  lambda=0.206  kw=mildew
+
+  name_a : CHERRY POWDERY MILDEW
+  name_b : POWDERY MILDEW
+  sim=1.000  lambda=0.203  kw=mildew
+
+  name_a : Maize streak virus
+  name_b : Maize streak virus (MSV)
+  sim=1.000  lambda=0.192  kw=streak
+
+  name_a : Coffee Leaf Rust
+  name_b : leaf rust
+  sim=1.000  lambda=0.205  kw=leaf
+
+  name_a : SEPTORIA LEAF SPOT
+  name_b : Tomato Septoria Leaf Spot
+  sim=1.000  lambda=0.226  kw=leaf
+
+  name_a : Tomato Septoria Leaf Spot
+  name_b : leaf spot of tomato
+  sim=0.750  lambda=0.173  kw=leaf
+
+  name_a : tobacco mosaic virus
+  name_b : Soybean mosaic virus
+  sim=0.500  lambda=0.103  kw=mosaic
+
+
+── Lambda distribution of FULL augmented dataset ────────────
+  [0.0–0.1):   881 ( 50.1%)  ████████████████████████████████████████████
+  [0.1–0.3):   362 ( 20.6%)  ██████████████████
+  [0.3–0.5):   125 (  7.1%)  ██████
+  [0.5–0.7):   168 (  9.6%)  ████████
+  [0.7–1.0):   222 ( 12.6%)  ███████████

@@ -25,3 +25,18 @@ for i, (_, row) in enumerate(case_A.iterrows()):
     print(f'  canonical_b: {row["canonical_id_b"]}')
     print(f'  lambda_val : {row["lambda_val"]:.4f}')
     print()
+
+print()
+print('=' * 70)
+print('CASE B DETAILS (GT says NO MATCH, LLM says MATCH):')
+print('=' * 70)
+for i, (_, row) in enumerate(case_B.iterrows()):
+    print(f'[B{i+1}]')
+    print(f'  name_a     : {row["name_a"]}')
+    print(f'  name_b     : {row["name_b"]}')
+    print(f'  ctx_a      : {str(row["context_a"])[:130]}')
+    print(f'  ctx_b      : {str(row["context_b"])[:130]}')
+    print(f'  canonical_a: {row["canonical_id_a"]}')
+    print(f'  canonical_b: {row["canonical_id_b"]}')
+    print(f'  lambda_val : {row["lambda_val"]:.4f}')
+    print()
