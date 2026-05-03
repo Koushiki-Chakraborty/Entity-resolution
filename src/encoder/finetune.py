@@ -1,9 +1,9 @@
 """
 Step 4: Fine-tune the Domain-Adapted Encoder
-Agricultural Entity Resolution — updated for production dataset
+Agricultural Entity Resolution -- AgriLambdaNet
 
-Run:
-    python step4_finetune.py
+Run from project root:
+    python src/encoder/finetune.py
 
 Dataset columns used:
     name_a, context_a, type_a        → entity A
@@ -27,8 +27,8 @@ from sklearn.model_selection import train_test_split
 BASE_MODEL   = "all-MiniLM-L6-v2"
 # BASE_MODEL = "pritamdeka/S-PubMedBert-MS-MARCO"   # biomedical (better)
 
-CSV_PATH     = "Dataset/dataset_production_ready.csv"
-OUTPUT_DIR   = "./plant-disease-encoder"
+CSV_PATH     = "dataset_v2_builder/data/dataset_clean.csv"
+OUTPUT_DIR   = "plant-disease-encoder"
 EPOCHS       = 5
 BATCH_SIZE   = 16
 TEST_SIZE    = 0.15
@@ -44,13 +44,11 @@ FILTER_POOR_CONTEXT = True
 def serialize_entity(name: str, context: str, entity_type: str = "DISEASE") -> str:
     """
     Ditto-style domain tag injection.
-    Now uses actual entity type from dataset (DISEASE, PEST, VIRUS, FUNGUS etc.)
+    Uses actual entity type from dataset (DISEASE, PEST, VIRUS, FUNGUS etc.).
+    Falls back to type_detector for unknown/null types.
     """
-    tag = entity_type.upper().strip()
-    return (
-        f"[{tag}] {name} [/{tag}] "
-        f"[CONTEXT] {context} [/CONTEXT]"
-    )
+    from encoder.serializer import serialize_context
+    return serialize_context(name, context, entity_type)
 
 
 # ─── DATA LOADING ────────────────────────────────────────────────────────────
@@ -112,7 +110,7 @@ def split_data(df: pd.DataFrame):
         train_val, test_size=val_relative,
         stratify=train_val["match"], random_state=RANDOM_SEED
     )
-    print(f"\nSplit → train:{len(train_df)}  val:{len(val_df)}  test:{len(test_df)}")
+    print(f"\nSplit -> train:{len(train_df)}  val:{len(val_df)}  test:{len(test_df)}")
     return train_df, val_df, test_df
 
 
@@ -148,7 +146,7 @@ def train_model(train_df, val_df):
         show_progress_bar=True,
         evaluation_steps=len(loader),
     )
-    print(f"\nBest model saved → {OUTPUT_DIR}/")
+    print(f"\nBest model saved -> {OUTPUT_DIR}/")
     return model
 
 
@@ -181,16 +179,24 @@ def sanity_check(model: SentenceTransformer, df: pd.DataFrame):
 # ─── MAIN ────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    import sys
+    import pathlib
+    # Add src/ to path so 'from encoder.xxx import ...' works
+    sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
+
+    # Ensure outputs/ directory exists
+    pathlib.Path("outputs").mkdir(exist_ok=True)
+
     df = load_data(CSV_PATH)
     train_df, val_df, test_df = split_data(df)
 
-    test_df.to_csv("test_set.csv", index=False)
-    print("test_set.csv saved (use in Step 5)\n")
+    test_df.to_csv("outputs/test_set.csv", index=False)
+    print("outputs/test_set.csv saved (use in Step 5)\n")
 
     model = train_model(train_df, val_df)
     sanity_check(model, train_df)
 
     print("Step 4 complete.")
-    print(f"  Model    → {OUTPUT_DIR}/")
-    print("  Test set → test_set.csv")
-    print("\nNext: run step5_evaluate.py for threshold sweep + F1.")
+    print(f"  Model    -> {OUTPUT_DIR}/")
+    print("  Test set -> outputs/test_set.csv")
+    print("\nNext: run step2_encode_and_verify.py")

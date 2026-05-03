@@ -23,12 +23,12 @@ except ImportError:
     raise ImportError("Run: pip install faiss-cpu")
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
-MODEL_DIR      = "./plant-disease-encoder"
-CSV_PATH       = "Dataset/dataset_production_ready.csv"
-TEST_CSV       = "test_set.csv"
-THRESHOLD_CSV  = "threshold_results.csv"
-INDEX_PATH     = "disease_index.faiss"
-METADATA_CSV   = "disease_index_metadata.csv"
+MODEL_DIR      = "plant-disease-encoder"
+CSV_PATH       = "dataset_v2_builder/data/dataset_clean.csv"
+TEST_CSV       = "outputs/test_set.csv"
+THRESHOLD_CSV  = "outputs/threshold_results.csv"
+INDEX_PATH     = "outputs/disease_index.faiss"
+METADATA_CSV   = "outputs/disease_index_metadata.csv"
 TOP_K          = 10
 
 
@@ -51,11 +51,8 @@ def load_best_threshold() -> float:
 # ─── SERIALIZATION (must match Steps 4 & 5 exactly) ──────────────────────────
 
 def serialize_entity(name: str, context: str, entity_type: str = "DISEASE") -> str:
-    tag = entity_type.upper().strip()
-    return (
-        f"[{tag}] {name} [/{tag}] "
-        f"[CONTEXT] {context} [/CONTEXT]"
-    )
+    from encoder.serializer import serialize_context
+    return serialize_context(name, context, entity_type)
 
 
 # ─── KNOWLEDGE BASE ──────────────────────────────────────────────────────────
@@ -239,7 +236,11 @@ def interactive_loop(model, index, kb, threshold):
 # ─── MAIN ────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    # 1. Load threshold from Step 5 — no hardcoding
+    import sys, pathlib
+    sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
+    pathlib.Path("outputs").mkdir(exist_ok=True)
+
+    # 1. Load threshold from Step 5 -- no hardcoding
     threshold = load_best_threshold()
 
     # 2. Load model

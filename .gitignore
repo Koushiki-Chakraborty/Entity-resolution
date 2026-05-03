@@ -1,36 +1,63 @@
-# Environment variables
-.env
+# Python cache
+
+**pycache**/
+*.py[cod]
+*.pyo
 
 # Virtual environments
-agrienv/
+
 venv/
-env/
+.env/
 .venv/
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+# Conda environments (just in case)
 
-# Jupyter
-.ipynb_checkpoints/
-
-# IDE settings
-.vscode/
-.idea/
+env/
+envs/
 
 # OS files
+
 .DS_Store
 Thumbs.db
 
-# Wikipedia API cache (large JSON — regenerated on demand)
-data/processed/wikipedia_fetch_cache.json
+# IDE/editor files
 
-# Scratch / temp files
-*.txt.bak
-_*.py
+.vscode/
+.idea/
 
-# Intermediate versioned dataset files (crop_diseases_clean.csv is canonical)
-data/processed/crop_diseases_v*_clean.csv
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# Logs
+
+*.log
+
+# Environment variables (secrets)
+
+.env
+
+# Build / distribution
+
+build/
+dist/
+*.egg-info/
+
+# Pytest
+
+.pytest_cache/
+
+# MyPy
+
+.mypy_cache/
+
+# Coverage reports
+
+.coverage
+htmlcov/
+
+# Data folders (optional - recommended)
+data/processed/
+
+# Outputs
+outputs/

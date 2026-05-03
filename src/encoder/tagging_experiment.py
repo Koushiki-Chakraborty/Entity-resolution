@@ -1,10 +1,10 @@
 """
 Step 5a: Tagging Experiment (Ablation Study)
-Agricultural Disease Entity Resolution
+Agricultural Disease Entity Resolution -- AgriLambdaNet
 
 PURPOSE:
-    Prove that [DISEASE] / [CONTEXT] tags improve embedding separation
-    BEFORE any fine-tuning. This is the ablation study for your paper/report.
+    Prove that [TYPE] / [CONTEXT] tags improve embedding separation
+    BEFORE any fine-tuning. This is the ablation study for your paper.
 
     Compares 3 conditions on the same base model (all-MiniLM-L6-v2):
         1. Name only          →  no tags, no context
@@ -33,9 +33,9 @@ from sentence_transformers import SentenceTransformer
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
 BASE_MODEL     = "all-MiniLM-L6-v2"
-FINETUNED_DIR  = "./plant-disease-encoder"
-TEST_CSV       = "test_set.csv"
-RESULTS_CSV    = "tagging_experiment_results.csv"
+FINETUNED_DIR  = "plant-disease-encoder"
+TEST_CSV       = "outputs/test_set.csv"
+RESULTS_CSV    = "outputs/tagging_experiment_results.csv"
 
 
 # ─── SERIALIZATION VARIANTS ──────────────────────────────────────────────────
@@ -76,12 +76,18 @@ def cosine_similarities(model, texts_a, texts_b):
 
 
 def run_condition(model, df, serialize_fn, condition_name):
-    texts_a = [serialize_fn(r["name_1"], r["context_1"]) for _, r in df.iterrows()]
-    texts_b = [serialize_fn(r["name_2"], r["context_2"]) for _, r in df.iterrows()]
+    # Use actual entity type from type_a column; fall back to "DISEASE" if absent
+    type_a_col = df["type_a"].tolist() if "type_a" in df.columns else ["DISEASE"] * len(df)
+    type_b_col = df["type_b"].tolist() if "type_b" in df.columns else ["DISEASE"] * len(df)
+
+    texts_a = [serialize_fn(r["name_a"], r["context_a"], ta)
+               for (_, r), ta in zip(df.iterrows(), type_a_col)]
+    texts_b = [serialize_fn(r["name_b"], r["context_b"], tb)
+               for (_, r), tb in zip(df.iterrows(), type_b_col)]
     sims    = cosine_similarities(model, texts_a, texts_b)
 
-    pos_sims = sims[df["label"].values == 1]
-    neg_sims = sims[df["label"].values == 0]
+    pos_sims = sims[df["match"].values == 1]
+    neg_sims = sims[df["match"].values == 0]
 
     separation = pos_sims.mean() - neg_sims.mean()
 
@@ -169,9 +175,13 @@ def print_qualitative_table(base_results, finetuned_results):
 # ─── MAIN ────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    import sys, pathlib
+    sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
+    pathlib.Path("outputs").mkdir(exist_ok=True)
+
     df = pd.read_csv(TEST_CSV)
     print(f"Test set: {len(df)} pairs  |  "
-          f"positives={df['label'].sum()}  negatives={(df['label']==0).sum()}")
+          f"positives={df['match'].sum()}  negatives={(df['match']==0).sum()}")
 
     # ── Part 1: Base model, 3 serialization conditions ───────────────────────
     print(f"\nLoading base model: {BASE_MODEL}")
@@ -211,14 +221,15 @@ if __name__ == "__main__":
     ft_tagged      = all_results[3]["separation"]
 
     tag_improvement = round(base_tagged - base_name_only, 4)
-    ft_improvement  = round(ft_tagged - base_tagged, 4)
+    ft_improvement  = round(ft_tagged   - base_tagged,    4)
 
-    print(f"\n── What the numbers prove ───────────────────────────────────────────────")
+    print(f"\n-- What the numbers prove --")
     print(f"  Name only (base)     separation: {base_name_only:.4f}")
     print(f"  Ditto tags (base)    separation: {base_tagged:.4f}  "
-          f"(+{tag_improvement} from tagging alone)")
+          f"(delta={tag_improvement:+.4f} from tagging alone)")
     print(f"  Ditto tags (tuned)   separation: {ft_tagged:.4f}  "
-          f"(+{ft_improvement} from fine-tuning on top of tags)")
-    print(f"\n  → Tagging contribution  : +{tag_improvement:.4f}")
-    print(f"  → Fine-tuning contribution: +{ft_improvement:.4f}")
-    print(f"\nStep 5a complete. These numbers are your ablation study.")
+          f"(delta={ft_improvement:+.4f} from fine-tuning on top of tags)")
+    print(f"\n  Tagging contribution   : {tag_improvement:+.4f}")
+    print(f"  Fine-tuning contribution: {ft_improvement:+.4f}")
+    print(f"\nStep 5a complete. Results saved -> {RESULTS_CSV}")
+    print("These separation numbers are your ablation study for the paper.")
